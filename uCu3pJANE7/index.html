@@ -1,0 +1,1573 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="keywords" content="Gridea静态个人博客">
+<meta name="description" content="环境监测实验室高质量发展是我们共同的愿景。">
+<meta name="theme-color" content="#f8f9fa">
+<title>奕起橙长_wegrowth</title>
+<link rel="shortcut icon" href="/favicon.ico?v=1718022430698">
+<link rel="stylesheet" href="/styles/main.css">
+<link rel="stylesheet" href="/media/css/gemini.css">
+
+<link rel="stylesheet" href="/media/fonts/font-awesome.css">
+<link
+  href="//fonts.googleapis.com/css?family=Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Rosario:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext"
+  rel="stylesheet" type="text/css">
+
+<link href="/media/hljs/styles/androidstudio.css"
+  rel="stylesheet">
+
+<script src="/media/hljs/highlight.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.0/velocity.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.0/velocity.ui.min.js"></script>
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+
+</head>
+
+<body>
+  <div class="head-top-line"></div>
+  <div class="header-box">
+    
+<div class="gemini">
+  <header class="header  ">
+    <div class="blog-header box-shadow-wrapper bg-color " id="header">
+      <div class="nav-toggle" id="nav_toggle">
+        <div class="toggle-box">
+          <div class="line line-top"></div>
+          <div class="line line-center"></div>
+          <div class="line line-bottom"></div>
+        </div>
+      </div>
+      <div class="site-meta">       
+        <div class="site-title">
+          
+            <a href="/" class="brand">
+              <span>奕起橙长_wegrowth</span>
+            </a>  
+          
+        </div>
+        
+          <p class="subtitle">环境监测实验室高质量发展是我们共同的愿景。</p>
+        
+      </div>
+      <nav class="site-nav" id="site_nav">
+        <ul id="nav_ul">
+          
+            
+            
+            <li class="nav-item ">
+              
+              
+                <a href="https://wegrowth.github.io/" target="_self">
+                  <i class="fa fa-globe"></i> 首页
+                </a>
+              
+            </li>
+          
+            
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/archives/" target="_blank">
+                  <i class="fa fa-archive"></i> 归档
+                </a>
+              
+            </li>
+          
+            
+            
+            <li class="nav-item ">
+              
+              
+                <a href="https://wegrowth.github.io/tags/" target="_self">
+                  <i class="fa fa-globe"></i> 标签
+                </a>
+              
+            </li>
+          
+            
+            
+            <li class="nav-item ">
+              
+              
+                <a href="https://wegrowth.github.io/about/" target="_self">
+                  <i class="fa fa-globe"></i> 关于
+                </a>
+              
+            </li>
+          
+          
+        </ul>
+      </nav>
+    </div>
+  </header>
+</div>
+
+<script type="text/javascript"> 
+ 
+  let showNav = true;
+
+  let navToggle = document.querySelector('#nav_toggle'),
+  siteNav = document.querySelector('#site_nav');
+  
+  function navClick() {
+    let sideBar = document.querySelector('.sidebar');
+    let navUl = document.querySelector('#nav_ul');
+    navToggle.classList.toggle('nav-toggle-active');
+    siteNav.classList.toggle('nav-menu-active');
+    if (siteNav.classList.contains('nav-menu-active')) {
+      siteNav.style = "height: " + (navUl.children.length * 42) +"px !important";
+    } else {
+      siteNav.style = "";
+    }
+  }
+
+  navToggle.addEventListener('click',navClick);  
+</script>
+  </div>
+  <div class="main-continer">
+    
+    <div
+      class="section-layout  gemini">
+      <div class="section-layout-wrapper">
+        <div id="sidebarMeta" class="sidebar">
+    
+<div class="sidebar-wrapper box-shadow-wrapper bg-color">
+  <div class="sidebar-item">
+    <img class="site-author-image right-motion" src="/images/avatar.png"/>
+    <p class="site-author-name">奕起橙长_wegrowth  </p>
+    
+    <div class="site-description right-motion">
+      
+      
+      
+        <p>环境监测实验室高质量发展布道师</p>
+      
+      
+    </div>
+    
+  </div>
+  <div class="sidebar-item side-item-stat right-motion">
+    <div class="sidebar-item-box">
+      <a href="/archives/">
+        
+        <span class="site-item-stat-count">14</span>
+        <span class="site-item-stat-name">文章</span>
+      </a>
+    </div>
+    <div class="sidebar-item-box">
+      <a href="">
+        <span class="site-item-stat-count">15</span>
+        <span class="site-item-stat-name">分类</span>
+      </a>
+    </div>
+    <div class="sidebar-item-box">
+      <a href="/tags/">
+        <span class="site-item-stat-count">15</span>
+        <span class="site-item-stat-name">标签</span>
+      </a>
+    </div>
+  </div>
+  
+    
+      <div class="sidebar-item">
+        <span class="site-item-rss">
+            <i class="fa fa-rss"></i>
+            <a href="https://wegrowth.github.io/atom.xml" target="_blank">RSS</a>
+        </span>
+      </div>
+    
+  
+  
+
+  
+
+
+</div>
+</div>
+<script>
+  let sidebarMeta = document.querySelector('#sidebarMeta');
+  let scheme = 'gemini';
+  let sidebarWrapper = document.querySelector('.sidebar-wrapper');
+  if (sidebarMeta && (scheme === 'pisces' || scheme === 'gemini')) {
+    document.addEventListener('scroll', function(e) {
+      if (document.scrollingElement.scrollTop > parseInt(sidebarMeta.style.marginTop) + 10) {
+        sidebarWrapper.classList.add('home-sidebar-fixed')
+      } else {
+        sidebarWrapper.classList.remove('home-sidebar-fixed')
+      }
+    });
+  }
+  </script>
+        <div class="section-box tag-line box-shadow-wrapper">
+          <section class="section tags-section posts-expand bg-color">
+            <div class="padding-wrapper">
+  <div class="tag-timeline-box">
+    <div class="tag-timeline-wrapper">
+      <div class="tag-timeline-title">
+        <h2>
+          TEDx沙龙
+          <small>标签</small>
+        </h2>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="https://wegrowth.github.io/uYVSe8h22/">
+        <div class="motion-warpper">
+          <div class="tag-post-node">
+            <h1>
+              04-17
+              <small>关于第三期 安徽环境监测实验室高质量发展 TEDx 沙龙的通知</small>
+            </h1>
+          </div>
+        </div>
+      </a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="https://wegrowth.github.io/qF4FFgFW7/">
+        <div class="motion-warpper">
+          <div class="tag-post-node">
+            <h1>
+              04-04
+              <small>关于第二期 安徽环境监测实验室高质量发展 TEDx 沙龙的通知</small>
+            </h1>
+          </div>
+        </div>
+      </a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="https://wegrowth.github.io/20230322/">
+        <div class="motion-warpper">
+          <div class="tag-post-node">
+            <h1>
+              03-22
+              <small>复盘 | 第一期安徽环境监测实验室高质量发展 TEDx 沙龙</small>
+            </h1>
+          </div>
+        </div>
+      </a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="https://wegrowth.github.io/guan-yu-di-yi-qi-an-hui-huan-jing-jian-ce-shi-yan-shi-gao-zhi-liang-fa-zhan-tedx-sha-long-de-tong-zhi/">
+        <div class="motion-warpper">
+          <div class="tag-post-node">
+            <h1>
+              03-17
+              <small>关于第一期 安徽环境监测实验室高质量发展 TEDx 沙龙的通知</small>
+            </h1>
+          </div>
+        </div>
+      </a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+</div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <div class="footer-box">
+  <footer class="footer">
+    <div class="copyright">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | © 2019-2020 Theme By <a href="https://github.com/hsxyhao/gridea-theme-next" target="_blank">HsxyHao</a>
+    </div>
+    <div class="poweredby">
+      总要有这样一处地方，想法碰撞，火花闪耀，探讨环境监测实验室高质量发展坚定的力量。
+    </div>
+  </footer>
+  
+  
+  <div class="gemini back-to-top" id="back_to_top">
+    <i class="fa fa-arrow-up"></i>
+    
+    <span class="scrollpercent">
+      <span id="back_to_top_text">0</span>%
+    </span>
+    
+  </div>
+  
+  
+  
+</div>
+<script>
+
+  let sideBarOpen = 'sidebar-open';
+  let body = document.body;
+  let back2Top = document.querySelector('#back_to_top'),
+  back2TopText = document.querySelector('#back_to_top_text'),
+  drawerBox = document.querySelector('#drawer_box'),
+  rightSideBar = document.querySelector('.sidebar'),
+  viewport = document.querySelector('body');
+
+  function scrollAnimation(currentY, targetY) {
+   
+    let needScrollTop = targetY - currentY
+    let _currentY = currentY
+    setTimeout(() => {
+      const dist = Math.ceil(needScrollTop / 10)
+      _currentY += dist
+      window.scrollTo(_currentY, currentY)
+      if (needScrollTop > 10 || needScrollTop < -10) {
+        scrollAnimation(_currentY, targetY)
+      } else {
+        window.scrollTo(_currentY, targetY)
+      }
+    }, 1)
+  }
+
+  back2Top.addEventListener("click", function(e) {
+    scrollAnimation(document.scrollingElement.scrollTop, 0);
+    e.stopPropagation();
+    return false;
+  });
+  
+  window.addEventListener('scroll', function(e) {
+    let percent = document.scrollingElement.scrollTop / (document.scrollingElement.scrollHeight - document.scrollingElement.clientHeight) * 100;
+    if (percent > 1 && !back2Top.classList.contains('back-top-active')) {
+      back2Top.classList.add('back-top-active');
+    }
+    if (percent == 0) {
+      back2Top.classList.remove('back-top-active');
+    }
+    if (back2TopText) {
+      back2TopText.textContent = Math.floor(percent);
+    }
+  });
+
+  
+  let hasCacu = false;
+  window.onresize = function() {
+    if (window.width > 991) {
+      calcuHeight();
+    } else {
+      hasCacu = false;
+    }
+  }
+
+  function calcuHeight() {
+    // 动态调整站点概览高度
+    if (!hasCacu && back2Top.classList.contains('pisces') || back2Top.classList.contains('gemini')) {
+      let sideBar = document.querySelector('.sidebar');
+      let navUl = document.querySelector('#site_nav');
+      sideBar.style = 'margin-top:' + (navUl.offsetHeight + navUl.offsetTop + 15) + 'px;';
+      hasCacu = true;
+    }
+  }
+  calcuHeight();
+  
+  let open = false, MOTION_TIME = 300, RIGHT_MOVE_DIS = '320px';
+
+  if (drawerBox) {
+    let rightMotions = document.querySelectorAll('.right-motion');
+    let right = drawerBox.classList.contains('right');
+
+    let transitionDir = right ? "transition.slideRightIn" : "transition.slideLeftIn";
+
+    let openProp, closeProp;
+    if (right) {
+      openProp = {
+        paddingRight: RIGHT_MOVE_DIS 
+      };
+      closeProp = {
+        paddingRight: '0px'
+      };
+    } else {
+      openProp = {
+        paddingLeft: RIGHT_MOVE_DIS 
+      };
+      closeProp = {
+        paddingLeft: '0px'
+      };
+    }
+
+    drawerBox.onclick = function() {
+      open = !open;
+      window.Velocity(rightSideBar, 'stop');
+      window.Velocity(viewport, 'stop');
+      window.Velocity(rightMotions, 'stop');
+      if (open) {
+        window.Velocity(rightSideBar, {
+          width: RIGHT_MOVE_DIS
+        }, {
+          duration: MOTION_TIME,
+          begin: function() {
+            window.Velocity(rightMotions, transitionDir,{ });
+          }
+        })
+        window.Velocity(viewport, openProp,{
+          duration: MOTION_TIME
+        });
+      } else {
+        window.Velocity(rightSideBar, {
+          width: '0px'
+        }, {
+          duration: MOTION_TIME,
+          begin: function() {
+            window.Velocity(rightMotions, {
+              opacity: 0
+            });
+          }
+        })
+        window.Velocity(viewport, closeProp ,{
+          duration: MOTION_TIME
+        });
+      }
+      for (let i = 0; i < drawerBox.children.length; i++) {
+        drawerBox.children[i].classList.toggle('muse-line');
+      }
+      drawerBox.classList.toggle(sideBarOpen);
+    }
+  }
+
+  // 链接跳转
+  let newWindow = 'true'
+  if (newWindow === 'true') {
+    let links = document.querySelectorAll('.post-body a')
+    links.forEach(item => {
+      if (!item.classList.contains('btn')) {
+        item.setAttribute("target","_blank");
+      }
+    })
+  }
+  // 代码高亮
+  hljs.initHighlightingOnLoad();
+
+</script>
+  </div>
+</body>
+<input hidden id="copy" />
+<script>
+  //拿来主义(真香)^_^，Clipboard 实现摘自掘金 https://juejin.im/post/5aefeb6e6fb9a07aa43c20af
+  window.Clipboard = (function (window, document, navigator) {
+    var textArea,
+      copy;
+
+    // 判断是不是ios端
+    function isOS() {
+      return navigator.userAgent.match(/ipad|iphone/i);
+    }
+    //创建文本元素
+    function createTextArea(text) {
+      textArea = document.createElement('textArea');
+      textArea.value = text;
+      textArea.style.width = 0;
+      textArea.style.height = 0;
+      textArea.clientHeight = 0;
+      textArea.clientWidth = 0;
+      document.body.appendChild(textArea);
+    }
+    //选择内容
+    function selectText() {
+      var range,
+        selection;
+
+      if (isOS()) {
+        range = document.createRange();
+        range.selectNodeContents(textArea);
+        selection = window.getSelection();
+        selection.removeAllRanges();
+        selection.addRange(range);
+        textArea.setSelectionRange(0, 999999);
+      } else {
+        textArea.select();
+      }
+    }
+
+    //复制到剪贴板
+    function copyToClipboard() {
+      try {
+        document.execCommand("Copy")
+      } catch (err) {
+        alert("复制错误！请手动复制！")
+      }
+      document.body.removeChild(textArea);
+    }
+
+    copy = function (text) {
+      createTextArea(text);
+      selectText();
+      copyToClipboard();
+    };
+
+    return {
+      copy: copy
+    };
+  })(window, document, navigator);
+
+  function copyCode(e) {
+    if (e.srcElement.tagName === 'SPAN' && e.srcElement.classList.contains('copy-code')) {
+      let code = e.currentTarget.querySelector('code');
+      var text = code.innerText;
+      if (e.srcElement.textContent === '复制成功') {
+        console.log('复制操作频率过高');
+        return;
+      }
+      e.srcElement.textContent = '复制成功';
+      (function (elem) {
+        setTimeout(() => {
+          if (elem.textContent === '复制成功') {
+            elem.textContent = '复制代码'
+          }
+        }, 1000);
+      })(e.srcElement)
+      Clipboard.copy(text);
+    }
+  }
+
+  let pres = document.querySelectorAll('pre');
+  pres.forEach(pre => {
+    let code = pre.querySelector('code');
+    let copyElem = document.createElement('span');
+    copyElem.classList.add('copy-code');
+    copyElem.textContent = '复制代码';
+    pre.appendChild(copyElem);
+    pre.onclick = copyCode
+  })
+</script>
+<script src="/media/js/motion.js"></script>
+
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+<script>
+  var scroll = new SmoothScroll('a[href*="#"]', {
+    speed: 500
+  });
+</script>
+
+<!-- <div class="search-mask" id="search_mask">
+  <div class="search-box">
+    <div class="search-title">
+      <i class="fa fa-search"></i>
+      <div class="input-box">
+        <input type="text" placeholder="搜索">
+      </div>
+      <i class="fa fa-times-circle"></i>
+    </div>
+    <div class="result">
+      
+      <div class="item">
+        <a class="result-title" href="https://wegrowth.github.io/oN9eMFVc8/"" data-c="
+          &lt;p&gt;&lt;strong&gt;实验室仪器、耗材、实验室新建、改造的设计装修及家具、实验室信息管理Lims 系统 ，2024.06.01-06.18 期间价格美丽，今年就这次活动力度大，欢迎联系咨询，18255106132&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;助力您的实验室发展，降本增效！！&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;**分析仪器：**气相色谱、便携气相色谱仪、离子色谱、紫外可见光度计、原子吸收、原子荧光、低本底α/β测量仪、测氡仪等&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;前处理仪器：&lt;/strong&gt;&lt;br&gt;
+热脱附-热解析、吹扫捕集、顶空进样器、微波消解仪、加压/快速溶剂萃取仪、平行真空浓缩仪、冷冻干燥机、氮吹仪、自动配标仪等&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;通用仪器：&lt;/strong&gt;&lt;br&gt;
+纯水机、离心机、电子天平、洗瓶机、灭菌锅（器）、培养箱等&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;电化学仪器：&lt;/strong&gt;&lt;br&gt;
+pH计、电导率仪、便携式多参数水质检测仪、浊度计等&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;采样仪器：&lt;/strong&gt;&lt;br&gt;
+烟尘/烟气采样仪、空气采样器、紫外烟气分析仪等&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;其他：&lt;/strong&gt;&lt;br&gt;
+标准溶液及原子吸收石墨管、实验手套、试剂、玻璃器皿等各类耗材&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;实验室信息管理系统&lt;/strong&gt;&lt;br&gt;
+可灵活根据实验室实际目标定制开发，活动期间锁定Lims系统优惠，&lt;br&gt;
+即使暂时没有需求也没关系的，未来1年内启动，均可按此次优惠。&lt;/p&gt;
+">2024.06.01-06.18 实验室活动</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" href="https://wegrowth.github.io/91-Njm3nv/"" data-c="
+          &lt;p&gt;&lt;strong&gt;复制下方的下载直链，可下载 word版 附表，方便各机构使用&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;https://wegrowth.lanzoul.com/iPAjt1zz83qj&lt;br&gt;
+密码:74df&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;各县（市）区、开发区市场监管局：&lt;/p&gt;
+&lt;p&gt;为加强我市检验检测机构（以下简称机构）证后监管，落实机构主体责任,规范检验检测市场秩序，依据省局检验检测机构监管工作要求，结合我市检验检测机构分类监管情况，市局决定组织开展2024年度全市检验检测机构监督检查工作。现就有关事项通知如下：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;一、检查范围&lt;/strong&gt;&lt;br&gt;
+2023年12月31日前取得省级检验检测机构资质认定证书的机构。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;二、检查内容&lt;/strong&gt;&lt;br&gt;
+依据《检验检测机构资质认定管理办法》《检验检测机构监督管理办法》及相关法律法规，以打击“不实”和“虚假”检验检测报告为主要目标，以检查检验检测报告和原始记录为主要手段，重点检查机构是否存在违法违规检验检测行为，基本条件和技术能力是否能够持续符合资质认定的条件和要求，是否按照资质认定证书规定的能力范围向社会出具具有证明作用的数据、结果，是否按照规定办理变更手续，管理体系是否正常运行等。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;三、检查时间&lt;/strong&gt;&lt;br&gt;
+即日起至9月30日，D类检验检测机构由辖区局自行确定，与市局检查时间错开，但9月底需完成。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;四、检查形式&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;（一）检验检测机构自查&lt;br&gt;
+2024年6月3日前，各机构按照《2024年度省级资质认定检验检测机构自查表》（附件1）完成自查自纠，如实填写自查表，由机构最高管理者签名，上报辖区局备案。市局督促机构做好自查自纠工作。现场检查要对机构自查情况进行核查。&lt;/p&gt;
+&lt;p&gt;（二）市、县级分类监管与“双随机、一公开”相结合监督检查&lt;br&gt;
+各单位要按照《关于印发&amp;lt;安徽省检验检测机构信用风险分类监管实施方案&amp;gt;的通知》《关于做好2024年全省检验检测机构信用风险分类监管工作的通知》要求，对辖区内机构开展分类监管与“双随机、一公开”相结合监督检查。为提升监管效能，鼓励各单位聘请异地专家进行现场检查，我市辖区内交叉互查。对常压液体危险货物罐体出厂检验、机动车检验、生态环境监测、电动自行车检验检测等重点领域加大抽查比例，严厉打击非法改装、“大吨小标”、常压液体危险货物罐车“大罐小标”等行为。&lt;/p&gt;
+&lt;p&gt;食品类：A类抽取比例不少于三分之一，B类抽取比例不少于二分之一，C类年内监督检查不少于1次，以上由县区局开展（其中市局认检处配合抽检处开展部分机构检查，市局抽取的机构，县区局可不再开展），D类市县两级各开展一次检查。&lt;/p&gt;
+&lt;p&gt;综合类：A类抽取比例不少于三分之一，B类抽取比例不少于二分之一，C类年内监督检查不少于1次，以上由县区局开展，市局主要配合市级联合监督检查（市级联合抽取机构，县区局可不再开展），D类市县两级各开展一次检查。&lt;/p&gt;
+&lt;p&gt;环境、机动车类：A类抽取比例不少于三分之一，B类抽取比例不少于二分之一，C类年内监督检查不少于1次，以上由县区局开展，市局主要联合市级开展联合监督检查（市级联合抽取机构，县区局可不再开展），D类市县两级各开展一次检查。&lt;/p&gt;
+&lt;p&gt;另市局在我市机构数量较多辖区抽取部分机构直接开展检查，具体名单由市局与辖区局商定。&lt;/p&gt;
+&lt;p&gt;检查组由行政监管人员及2名资质认定评审员或技术专家组成，对有分支机构的机构，除对总部进行检查外，应至少抽查1处分支机构。对上级交办、群众举报及日常检查中发现问题线索较多的检验检测机构可直接纳入检查名单。检查组要认真履职尽责，所需经费由各单位统筹安排。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;五、工作要求&lt;/strong&gt;&lt;br&gt;
+（一）各单位要认真履行属地监管责任，按照《资质认定检验检测机构现场监督检查工作规范》要求（有特殊规定的，从其规定），开展现场监督检查（检查表格见附件2），做好不符合问题确认记录（附件3），不符合问题描述要详细准确，证据链完整。对监督检（抽）查中发现问题，要督促机构整改到位（整改表格见附件4），并依法依规处理。上级部门将适时组织对我市监督检查情况进行区域交叉互查。&lt;/p&gt;
+&lt;p&gt;（二）机构应提供相关工作场所和检查所需材料，并对提供的各种材料真实性负责，不得以任何理由拒绝、拖延检查。检查组应秉持公正、客观、严肃的工作纪律，严守保密要求，遵守相关法律法规和有关廉政规定。&lt;/p&gt;
+&lt;p&gt;（三）各单位要全面依法履行职责、严格落实工作责任，全面增强事中事后监管的系统性、整体性和协同性。检查组对现场检查发现的问题要及时提出整改意见，并督促检验检测机构落实完成，检查组按职责分工同步负责检验检测机构后处理整改验收工作；对发现重大违法违规行为的检验检测机构要及时向辖区局领导报告并适时向市局认证检测监管处报备；对监督检查中发现伪造数据、不检测出报告、出具虚假检验检测报告的机构要从严查处，涉及其他部门法律法规的问题及线索要及时移交；涉及撤销资质认定证书的情形要及时上报， 由省局依法办理相关撤销手续。&lt;/p&gt;
+&lt;p&gt;（四）各单位组织开展的监督检查，于2024年10月15日前，将《2024年度安徽省XX市（县）检验检测机构监督检查工作报告》《2024年度安徽省XX市（县）XX类检验检测机构监督检查不符合问题确认记录》《2024年度安徽省XX市（县）XX类检验检测机构监督检查结果后处理统计表》（附件5）加盖公章扫描件和可编辑电子版发送至市局认证检测监管处邮箱，并按照《安徽省市场监管“双随机、一公开”办法》要求，将检查相关信息向社会公示。&lt;/p&gt;
+&lt;p&gt;（五）各单位按照市局现场检查后通报的处理意见，依据《检验检测机构资质认定管理办法》《检验检测机构监督管理办法》等有关规定开展后处理工作，实现“查处一起、震慑一片、规范一批”。处理完成后10日内，将具体处理结果报送至市局认证检测监管处。&lt;/p&gt;
+&lt;p&gt;联 系 人：吴飞、陈国友&lt;br&gt;
+联系电话：0551-62315531、62315530&lt;br&gt;
+邮    箱：hfscrjc@163.com&lt;/p&gt;
+&lt;p&gt;附件：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;2024年度省级资质认定检验检测机构自查表&lt;/li&gt;
+&lt;li&gt;2024年度安徽省XX市（县）XX类检验检测机构监督检查表&lt;/li&gt;
+&lt;li&gt;2024年度安徽省XX市（县）XX类检验检测机构监督检查不符合问题确认记录&lt;/li&gt;
+&lt;li&gt;2024年度安徽省检验检测机构证后监督检查整改确认表&lt;/li&gt;
+&lt;li&gt;2024年度安徽省XX市（县）XX类检验检测机构监督检查结果后处理统计表&lt;br&gt;
+2024年5月14日&lt;/li&gt;
+&lt;/ol&gt;
+">监督检查 | 合肥市 关于组织开展2024年度检验检测机构监督检查工作的通知</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" href="https://wegrowth.github.io/mwpxsBy3Z/"" data-c="
+          &lt;p&gt;&lt;strong&gt;国务院关于印发《推动大规模设备更新和消费品以旧换新行动方案》的通知&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;国发〔2024〕7号&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;各省、自治区、直辖市人民政府，国务院各部委、各直属机构：&lt;/p&gt;
+&lt;p&gt;现将《推动大规模设备更新和消费品以旧换新行动方案》印发给你们，请认真贯彻执行。&lt;/p&gt;
+&lt;p&gt;国务院&lt;/p&gt;
+&lt;p&gt;2024年3月7日&lt;/p&gt;
+&lt;p&gt;（此件公开发布）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;推动大规模设备更新和消费品以旧换新行动方案&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;推动大规模设备更新和消费品以旧换新是加快构建新发展格局、推动高质量发展的重要举措，将有力促进投资和消费，既利当前、更利长远。为贯彻落实党中央决策部署，现就推动新一轮大规模设备更新和消费品以旧换新，制定如下行动方案。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;一、总体要求&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;推动大规模设备更新和消费品以旧换新，要以习近平新时代中国特色社会主义思想为指导，深入贯彻党的二十大精神，贯彻落实中央经济工作会议和中央财经委员会第四次会议部署，统筹扩大内需和深化供给侧结构性改革，实施设备更新、消费品以旧换新、回收循环利用、标准提升四大行动，大力促进先进设备生产应用，推动先进产能比重持续提升，推动高质量耐用消费品更多进入居民生活，畅通资源循环利用链条，大幅提高国民经济循环质量和水平。&lt;/p&gt;
+&lt;p&gt;——坚持市场为主、政府引导。充分发挥市场配置资源的决定性作用，结合各类设备和消费品更新换代差异化需求，依靠市场提供多样化供给和服务。更好发挥政府作用，加大财税、金融、投资等政策支持力度，打好政策组合拳，引导商家适度让利，形成更新换代规模效应。&lt;/p&gt;
+&lt;p&gt;——坚持鼓励先进、淘汰落后。建立激励和约束相结合的长效机制，加快淘汰落后产品设备，提升安全可靠水平，促进产业高端化、智能化、绿色化发展。加快建设全国统一大市场，破除地方保护。&lt;/p&gt;
+&lt;p&gt;——坚持标准引领、有序提升。对标国际先进水平，结合产业发展实际，加快制定修订节能降碳、环保、安全、循环利用等领域标准。统筹考虑企业承受能力和消费者接受程度，有序推动标准落地实施。&lt;/p&gt;
+&lt;p&gt;到2027年，工业、农业、建筑、交通、教育、文旅、医疗等领域设备投资规模较2023年增长25%以上；重点行业主要用能设备能效基本达到节能水平，环保绩效达到A级水平的产能比例大幅提升，规模以上工业企业数字化研发设计工具普及率、关键工序数控化率分别超过90%、75%；报废汽车回收量较2023年增加约一倍，二手车交易量较2023年增长45%，废旧家电回收量较2023年增长30%，再生材料在资源供给中的占比进一步提升。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;二、实施设备更新行动&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;（一）推进重点行业设备更新改造。围绕推进新型工业化，以节能降碳、超低排放、安全生产、数字化转型、智能化升级为重要方向，聚焦钢铁、有色、石化、化工、建材、电力、机械、航空、船舶、轻纺、电子等重点行业，大力推动生产设备、用能设备、发输配电设备等更新和技术改造。加快推广能效达到先进水平和节能水平的用能设备，分行业分领域实施节能降碳改造。推广应用智能制造设备和软件，加快工业互联网建设和普及应用，培育数字经济赋智赋能新模式。严格落实能耗、排放、安全等强制性标准和设备淘汰目录要求，依法依规淘汰不达标设备。&lt;/p&gt;
+&lt;p&gt;（二）加快建筑和市政基础设施领域设备更新。围绕建设新型城镇化，结合推进城市更新、老旧小区改造，以住宅电梯、供水、供热、供气、污水处理、环卫、城市生命线工程、安防等为重点，分类推进更新改造。加快更新不符合现行产品标准、安全风险高的老旧住宅电梯。推进各地自来水厂及加压调蓄供水设施设备升级改造。有序推进供热计量改造，持续推进供热设施设备更新改造。以外墙保温、门窗、供热装置等为重点，推进存量建筑节能改造。持续实施燃气等老化管道更新改造。加快推进城镇生活污水垃圾处理设施设备补短板、强弱项。推动地下管网、桥梁隧道、窨井盖等城市生命线工程配套物联智能感知设备建设。加快重点公共区域和道路视频监控等安防设备改造。&lt;/p&gt;
+&lt;p&gt;（三）支持交通运输设备和老旧农业机械更新。持续推进城市公交车电动化替代，支持老旧新能源公交车和动力电池更新换代。加快淘汰国三及以下排放标准营运类柴油货车。加强电动、氢能等绿色航空装备产业化能力建设。加快高耗能高排放老旧船舶报废更新，大力支持新能源动力船舶发展，完善新能源动力船舶配套基础设施和标准规范，逐步扩大电动、液化天然气动力、生物柴油动力、绿色甲醇动力等新能源船舶应用范围。持续实施好农业机械报废更新补贴政策，结合农业生产需要和农业机械化发展水平阶段，扎实推进老旧农业机械报废更新，加快农业机械结构调整。&lt;/p&gt;
+&lt;p&gt;（四）提升教育文旅医疗设备水平。**推动符合条件的高校、职业院校（含技工院校）更新置换先进教学及科研技术设备，提升教学科研水平。严格落实学科教学装备配置标准，保质保量配置并及时更新教学仪器设备。**推进索道缆车、游乐设备、演艺设备等文旅设备更新提升。加强优质高效医疗卫生服务体系建设，推进医疗卫生机构装备和信息化设施迭代升级，鼓励具备条件的医疗机构加快医学影像、放射治疗、远程诊疗、手术机器人等医疗装备更新改造。推动医疗机构病房改造提升，补齐病房环境与设施短板。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;三、实施消费品以旧换新行动&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;（五）开展汽车以旧换新。加大政策支持力度，畅通流通堵点，促进汽车梯次消费、更新消费。组织开展全国汽车以旧换新促销活动，鼓励汽车生产企业、销售企业开展促销活动，并引导行业有序竞争。严格执行机动车强制报废标准规定和车辆安全环保检验标准，依法依规淘汰符合强制报废标准的老旧汽车。因地制宜优化汽车限购措施，推进汽车使用全生命周期管理信息交互系统建设。&lt;/p&gt;
+&lt;p&gt;（六）开展家电产品以旧换新。以提升便利性为核心，畅通家电更新消费链条。支持家电销售企业联合生产企业、回收企业开展以旧换新促销活动，开设线上线下家电以旧换新专区，对以旧家电换购节能家电的消费者给予优惠。鼓励有条件的地方对消费者购买绿色智能家电给予补贴。加快实施家电售后服务提升行动。&lt;/p&gt;
+&lt;p&gt;（七）推动家装消费品换新。通过政府支持、企业让利等多种方式，支持居民开展旧房装修、厨卫等局部改造，持续推进居家适老化改造，积极培育智能家居等新型消费。推动家装样板间进商场、进社区、进平台，鼓励企业打造线上样板间，提供价格实惠的产品和服务，满足多样化消费需求。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;四、实施回收循环利用行动&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;（八）完善废旧产品设备回收网络。加快“换新+回收”物流体系和新模式发展，支持耐用消费品生产、销售企业建设逆向物流体系或与专业回收企业合作，上门回收废旧消费品。进一步完善再生资源回收网络，支持建设一批集中分拣处理中心。优化报废汽车回收拆解企业布局，推广上门取车服务模式。完善公共机构办公设备回收渠道。支持废旧产品设备线上交易平台发展。&lt;/p&gt;
+&lt;p&gt;（九）支持二手商品流通交易。持续优化二手车交易登记管理，促进便利交易。大力发展二手车出口业务。推动二手电子产品交易规范化，防范泄露及恶意恢复用户信息。推动二手商品交易平台企业建立健全平台内经销企业、用户的评价机制，加强信用记录、违法失信行为等信息共享。支持电子产品生产企业发展二手交易、翻新维修等业务。&lt;/p&gt;
+&lt;p&gt;（十）有序推进再制造和梯次利用。鼓励对具备条件的废旧生产设备实施再制造，再制造产品设备质量特性和安全环保性能应不低于原型新品。推广应用无损检测、增材制造、柔性加工等技术工艺，提升再制造加工水平。深入推进汽车零部件、工程机械、机床等传统设备再制造，探索在风电光伏、航空等新兴领域开展高端装备再制造业务。加快风电光伏、动力电池等产品设备残余寿命评估技术研发，有序推进产品设备及关键部件梯次利用。&lt;/p&gt;
+&lt;p&gt;（十一）推动资源高水平再生利用。推动再生资源加工利用企业集聚化、规模化发展，引导低效产能逐步退出。完善废弃电器电子产品处理支持政策，研究扩大废弃电器电子产品处理制度覆盖范围。支持建设一批废钢铁、废有色金属、废塑料等再生资源精深加工产业集群。积极有序发展以废弃油脂、非粮生物质为主要原料的生物质液体燃料。探索建设符合国际标准的再生塑料、再生金属等再生材料使用情况信息化追溯系统。持续提升废有色金属利用技术水平，加强稀贵金属提取技术研发应用。及时完善退役动力电池、再生材料等进口标准和政策。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;五、实施标准提升行动&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;（十二）加快完善能耗、排放、技术标准。对标国际先进水平，加快制修订一批能耗限额、产品设备能效强制性国家标准，动态更新重点用能产品设备能效先进水平、节能水平和准入水平，加快提升节能指标和市场准入门槛。加快乘用车、重型商用车能量消耗量值相关限制标准升级。加快完善重点行业排放标准，优化提升大气、水污染物等排放控制水平。修订完善清洁生产评价指标体系，制修订重点行业企业碳排放核算标准。完善风力发电机、光伏设备及产品升级与退役等标准。&lt;/p&gt;
+&lt;p&gt;（十三）强化产品技术标准提升。聚焦汽车、家电、家居产品、消费电子、民用无人机等大宗消费品，加快安全、健康、性能、环保、检测等标准升级。加快完善家电产品质量安全标准体系，大力普及家电安全使用年限和节能知识。加快升级消费品质量标准，制定消费品质量安全监管目录，严格质量安全监管。完善碳标签等标准体系，充分发挥标准引领、绿色认证、高端认证等作用。&lt;/p&gt;
+&lt;p&gt;（十四）加强资源循环利用标准供给。完善材料和零部件易回收、易拆解、易再生、再制造等绿色设计标准。制修订废弃电器电子产品回收规范等再生资源回收标准。出台手机、平板电脑等电子产品二手交易中信息清除方法国家标准，引导二手电子产品经销企业建立信息安全管理体系和信息技术服务管理体系，研究制定二手电子产品可用程度分级标准。&lt;/p&gt;
+&lt;p&gt;（十五）强化重点领域国内国际标准衔接。建立完善国际标准一致性跟踪转化机制，开展我国标准与相关国际标准比对分析，转化一批先进适用国际标准，不断提高国际标准转化率。支持国内机构积极参与国际标准制修订，支持新能源汽车等重点行业标准走出去。加强质量标准、检验检疫、认证认可等国内国际衔接。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;六、强化政策保障&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;（十六）加大财政政策支持力度。把符合条件的设备更新、循环利用项目纳入中央预算内投资等资金支持范围。坚持中央财政和地方政府联动支持消费品以旧换新，通过中央财政安排的节能减排补助资金支持符合条件的汽车以旧换新；鼓励有条件的地方统筹使用中央财政安排的现代商贸流通体系相关资金等，支持家电等领域耐用消费品以旧换新。持续实施好老旧营运车船更新补贴，支持老旧船舶、柴油货车等更新。鼓励有条件的地方统筹利用中央财政安排的城市交通发展奖励资金，支持新能源公交车及电池更新。用好用足农业机械报废更新补贴政策。中央财政设立专项资金，支持废弃电器电子产品回收处理工作。进一步完善政府绿色采购政策，加大绿色产品采购力度。严肃财经纪律，强化财政资金全过程、全链条、全方位监管，提高财政资金使用的有效性和精准性。&lt;/p&gt;
+&lt;p&gt;（十七）完善税收支持政策。加大对节能节水、环境保护、安全生产专用设备税收优惠支持力度，把数字化智能化改造纳入优惠范围。推广资源回收企业向自然人报废产品出售者“反向开票”做法。配合再生资源回收企业增值税简易征收政策，研究完善所得税征管配套措施，优化税收征管标准和方式。&lt;/p&gt;
+&lt;p&gt;（十八）优化金融支持。运用再贷款政策工具，引导金融机构加强对设备更新和技术改造的支持；中央财政对符合再贷款报销条件的银行贷款给予一定贴息支持。发挥扩大制造业中长期贷款投放工作机制作用。引导银行机构合理增加绿色信贷，加强对绿色智能家电生产、服务和消费的金融支持。鼓励银行机构在依法合规、风险可控前提下，适当降低乘用车贷款首付比例，合理确定汽车贷款期限、信贷额度。&lt;/p&gt;
+&lt;p&gt;（十九）加强要素保障。加强企业技术改造项目用地、用能等要素保障。对不新增用地、以设备更新为主的技术改造项目，简化前期审批手续。统筹区域内生活垃圾分类收集、中转贮存及再生资源回收设施建设，将其纳入公共基础设施用地范围，保障合理用地需求。&lt;/p&gt;
+&lt;p&gt;（二十）强化创新支撑。聚焦长期困扰传统产业转型升级的产业基础、重大技术装备“卡脖子”难题，积极开展重大技术装备科技攻关。完善“揭榜挂帅”、“赛马”和创新产品迭代等机制，强化制造业中试能力支撑，加快创新成果产业化应用。&lt;/p&gt;
+&lt;p&gt;各地区、各部门要在党中央集中统一领导下，完善工作机制，加强统筹协调，做好政策解读，营造推动大规模设备更新和消费品以旧换新的良好社会氛围。国家发展改革委要会同有关部门建立工作专班，加强协同配合，强化央地联动。各有关部门要按照职责分工制定具体方案和配套政策，落实部门责任，加强跟踪分析，推动各项任务落实落细。重大事项及时按程序请示报告。&lt;/p&gt;
+">高校、职业院校教育设备更新 | 国务院关于印发《推动大规模设备更新和  消费品以旧换新行动方案》的通知</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" href="https://wegrowth.github.io/D8QcrbxH5/"" data-c="
+          &lt;p&gt;&lt;strong&gt;上海市生态环境监测弄虚作假行为调查处理办法&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第一条（目的和依据）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;为规范对本市生态环境监测活动中弄虚作假行为的调查处理，加强生态环境监测数据质量监督管理，依据《中华人民共和国环境保护法》《中华人民共和国大气污染防治法》《中华人民共和国水污染防治法》《中华人民共和国噪声污染防治法》《排污许可管理条例》《上海市环境保护条例》等法律法规和《上海市深化环境监测改革提高环境监测数据质量实施方案》等有关规定，结合本市实际，制定本办法。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第二条（定义）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;本办法所称生态环境监测，是指依照法律法规和标准规范，对环境质量、生态质量、污染物排放状况及其变化趋势的采样观测、分析测试、综合评价等活动。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第三条（适用范围）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;本办法适用于对本市企业事业单位、其他生产经营者（以下简称“排污单位”）和市区两级生态环境部门下属环境监测机构、社会环境监测机构、环境监测设备运营维护机构（以下简称“生态环境监测机构”）等有关生态环境监测弄虚作假行为的调查处理。&lt;/p&gt;
+&lt;p&gt;对党政领导干部和国家机关工作人员有关生态环境监测弄虚作假行为的调查处理，按照国家和本市有关规定执行。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第四条（职责分工）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;市生态环境局负责本市范围内生态环境监测弄虚作假行为调查处理的监督、协调和指导；各区生态环境局、中国（上海）自由贸易试验区管理委员会保税区管理局和中国（上海）自由贸易试验区临港新片区管理委员会负责辖区职责范围内生态环境监测的监督管理；市区两级生态环境执法机构负责辖区职责范围内生态环境监测弄虚作假行为的调查处理；相关技术机构为生态环境监测弄虚作假行为的监督管理和调查处理提供技术支持。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第五条（责任义务）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;排污单位委托生态环境监测机构开展手工监测和自动监测设备运维的，应当对生态环境监测机构的资质和能力进行核实，依法签订服务合同，约定参数项目、周期频次、样品获取方式、监测依据、报告形式、分包信息、权利义务、计费方式以及违约责任等内容；对生态环境监测机构的现场监测活动进行监督，如实完整记录监测时间、点位布设、生产工况、样品保存等信息，并在相关原始监测记录上签字确认。&lt;/p&gt;
+&lt;p&gt;生态环境监测机构应当依照有关生态环境监测标准规范和服务合同履行监测要求，如实将监测实施情况告知排污单位，并向排污单位提供原始监测记录和监测报告。&lt;/p&gt;
+&lt;p&gt;排污单位和生态环境监测机构开展生态环境监测，应当妥善保存原始记录，保证各类台账真实完整，并依法公开相关监测数据和信息。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第六条（基本原则）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;对生态环境监测弄虚作假行为的调查和处理，应当坚持依法依规、实事求是、客观公正的原则。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第七条（生态环境监测机构弄虚作假行为）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;生态环境监测机构存在下列篡改、伪造生态环境监测数据的行为，认定为弄虚作假：&lt;/p&gt;
+&lt;p&gt;（一）未开展采样、分析，直接出具监测数据，或者到现场采样但未开设烟道采样口，出具监测数据的；&lt;/p&gt;
+&lt;p&gt;（二）更换、隐匿、遗弃监测样品，通过擅自变更采样点位、时间等方式改变监测样品的污染物浓度、组成、状态等性质，干扰采样环境或者采样活动的；&lt;/p&gt;
+&lt;p&gt;（三）故意漏检监测项目，改变监测条件，不正常运行或者破坏监测设备及辅助设备，不正当修改监测仪器及设备参数的；&lt;/p&gt;
+&lt;p&gt;（四）篡改、伪造手工监测记录、自动监测设备运行维护记录的；&lt;/p&gt;
+&lt;p&gt;（五）篡改、伪造和生态环境监测有关的生产记录、污染治理设施运行记录的；&lt;/p&gt;
+&lt;p&gt;（六）其他涉嫌篡改、伪造生态环境监测数据的情形。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第八条（排污单位弄虚作假行为）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;排污单位存在下列篡改、伪造生态环境监测数据的行为，认定为弄虚作假：&lt;/p&gt;
+&lt;p&gt;（一）委托生态环境监测服务机构开展监测时，生态环境监测服务机构存在第七条所列行为，但排污单位未按要求对生态环境监测服务机构的监测时间、点位布设、生产工况、样品保存等现场监测活动进行监督并记录的；&lt;/p&gt;
+&lt;p&gt;（二）自主开展监测时，存在第七条所列行为的；&lt;/p&gt;
+&lt;p&gt;（三）强令、授意生态环境监测服务机构篡改、伪造监测数据或者在未作整改的前提下，进行多家或多次监测委托，挑选监测报告的；&lt;/p&gt;
+&lt;p&gt;（四）提供与事实情况不相符的陈述、证明材料等行为；&lt;/p&gt;
+&lt;p&gt;（五）使用失实或虚假监测报告作为监测数据信息公开依据的；&lt;/p&gt;
+&lt;p&gt;（六）其他涉嫌篡改、伪造生态环境监测数据的情形。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第九条（监督检查）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;市区两级生态环境部门组织生态环境执法机构和相关技术机构实施生态环境监测领域的日常监督管理检查、监督执法检查、专项检查和部门联合检查等计划性检查活动。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第十条（审查立案）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;负有查处职责的生态环境执法机构负责对监督检查中发现涉嫌存在生态环境监测弄虚作假行为，或从投诉举报、媒体曝光、上级部门转办交办、其他部门移送等途径获取相关弄虚作假线索进行审查立案。生态环境监测弄虚作假案件的管辖、立案和调查 取证等应按照《中华人民共和国行政处罚法》和《生态环境行政处罚办法》的有关规定实施。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第十一条 （处理处罚）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;根据调查结果，由市区两级生态环境部门依据相关法律法规对排污单位、生态环境监测机构予以处理。其他法律法规另有规定的，从其规定。&lt;/p&gt;
+&lt;p&gt;（一）生态环境监测机构存在本办法第七条行为的，依据《上海市环境保护条例》第九十八条在有关环境服务活动中弄虚作假等法律、法规有关规定予以处罚。&lt;/p&gt;
+&lt;p&gt;（二）排污单位存在本办法第八条第（一）项行为的，依据《上海市环境保护条例》第八十二条台账弄虚作假等法律、法规有关规定予以处罚。&lt;/p&gt;
+&lt;p&gt;（三）排污单位存在本办法第八条第（二）、（三）、（四）项行为的，依据《中华人民共和国大气污染防治法》第九十九条第三项、《中华人民共和国水污染防治法》第八十三条第三项、《排污许可管理条例》第三十四条第二项逃避监管排放污染物等法律、法规有关规定予以处罚。&lt;/p&gt;
+&lt;p&gt;（四）排污单位存在本办法第八条第（五）项行为的，依据《排污许可管理条例》第三十六条第七项不如实公开污染物排放信息予以处罚。&lt;/p&gt;
+&lt;p&gt;（五）生态环境监测弄虚作假行为造成环境损害或者生态破坏的，应当承担相应的生态环境损害赔偿责任。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第十二条 （通报移送）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;市区两级生态环境部门在查处生态环境监测弄虚作假案件中，发现涉及其他相关部门职责的，应当依法向相关部门通报或移送。其中，对于生态环境监测机构弄虚作假行为涉嫌同时违反资质认定管理相关规定的，应当向有关市场监督管理部门通报或移送；对于外省市生态环境监测机构涉嫌弄虚作假的，还应当向机构注册地所属省级生态环境部门通报或移送。&lt;/p&gt;
+&lt;p&gt;市区两级生态环境部门查实的环境监测弄虚作假案件，依法应当拘留的，除按照有关法律法规进行处罚外，还应当依法移送公安机关予以拘留；涉嫌环境犯罪的，及时移送公安机关追究刑事责任。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第十三条 （信息公开）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;市区两级生态环境部门应当按照有关规定，将排污单位、生态环境监测机构有关生态环境监测弄虚作假行政处罚信息、信用监管和信用评价等信息纳入上海市公共信用信息服务平台，向社会公开。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第十四条 （社会监督）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;任何单位和个人发现生态环境监测弄虚作假行为，可通过信函、传真、电子邮件、12345市民服务热线或“上海环境”网站等渠道向市或区生态环境部门举报。生态环境部门应当严格为举报单位或个人保密，并对举报内容进行调查核实。针对实名举报并经查实的案件，按照《上海市生态环境违法行为举报奖励办法》的有关规定可给予举报人奖励。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第十五条（解释权）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;本办法由上海市生态环境局负责解释。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第十六条（施行日期）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;本办法自2024年2月1日起施行，有效期至2029年 1月31日。&lt;/p&gt;
+">法规动态｜上海市生态环境监测弄虚作假行为调查处理办法</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" href="https://wegrowth.github.io/y_1MFgM77/"" data-c="
+          &lt;figure data-type=&#34;image&#34; tabindex=&#34;1&#34;&gt;&lt;img src=&#34;https://wegrowth.github.io/post-images/1697626059843.png&#34; alt=&#34;关于印发《＜检验检测机构资质认定评审准则＞条文释义》的函&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;国家市场监督管理总局司局函&lt;/p&gt;
+&lt;p&gt;市监检测（司）函〔2023〕37号 关于印发《＜检验检测机构资质认定评审准则＞条文释义》的函&lt;br&gt;
+各省、自治区、直辖市和新疆生产建设兵团市场监管局（厅、委） 检验检测监督管理职能处室：&lt;br&gt;
+新版《检验检测机构资质认定评审准则》（以下简称《准则》） 将于2023年12月1日起正式实施。为进一步推动《准则》的贯彻落实，我们组织编写了《＜检验检测机构资质认定评审准则＞ 条文释义》，现予印发，请遵照执行。&lt;br&gt;
+执行中有何问题，请及时反馈我司。&lt;br&gt;
+市场监管总局认可检测司&lt;br&gt;
+2023年10月16日&lt;/p&gt;
+&lt;h1 id=&#34;检验检测机构资质认定评审准则条文释义&#34;&gt;《检验检测机构资质认定评审准则》条文释义&lt;/h1&gt;
+&lt;h2 id=&#34;第一章-总则&#34;&gt;第一章 总则&lt;/h2&gt;
+&lt;h3 id=&#34;第一条-依照中华人民共和国计量法及其实施细则-中华人民共和国认-证认可条例等法律-行政法规的规定为依法实施检验检测机构资质认定管理-办法相关资质认定技术评审要求制定本准则&#34;&gt;第一条 依照《中华人民共和国计量法》及其实施细则、《中华人民共和国认 证认可条例》等法律、行政法规的规定，为依法实施《检验检测机构资质认定管理 办法》相关资质认定技术评审要求，制定本准则。&lt;/h3&gt;
+&lt;p&gt;【条文释义】&lt;br&gt;
+本条是《检验检测机构资质认定评审准则》（以下简称《准则》）制定的目的和依据。《准则》是市场监管总局制定的行政规范性文件。&lt;br&gt;
+《法律、行政法规、国务院决定设定的行政许可事项清单（2023年版）》 已于2023年3月16日发布。其中，检验检测机构资质认定行政许可的设 定和实施依据已调整为：《中华人民共和国计量法》《中华人民共和国产 品质量法》《中华人民共和国食品安全法》《中华人民共和国计量法实施 细则》《中华人民共和国认证认可条例》《医疗器械监督管理条例》，具体条款如下：&lt;br&gt;
+1．《中华人民共和国计量法》第二十二条：为社会提供公证数据的产 品质量检验机构，必须经省级以上人民政府计量行政部门对其计量检定、 测试的能力和可靠性考核合格。&lt;br&gt;
+2．《中华人民共和国产品质量法》第十九条：产品质量检验机构必须 具备相应的检测条件和能力，经省级以上人民政府市场监督管理部门或者 其授权的部门考核合格后，方可承担产品质量检验工作。法律、行政法规 对产品质量检验机构另有规定的，依照有关法律、行政法规的规定执行。&lt;br&gt;
+3．《中华人民共和国食品安全法》第八十四条：食品检验机构按照国 家有关认证认可的规定取得资质认定后，方可从事食品检验活动。但是， 法律另有规定的除外。&lt;br&gt;
+4．《中华人民共和国计量法实施细则》第二十九条：为社会提供公证 数据的产品质量检验机构，必须经省级以上人民政府计量行政部门计量认证。&lt;br&gt;
+第三十条：产品质量检验机构计量认证的内容：（一）计量检定、测 试设备的性能；（二）计量检定、测试设备的工作环境和人员的操作技能； （三）保证量值统一、准确的措施及检测数据公正可靠的管理制度。&lt;br&gt;
+第三十一条：产品质量检验机构提出计量认证申请后，省级以上人民 政府计量行政部门应指定所属的计量检定机构或者被授权的技术机构按 照本细则第三十条规定的内容进行考核。考核合格后，由接受申请的省级 以上人民政府计量行政部门发给计量认证合格证书。产品质量检验机构自 愿签署告知承诺书并按要求提交材料的，按照告知承诺相关程序办理。未 取得计量认证合格证书的，不得开展产品质量检验工作。&lt;br&gt;
+5．《中华人民共和国认证认可条例》第十五条：向社会出具具有证明 作用的数据和结果的检查机构、实验室，应当具备有关法律、行政法规规 定的基本条件和能力，并依法经认定后，方可从事相应活动，认定结果由 国务院认证认可监督管理部门公布。&lt;br&gt;
+6．《医疗器械监督管理条例》第七十五条：医疗器械检验机构资质认 定工作按照国家有关规定实行统一管理。经国务院认证认可监督管理部门 会同国务院药品监督管理部门认定的检验机构，方可对医疗器械实施检验。&lt;br&gt;
+此外，一些特别法也将资质认定／计量认证作为特殊领域检验检测机 构准入条件。依据《全国人民代表大会常务委员会关于司法鉴定管理问题 的决定》和《关于深化环境监测改革提高环境监测数据质量的意见》，开展司法鉴定机构检测实验室、环境监测机构的资质认定。&lt;/p&gt;
+&lt;h3 id=&#34;第二条-在中华人民共和国境内开展检验检测机构资质认定技术评审含告知承诺核查下同工作应当遵守本准则&#34;&gt;第二条 在中华人民共和国境内开展检验检测机构资质认定技术评审（含告知承诺核查，下同）工作，应当遵守本准则。&lt;/h3&gt;
+&lt;p&gt;【条文释义】&lt;br&gt;
+本条规定了《准则》的适用范围。&lt;br&gt;
+明确资质认定技术评审（含告知承诺核查）应当遵照本《准则》实施。 《检验检测机构资质认定管理办法》（以下简称《管理办法》）要求资质 认定部门自受理申请之日起，应当在30个工作日内，依据检验检测机构 资质认定基本规范和评审准则的要求，完成对申请人的技术评审。&lt;br&gt;
+《国务院关于深化“证照分离”改革进一步激发市场主体发展活力的 通知》（国发〔2021〕7号）要求“对通过告知承诺取得许可的企业，有 关主管部门要加强事中事后监管，确有必要的可以开展全覆盖核查。”为 了有效降低检验检测机构资质认定管理风险，对于通过告知承诺程序取得 资质认定的检验检测机构，市场监管部门依据《检验检测机构资质认定告 知承诺实施办法（试行）》开展核查。告知承诺核查内容是检验检测机构 的承诺真实性，属于技术评审范畴，应遵守《准则》的相关规定。&lt;/p&gt;
+&lt;h3 id=&#34;第三条-本准则所称检验检测机构是指依照检验检测机构资质认定管理办-法的相关规定依法成立依据相关标准或者技术规范利用仪器设备-环境设施等技术条件和专业技能对产品或者法律法规规定的特定对象进行检验检测的专-业技术组织&#34;&gt;第三条 本准则所称检验检测机构，是指依照《检验检测机构资质认定管理办 法》的相关规定，依法成立，依据相关标准或者技术规范，利用仪器设备、环境设施等技术条件和专业技能，对产品或者法律法规规定的特定对象进行检验检测的专 业技术组织。&lt;/h3&gt;
+&lt;h3 id=&#34;本准则所称资质认定是指依照检验检测机构资质认定管理办法的相关规-定由市场监督管理部门依照法律-行政法规规定对向社会出具具有证明作用的-数据-结果的检验检测机构的基本条件和技术能力是否符合法定要求实施的评价许&#34;&gt;本准则所称资质认定，是指依照《检验检测机构资质认定管理办法》的相关规 定，由市场监督管理部门依照法律、行政法规规定，对向社会出具具有证明作用的 数据、结果的检验检测机构的基本条件和技术能力是否符合法定要求实施的评价许 。&lt;/h3&gt;
+&lt;h3 id=&#34;本准则所称资质认定技术评审是指依照检验检测机构资质认定管理办法-的相关规定由市场监管总局或者省级市场监督管理部门以下统称资质认定部门-自行或者委托专业技术评价机构组织相关专业评审人员对检验检测机构申请的资-质认定事项是否符合资质认定条件以及相关要求所进行的技术性审查&#34;&gt;本准则所称资质认定技术评审，是指依照《检验检测机构资质认定管理办法》 的相关规定，由市场监管总局或者省级市场监督管理部门（以下统称资质认定部门） 自行或者委托专业技术评价机构组织相关专业评审人员，对检验检测机构申请的资 质认定事项是否符合资质认定条件以及相关要求所进行的技术性审查。&lt;/h3&gt;
+&lt;p&gt;【条文释义】&lt;br&gt;
+本条是关于检验检测机构、资质认定、资质认定技术评审的定义，分 别对应《管理办法》第二条第一款、第二款和第二十四条。&lt;/p&gt;
+&lt;h3 id=&#34;第四条-针对不同行业或者领域的特殊性市场监管总局-国务院有关主管部-门依照有关法律法规的规定制定和发布相关技术评审补充要求评审补充要求-与本准则一并作为技术评审依据&#34;&gt;第四条 针对不同行业或者领域的特殊性，市场监管总局、国务院有关主管部 门，依照有关法律法规的规定，制定和发布相关技术评审补充要求，评审补充要求 与本准则一并作为技术评审依据。&lt;/h3&gt;
+&lt;p&gt;【条文释义】&lt;br&gt;
+本条是对特殊行业和领域的检验检测机构技术评审补充要求使用的规定。&lt;br&gt;
+1．市场监管总局和国务院有关主管部门，依照有关法律、行政法规的 规定，以文件形式制定发布机动车检验、食品检验、医疗器械检验、环境 监测、刑事技术、人防工程防护设备检测、进出口商品检验等不同领域资质认定条件或技术评审补充要求。具体参照：《机动车检验机构资质认定评审补充技术要求》（市监检测函〔2022〕 111号）、《食品检验机构资质认定条件》（食药监科〔2016〕106号）、 《医疗器械检验机构资质认定条件》（食药监科〔2015〕249号）、《检验 检测机构资质认定生态环境监测机构评审补充要求》（国市监检测〔2018〕 245号）、《人防工程防护设备检测机构专项要求》（国人防〔2017〕271 号）、《检验检测机构资质认定刑事技术机构评审补充要求》（国认实〔2016〕 71号）、《进出口商品检验机构资质认定准入特别条件》（国市监检测规 〔2022〕1号）。&lt;br&gt;
+2．对于从事上述领域检验检测活动的机构，在主体、人员、场所环境、 设备设施和管理体系等方面，除满足本《准则》的要求外，还应满足相应的补充要求。&lt;/p&gt;
+&lt;h3 id=&#34;第五条-依照检验检测机构资质认定管理办法检验检测机构资质认定告-知承诺实施办法试行的相关规定对于采用告知承诺程序实施资质认定的-对检验检测机构承诺内容是否属实进行现场核查的内容与程序应当符合本准则的相关规定&#34;&gt;第五条 依照《检验检测机构资质认定管理办法》《检验检测机构资质认定告 知承诺实施办法（试行）》的相关规定，对于采用告知承诺程序实施资质认定的， 对检验检测机构承诺内容是否属实进行现场核查的内容与程序，应当符合本准则的相关规定。&lt;/h3&gt;
+&lt;p&gt;【条文释义】&lt;br&gt;
+本条是关于告知承诺现场核查的规定。&lt;br&gt;
+对于采用告知承诺程序实施资质认定的，应依据本《准则》开展告知 承诺现场核查，现场核查的内容应符合本《准则》第二章的要求，现场核 查的程序应符合本《准则》第三章的要求。&lt;/p&gt;
+&lt;h3 id=&#34;第六条-资质认定技术评审工作应当坚持统一规范-客观公正-科学准确-公-平公开-便利高效的原则&#34;&gt;第六条 资质认定技术评审工作应当坚持统一规范、客观公正、科学准确、公 平公开、便利高效的原则。&lt;/h3&gt;
+&lt;p&gt;【条文释义】&lt;br&gt;
+本条是资质认定技术评审工作的原则。&lt;br&gt;
+《管理办法》第七条规定：检验检测机构资质认定工作应当遵循统一规 范、客观公正、科学准确、公平公开、便利高效的原则。&lt;/p&gt;
+&lt;h2 id=&#34;第二章-评审内容与要求&#34;&gt;第二章 评审内容与要求&lt;/h2&gt;
+&lt;h3 id=&#34;第七条-资质认定技术评审内容包括对检验检测机构主体-人员-场所环境-设备设施和管理体系等方面是否符合资质认定要求的审查&#34;&gt;第七条 资质认定技术评审内容包括：对检验检测机构主体、人员、场所环境、 设备设施和管理体系等方面是否符合资质认定要求的审查。&lt;/h3&gt;
+&lt;p&gt;【条文释义】&lt;br&gt;
+本条是对资质认定技术评审内容的规定。&lt;br&gt;
+《管理办法》第九条规定，申请资质认定的检验检测机构应当符合以下 条件：依法成立并能够承担相应法律责任的法人或者其他组织；具有与其 从事检验检测活动相适应的检验检测技术人员和管理人员；具有固定的工 作场所，工作环境满足检验检测要求；具备从事检验检测活动所必需的检 验检测设备设施；具有并有效运行保证其检验检测活动独立、公正、科学、 诚信的管理体系；符合有关法律法规或者标准、技术规范规定的特殊要求。 资质认定技术评审内容是对资质认定许可条件的细化，未增加检验检测机 构的要求和义务。&lt;/p&gt;
+&lt;h3 id=&#34;第八条-检验检测机构应当是依法成立并能够承担相应法律责任的法人或者其他组织&#34;&gt;第八条 检验检测机构应当是依法成立并能够承担相应法律责任的法人或者其他组织。&lt;/h3&gt;
+&lt;p&gt;【条文释义】&lt;br&gt;
+本条是对检验检测机构的法律地位和法律责任的规定。&lt;/p&gt;
+&lt;p&gt;（一）检验检测机构或者其所在的组织应当有明确的法律地位，对其出具的检验检测数据、结果负责，并承担法律责任。不具备独立法人资格的检验检测机构应经所在法人单位授权。&lt;br&gt;
+【条文释义】&lt;br&gt;
+1．依法设立的法人包括机关法人、事业单位法人、企业法人和民政部门登记的民办非企业法人，其他组织包括经核准登记的企业法人分支机构、 特殊普通合伙企业。&lt;br&gt;
+法人或者其他组织应具有有效的登记、注册文件，其登记、注册文件中的经营范围（业务范围）应包含检验检测服务或相关内容，不得有影响 其检验检测活动公正性的经营项目，如生产、销售等。&lt;br&gt;
+生产企业出资设立，具有独立法人资格的检验检测机构可以申请检验 检测机构资质认定。&lt;br&gt;
+2．检验检测机构作为检验检测活动的责任主体，应对其出具的检验检 测数据、结果负责，并承担相应法律责任。&lt;br&gt;
+不具备独立法人资格的检验检测机构，应当取得其所在法人机构授权， 明确责任义务。法定代表人不担任检验检测机构最高管理者的，法定代表 人应对最高管理者进行授权。&lt;/p&gt;
+&lt;p&gt;（二）检验检测机构应当以公开方式对其遵守法定要求、独立公正从业、履行社 会责任、严守诚实信用等情况进行自我承诺。&lt;br&gt;
+【条文释义】&lt;br&gt;
+本条是对检验检测机构以公开方式进行自我承诺的规定。&lt;br&gt;
+1．自我承诺的内容包括遵守法定要求、独立公正从业、履行社会责任、 严守诚实信用等。&lt;br&gt;
+2．检验检测机构的自我承诺应在其官方网站、办公场所、公众号等公 示。&lt;/p&gt;
+&lt;p&gt;（三）检验检测机构应当独立于其出具的检验检测数据、结果所涉及的利益相关 方，不受任何可能干扰其技术判断的因素影响，保证检验检测数据、结果公正准确、 可追溯。&lt;br&gt;
+【条文释义】&lt;br&gt;
+本条是对检验检测机构公正性的规定。&lt;br&gt;
+1．检验检测机构及其人员与检验检测委托方、数据和结果使用方或者 其他相关方不存在影响公平公正的关系。&lt;br&gt;
+2．检验检测机构或其所在法人组织还从事检验检测活动以外的工作 时，检验检测机构应当独立运作，并识别、消除与其他部门或岗位可能存 在影响其独立性和公正性的风险。&lt;br&gt;
+3．检验检测机构要保持第三方公正地位，不应参与有损于检验检测独 立性和公正性的活动。&lt;br&gt;
+（四）检验检测机构及其人员应当对其在检验检测活动中所知悉的国家秘密、商业秘密负有保密义务，并制定实施相应的保密措施。&lt;br&gt;
+【条文释义】&lt;br&gt;
+本条是对检验检测机构保密性的规定。&lt;br&gt;
+依据《中华人民共和国保守国家秘密法》的规定，国家秘密是指关系 国家的安全和利益，依照法定程序确定，在一定时间内只限一定范围的人 员知悉的事项。依据《中华人民共和国反不正当竞争法》的规定，商业秘 密，是指不为公众所知悉、具有商业价值并经权利人采取相应保密措施的 技术信息、经营信息等商业信息。&lt;br&gt;
+1．检验检测机构应当按照有关法律、行政法规的规定保护客户秘密和所有权，应制定有关保密制度和措施，并有效实施，以保证客户的利益不 被侵害。&lt;br&gt;
+2．检验检测机构应对进入检验检测现场、设置计算机的安全系统、传输技术信息、保存检验检测记录和形成检验检测报告等环节，采取保密措 施。&lt;br&gt;
+3．除非法律、行政法规有特殊要求，检验检测机构向第三方透露相关信息时，应征得客户同意。&lt;/p&gt;
+&lt;h3 id=&#34;第九条-检验检测机构应当具有与其从事检验检测活动相适应的检验检测技术人员和管理人员&#34;&gt;第九条 检验检测机构应当具有与其从事检验检测活动相适应的检验检测技术人员和管理人员。&lt;/h3&gt;
+&lt;p&gt;【条文释义】&lt;br&gt;
+本条是对检验检测机构人员的总体要求。&lt;br&gt;
+（一）检验检测机构与其人员建立劳动关系应当符合《中华人民共和国劳动法》 《中华人民共和国劳动合同法》的有关规定，法律、行政法规对检验检测人员执业资 格或者禁止从业另有规定的，依照其规定。&lt;br&gt;
+【条文释义】&lt;br&gt;
+本条是对检验检测机构人员使用的合法性的规定。&lt;br&gt;
+1．检验检测机构应与其人员建立劳动关系，符合《中华人民共和国劳动法》《中华人民共和国劳动合同法》的有关规定，签订劳动合同。&lt;br&gt;
+2．劳务派遣用工应符合《劳务派遣暂行规定》的要求。&lt;br&gt;
+3．从事特殊行业或领域的检验检测人员应满足相关法律、行政法规对检验检测人员执业资格或者禁止从业的规定。我国已经实施的检测人员职业资格制度有特种设备检验人员、无损检测人员等。《中华人民共和国食品安全法》第一百三十八条第二款规定，违反本法规定，受到开除处分的食品检验机构人员，自处分决定作出之日起十年内不得从事食品检验工作； 因食品安全违法行为受到刑事处罚或者因出具虚假检验报告导致发生重大 食品安全事故受到开除处分的食品检验机构人员，终身不得从事食品检验工作。食品检验机构聘用不得从事食品检验工作的人员的，由授予其资质 的主管部门或者机构撤销该食品检验机构的检验资质。&lt;br&gt;
+（二）检验检测机构人员的受教育程度、专业技术背景和工作经历、资质资格、 技术能力应当符合工作需要。&lt;br&gt;
+【条文释义】&lt;br&gt;
+1．检验检测机构应具有为保证管理体系的有效运行、出具正确检验检 测数据和结果所需的技术人员和管理人员，包括最高管理者、技术负责人、 质量负责人、检验检测人员、授权签字人等，并具有相关人员的任职文件 和授权文件。&lt;br&gt;
+2．技术人员和管理人员的结构和数量、受教育程度、理论基础、技术 背景和经历、实际操作能力、职业素养、资质资格等应满足工作类型、工作范围和工作量的需要。&lt;br&gt;
+3．检验检测机构的技术负责人负责检验检测机构的全部技术活动。技 术负责人应具有中级及以上相关专业技术职称或者具有同等能力。同等能 力是指人员的教育背景、工作经历具备以下条件：博士研究生毕业，且从 事相关专业检验检测活动1年及以上；硕士研究生毕业，且从事相关专业 检验检测活动3年及以上；大学本科毕业，且从事相关专业检验检测活动 5年及以上；大学专科毕业，且从事相关专业检验检测活动8年及以上。&lt;br&gt;
+（三）检验检测报告授权签字人应当具有中级及以上相关专业技术职称或者同等 能力，并符合相关技术能力要求。&lt;br&gt;
+【条文释义】&lt;br&gt;
+1．检验检测报告授权签字人是由检验检测机构授权负责批准签发报告 的人员。检验检测机构资质认定对授权签字人的考核旨在要求机构加强对 关键岗位人员管理和能力确认，并符合相关要求。&lt;br&gt;
+2．授权签字人应具备的条件：&lt;br&gt;
+（1）熟悉检验检测机构资质认定相关法律、行政法规的规定，熟悉《准 则》及相关技术文件的要求；&lt;br&gt;
+（2）具备从事相关专业检验检测的工作经历，熟悉所承担签字领域的 检验检测技术、相应标准或者技术规范；&lt;br&gt;
+（3）熟悉检验检测报告审核签发程序，具备对检验检测结果做出评价 的判断能力；&lt;br&gt;
+（4）检验检测机构应正式授权其签发检验检测报告的职责和范围； （5）检验检测机构授权签字人应具有中级及以上相关专业技术职称或者同等能力。同等能力是指人员的教育背景、工作经历具备以下条件：博 士研究生毕业，且从事相关专业检验检测活动1年及以上；硕士研究生毕 业，且从事相关专业检验检测活动3年及以上；大学本科毕业，且从事相 关专业检验检测活动5年及以上；大学专科毕业，且从事相关专业检验检 测活动8年及以上。&lt;/p&gt;
+&lt;h3 id=&#34;第十条-检验检测机构应当具有固定的工作场所工作环境符合检验检测要求&#34;&gt;第十条 检验检测机构应当具有固定的工作场所，工作环境符合检验检测要求。&lt;/h3&gt;
+&lt;p&gt;【条文释义】&lt;br&gt;
+本条是对检验检测机构场所和环境的要求。&lt;br&gt;
+检验检测机构应具有满足检验检测所需要的工作场所，依据标准、 技术规范，识别检验检测所需要的环境条件，并对环境条件进行控制。&lt;br&gt;
+（一）检验检测机构具有符合标准或者技术规范要求的检验检测场所，包括固定 的、临时的、可移动的或者多个地点的场所。&lt;br&gt;
+【条文释义】&lt;br&gt;
+1．固定的场所：指不随检验检测任务而变更，且不可移动的检验检测 活动场所。&lt;br&gt;
+2．临时的场所：指检验检测机构根据现场检验检测需要，临时建立的 检验检测活动场所。&lt;br&gt;
+3．可移动的场所：指利用汽车、动车和轮船等装载检验检测设备设施， 可在移动中实施检验检测活动的场所。&lt;br&gt;
+4．多个地点的场所（多场所）：指检验检测机构存在两个及以上不同 地址的检验检测活动场所。&lt;br&gt;
+5．检验检测活动场所性质包括：自有、上级配置、出资方调配或租赁 等。工作场所不管何种性质，检验检测机构对工作场所应具有完全的使用 权，并能提供证明文件。&lt;br&gt;
+如租用、借用场地，租用、借用场地的期限不少于1年。&lt;br&gt;
+（二）检验检测工作环境及安全条件符合检验检测活动要求。&lt;br&gt;
+【条文释义】&lt;br&gt;
+1．当标准或者技术规范对开展检验检测活动的环境条件有要求时，或 者当环境条件影响检验检测结果质量时，检验检测机构应当对环境条件进 行监测、控制和记录，保证其持续符合标准或者技术规范的要求。&lt;br&gt;
+2．在检验检测机构固定场所以外的场所进行采样、检验检测时，应予 以特别关注，必要时，应提出相应的控制要求并记录，以保证环境条件符 合检验检测标准或者技术规范的要求。&lt;br&gt;
+3．当相邻区域的活动或工作，出现不相容或相互影响时，检验检测机 构应对相关区域进行有效隔离，采取措施消除影响，防止干扰或者交叉污 染，以保证环境条件符合检验检测标准或者技术规范的要求。&lt;br&gt;
+4．检验检测机构应当承担安全生产主体责任。当检验检测标准或技术 规范有相关要求时，应符合规定。&lt;/p&gt;
+&lt;h3 id=&#34;第十一条-检验检测机构应当具备从事检验检测活动所必需的检验检测设备设施&#34;&gt;第十一条 检验检测机构应当具备从事检验检测活动所必需的检验检测设备设施。&lt;/h3&gt;
+&lt;p&gt;【条文释义】&lt;br&gt;
+本条是对检验检测机构设备设施的规定。检验检测机构应依据检验检测标准或者技术规范配备满足要求的设备设施。&lt;/p&gt;
+&lt;p&gt;（一）检验检测机构应当配备具有独立支配使用权、性能符合工作要求的设备和设施。&lt;br&gt;
+【条文释义】&lt;br&gt;
+1．检验检测机构应配备具有独立支配使用权、满足检验检测活动要求 的设备和设施，包括但不限于测量仪器、软件、测量标准、标准物质、参 考数据、试剂、消耗品或辅助装置。&lt;br&gt;
+2．检验检测机构租用、借用仪器设备开展检验检测时，应确保： （1）有租用、借用合同，租用、借用期限不少于1年。&lt;br&gt;
+（2）对租用、借用的设备具有完全的使用权、支配权。检验检测机构 租用、借用的仪器设备，应由本检验检测机构的人员操作、维护、检定或 校准，具有此方面规定并能够有效实施。&lt;/p&gt;
+&lt;p&gt;（二）检验检测机构应当对检验检测数据、结果的准确性或者有效性有影响的设 备（包括用于测量环境条件等辅助测量设备）实施检定、校准或核查，保证数据、 结果满足计量溯源性要求。&lt;br&gt;
+【条文释义】&lt;br&gt;
+1．检验检测机构应对检验检测数据和结果的准确性或者有效性有影响 的设备（包括参考标准、辅助测量设备等）实施检定、校准或核查，确认 其是否满足检验检测标准或者技术规范的要求。&lt;br&gt;
+2．无法溯源到国家或国际测量标准时，测量结果应溯源至有证标准物 质、公认的或约定的测量方法、标准，或通过机构间比对等途径，证明其测量结果与同类检验检测机构的一致性。当测量结果溯源至公认的或约定 的测量方法、标准时，检验检测机构应提供该方法、标准的来源等相关证 据。&lt;br&gt;
+3．当仪器设备经校准给出一组修正信息（修正值、修正因子等）时， 检验检测机构应确保修正信息在检验检测工作中加以利用、更新和备份。&lt;br&gt;
+4．检验检测机构在设备定期检定或校准后应进行确认，确认其满足检 验检测要求后方可使用。&lt;br&gt;
+5．需要检定、校准或具有规定有效期的设备应使用标签、编码或其他 方式标识，使设备使用人方便地识别溯源状态或有效期。&lt;br&gt;
+6．检验检测机构应对设备的核查、使用、维护、保管、运输等过程进 行规范管理，以确保其功能正常，并防止污染或性能退化。&lt;br&gt;
+7．对检验检测具有重要影响的设备及其软件应有相关记录，并实施动 态管理，及时补充相关的信息。记录至少应包括以下信息：&lt;br&gt;
+（1）设备及其软件的识别；&lt;br&gt;
+（2）制造商名称、型式标识、系列号或其他唯一性标识； （3）核查设备是否符合规范；&lt;br&gt;
+（4）当前位置（适用时）；&lt;br&gt;
+（5）制造商的说明书（如果有），或指明其地点；&lt;br&gt;
+（6）检定、校准报告或证书的日期、结果，设备调整、验收准则和下 次校准的预定日期；&lt;br&gt;
+（7）设备维护计划，及维护记录（适用时）； （8）设备的任何损坏、故障、改装或修理； （9）量值溯源结果确认。&lt;/p&gt;
+&lt;p&gt;（三）检验检测机构如使用标准物质，应当满足计量溯源性要求。&lt;br&gt;
+【条文释义】&lt;br&gt;
+检验检测机构如使用标准物质，应当满足计量溯源性要求。可能时， 应溯源到国际单位制（SI）单位或有证标准物质。&lt;/p&gt;
+&lt;h3 id=&#34;第十二条-检验检测机构应当建立保证其检验检测活动独立-公正-科学-诚-信的管理体系并确保该管理体系能够得到有效-可控-稳定实施持续符合检验检测机构资质认定条件以及相关要求&#34;&gt;第十二条 检验检测机构应当建立保证其检验检测活动独立、公正、科学、诚 信的管理体系，并确保该管理体系能够得到有效、可控、稳定实施，持续符合检验检测机构资质认定条件以及相关要求。&lt;/h3&gt;
+&lt;p&gt;【条文释义】&lt;br&gt;
+本条是对检验检测机构管理体系的总体要求。&lt;br&gt;
+检验检测机构的质量管理和技术运作应通过建立健全、持续改进、有 效运行的管理体系来实现。检验检测机构应建立保证其检验检测活动独立、 公正、科学、诚信的管理体系，并确保该管理体系能够有效、可控、稳定 实施，持续符合检验检测机构资质认定条件以及相关要求。首次申请资质认定的检验检测机构，建立和运行管理体系应不少于3个月。&lt;/p&gt;
+&lt;p&gt;（一）检验检测机构应当依据法律法规、标准（包括但不限于国家标准、行业标 准、国际标准）的规定制定完善的管理体系文件，包括政策、制度、计划、程序和作业指导书等。检验检测机构建立的管理体系应当符合自身实际情况并有效运行。&lt;br&gt;
+【条文释义】&lt;br&gt;
+1．检验检测机构可依据相关法律法规、国家标准、行业标准、国际标 准建立管理体系。检验检测机构建立的管理体系应符合自身实际情况，适应自身检验检测活动。&lt;br&gt;
+2．检验检测机构应将其政策、制度、计划、手册、程序和作业指导书 等制定成文件，文件形式包括但不限于质量手册、程序文件、作业指导书及记录表格等。&lt;br&gt;
+3．检验检测机构管理体系形成文件后，应当以适当的方式传达至有关 人员，使其能够“获取、理解、执行”管理体系。&lt;/p&gt;
+&lt;p&gt;（二）检验检测机构应当开展有效的合同审查。对相关要求、标书、合同的偏离、 变更应当征得客户同意并通知相关人员。&lt;br&gt;
+【条文释义】&lt;br&gt;
+本条是关于合同评审的条款。&lt;br&gt;
+1．检验检测机构建立的管理体系应包含对评审客户要求、标书、 合同的偏离、变更做出规定的内容。&lt;br&gt;
+2．检验检测机构应对要求、标书、合同的偏离、变更加以有效控 制，客户要求的偏离、变更不应影响检验检测机构的诚信或结果的有 效性，对相关要求、标书、合同的偏离、变更应当征得客户同意并通 知相关人员。&lt;br&gt;
+3．检验检测机构应对分包和使用判定规则作出相关规定。&lt;/p&gt;
+&lt;p&gt;（三）检验检测机构选择和购买的服务、供应品应当符合检验检测的工作需求。&lt;br&gt;
+【条文释义】&lt;br&gt;
+本条是对外部提供的产品和服务相关规定的条款。&lt;br&gt;
+检验检测机构应对选择和购买的服务和供应品符合检验检测工作需求做出规定并有效实施，确保服务和供应品的质量符合检验检测工作需求。&lt;br&gt;
+此处供应品指机构开展各种检验检测活动所使用的物品，包括但不限 于测量仪器、软件、测量标准、标准物质、参考数据、试剂、消耗品或辅 助装置。&lt;br&gt;
+此处服务指机构开展各种检验检测活动所需的由从外部获得的活动， 包括但不限于校准服务、抽样服务、检测服务、分包服务、设施和设备维 护服务、能力验证服务以及评审和审核服务。&lt;/p&gt;
+&lt;p&gt;（四）检验检测机构能正确使用有效的方法开展检验检测活动。检验检测方法包 括标准方法和非标准方法，应当优先使用标准方法。使用标准方法前应当进行验证； 使用非标准方法前，应当先对方法进行确认，再验证。&lt;br&gt;
+【条文释义】&lt;br&gt;
+1．检验检测机构应使用有效的方法进行检验检测。检验检测机构应对 检验检测方法定期查新并保留查新记录，确保所用方法正确有效。&lt;br&gt;
+2．可申请资质认定的标准和非标方法包括： （1）国家标准、行业标准、地方标准；&lt;br&gt;
+（2）国际标准化组织（ISO）、国际电工委员会（IEC）、国际电信联 盟（ITU）发布的国际标准以及国际标准化组织确认并公布的其他国际组织 制定的标准；&lt;br&gt;
+（3）国务院有关部门认可采用的国外标准；&lt;br&gt;
+（4）国务院有关部门和省政府有关部门以文件、技术规范等形式发布 和指定的检验检测方法；&lt;br&gt;
+（5）具有自主创新技术、具备竞争优势的团体标准（参见《国家认监委关于推进检验检测机构资质认定统一实施的通知》〔国认实（2018）12 号〕）；&lt;br&gt;
+（6）国务院有关部门和省政府有关部门指定已废止的标准或方法用于监督检查等特定工作的，以指定的标准或方法为依据申请的项目参数仅能 用于该特定工作；&lt;br&gt;
+（7）法律、行政法规、规章对新标准或方法实施另有规定的，从其规 定。&lt;br&gt;
+3．检验检测机构在初次使用标准方法前，应验证能够正确地运用这些 标准方法，如果标准方法发生了变更，应重新予以验证，并提供相关证明 材料。检验检测机构在使用非标准方法前，应先对方法进行确认再验证， 以确保该方法适用于预期的用途，并提供相关证明材料。如果方法发生了 变化，应重新予以确认，并提供相关证明材料。&lt;br&gt;
+验证是指提供客观证据，证明给定项目满足规定要求；确认是对规定要求满足预期用途的验证。&lt;br&gt;
+4．如果标准、技术规范、方法不能被操作人员直接使用，或其内容不便于理解，规定不够简明或缺少足够的信息，或方法中有可选择的步骤， 或在方法运用时造成因人而异，可能影响检验检测数据和结果正确性时， 应制定作业指导书，包括但不限于设备操作规程、样品的制备程序、补充 的检验检测细则。&lt;/p&gt;
+&lt;p&gt;（五）当检验检测标准、技术规范或者声明与规定要求的符合性有测量不确定度 要求时，检验检测机构应当报告测量不确定度。&lt;br&gt;
+【条文释义】&lt;br&gt;
+1．检验检测机构应对报告检验检测结果测量不确定度作出规定。&lt;br&gt;
+2．当检验检测标准、技术规范或者声明与规定要求的符合性有测量 不确定度要求时，检验检测报告中还需包含测量不确定度的信息，并保留记录。&lt;/p&gt;
+&lt;p&gt;（六）检验检测机构出具的检验检测报告应当客观真实、方法有效、数据完整、 信息齐全、结论明确、表述清晰并使用法定计量单位。&lt;br&gt;
+【条文释义】&lt;br&gt;
+1．检验检测机构应准确、清晰、明确和客观地以书面或电子方式出具 检验检测报告。检验检测报告应当客观真实、方法有效、数据完整、信 息齐全、结论明确、表述清晰并使用法定计量单位。&lt;br&gt;
+2．检验检测机构在资质认定范围内出具的报告内容包括但不限于以 下信息：&lt;br&gt;
+（1）标题；&lt;br&gt;
+（2）资质认定标志，检验检测机构公章或者检验检测专用章； （3）检验检测机构的名称和地址；&lt;br&gt;
+（4）检验检测活动的地点（包括客户设施、检验检测机构固定设施 以外的场所、相关的临时或移动设施等）；&lt;br&gt;
+（5）检验检测报告的唯一性标识和每一页上的标识，以确保能够识 别该页是属于检验检测报告的一部分，以及表明检验检测报告结束的清 晰标识；&lt;br&gt;
+（6）客户的名称和联系信息；&lt;br&gt;
+（7）所用检验检测方法；&lt;br&gt;
+（8）检验检测样品的描述、状态和标识；&lt;br&gt;
+（9）样品的接收日期，当抽样环节对检验检测结果的有效性和应用 有重大影响时，应注明样品的抽样日期；&lt;br&gt;
+（10）检验检测日期、报告发布日期；&lt;br&gt;
+（11）当抽样环节对检验检测结果的有效性或应用有影响时，应提供 检验检测机构或其他机构所用的抽样计划和程序的说明；&lt;br&gt;
+（12）检验检测报告签发人；&lt;br&gt;
+（13）检验检测结果，必要时应注明测量单位；&lt;br&gt;
+（14）存在分包时，应注明分包的检验检测项目以及承担分包项目的 检验检测机构信息。&lt;br&gt;
+3．检验检测机构开展检验检测活动的原始记录信息能有效支撑对应 出具的报告内容，以确保报告的可追溯性。&lt;br&gt;
+4．检验检测机构如果使用电子签名，应符合相关法律法规规定。&lt;/p&gt;
+&lt;p&gt;（七）检验检测机构应当对质量记录和技术记录的管理作出规定，包括记录的标识、贮存、保护、归档留存和处置等内容。记录信息应当充分、清晰、完整。检验 检测原始记录和报告保存期限不少于6年。&lt;br&gt;
+【条文释义】&lt;br&gt;
+1．记录分为质量记录和技术记录两类：&lt;br&gt;
+（1）质量记录指检验检测机构管理体系活动中的过程和结果的记录， 包括但不限于合同评审、分包控制、采购、内部审核、管理评审、纠正 措施、预防措施和投诉；&lt;br&gt;
+（2）技术记录指进行检验检测活动的信息记录，包括但不限于原始 观察、导出数据和建立审核路径有关信息的记录，检验检测、环境条件 控制、人员、方法、设备管理、样品和质量监控等记录，以及发出的每 份检验检测报告的副本。&lt;br&gt;
+2．检验检测原始记录应包含充分的信息，确保该项检验检测在尽可 能接近原始条件情况下能够重复。&lt;br&gt;
+3．原始的观察结果、数据应在产生时予以记录。不允许补记、追记、 重抄。&lt;br&gt;
+4．书面记录形成过程中如有错误，应确保技术记录的修改可以追溯 到前一个版本或原始观察结果。&lt;br&gt;
+5．记录可存于不同媒体上，包括但不限于书面、电子和电磁方式。&lt;br&gt;
+6．所有记录的存放条件应有安全保护措施，对电子、电磁存储的记 录也应采取与书面同等措施，并加以保护及备份，防止未经授权的侵入 及修改，以避免原始数据的丢失或改动。&lt;br&gt;
+7．检验检测原始记录和报告保存期限不少于6年。&lt;/p&gt;
+&lt;p&gt;（八）检验检测机构在运用计算机信息系统实施检验检测、数据传输或者对检验 检测数据和相关信息进行管理时，应当具有保障安全性、完整性、正确性措施。&lt;br&gt;
+【条文释义】&lt;br&gt;
+1．检验检测机构在利用计算机信息系统对检验检测数据进行采集、 处理、记录、报告、存储或者检索时，检验检测机构的管理体系文件应 包含保护数据完整性、安全性和不可伪造篡改的内容，防止未经授权的 访问，确保检验检测数据、结果不被篡改、不丢失、可追溯。&lt;br&gt;
+2．检验检测机构应当对所使用的自动化软件的正确性进行验证并保 留相关活动记录，自动化软件包括但不限于信息化管理系统、数据采集 系统、数据处理系统。&lt;br&gt;
+3．检验检测机构管理体系应包含计算机信息系统的数据保护、电子 存储和传输结果的规定。&lt;/p&gt;
+&lt;p&gt;（九）检验检测机构应当实施有效的数据、结果质量控制活动，质量控制活动与检验检测工作相适应。数据、结果质量控制活动包括内部质量控制活动和外部质量 控制活动。内部质量控制活动包括但不限于人员比对、设备比对、留样再测、盲样 考核等。外部质量控制活动包括但不限于能力验证、实验室间比对等。&lt;br&gt;
+【条文释义】&lt;br&gt;
+1．检验检测机构应明确检验检测过程质量控制要求，实施有效的数 据结果质量控制活动，覆盖全部检验检测项目类别，有效监控检验检测 结果的稳定性和准确性。&lt;br&gt;
+2．数据结果质量控制活动包括内部质量控制活动和外部质量控制活 动。内部质量控制方式包括但不限于人员比对、设备比对、留样再测、 盲样考核；外部质量控制活动包括但不限于能力验证、实验室间比对。&lt;br&gt;
+3．检验检测机构在开展数据、结果质量控制活动时，应对其结果进行评价分析。若发现数据异常或超出预先判定规则时，应当组织原因分 析，必要时采取有效的措施纠正，防止报告错误的结果。&lt;/p&gt;
+&lt;h3 id=&#34;第十三条-有关法律法规及标准-技术规范对检验检测机构的主体-人员-场-所环境-设备设施和管理体系等条件有特殊规定的检验检测机构还应当符合相关特殊要求&#34;&gt;第十三条 有关法律法规及标准、技术规范对检验检测机构的主体、人员、场 所环境、设备设施和管理体系等条件有特殊规定的，检验检测机构还应当符合相关特殊要求。&lt;/h3&gt;
+&lt;p&gt;【条文释义】&lt;br&gt;
+本条是对特殊领域和行业补充要求的规定。&lt;br&gt;
+1．针对不同行业或者领域的特殊性，市场监管总局和国务院有关主 管部门，依照有关法律、行政法规的规定，制定和发布相关技术评审补 充要求，技术评审补充要求与本《准则》一并作为技术评审依据。&lt;br&gt;
+2．对于开展相关特殊行业和领域的检验检测活动的机构，除满足本 《准则》的要求外，还应满足相应的技术评审补充要求，并按照本《准则》 和技术评审补充要求的规定，配置满足要求的技术资源，完善和有效运 行管理体系，使其各项管理和技术过程能在符合要求的基础上有效运行， 满足特殊行业和领域的需要。&lt;/p&gt;
+&lt;h2 id=&#34;第三章-评审方式与程序&#34;&gt;第三章 评审方式与程序&lt;/h2&gt;
+&lt;h3 id=&#34;第十四条-检验检测机构资质认定一般程序的技术评审方式包括现场评审现-场评审工作程序见附件1-书面审查书面审查工作程序见附件2和远程评审-远程评审工作程序见附件3-根据机构申请的具体情况采取不同技术评审方式-对机构申请的资质认定事项进行审查-一般程序审查告知承诺核查表见附件-4&#34;&gt;第十四条 检验检测机构资质认定一般程序的技术评审方式包括：现场评审（现 场评审工作程序见附件1）、书面审查（书面审查工作程序见附件2）和远程评审 （远程评审工作程序见附件3）。根据机构申请的具体情况，采取不同技术评审方式 对机构申请的资质认定事项进行审查。〔一般程序审查（告知承诺核查）表见附件 4〕。&lt;/h3&gt;
+&lt;p&gt;【条文释义】&lt;br&gt;
+本条是对资质认定一般程序技术评审方式的规定。依据《管理办法》第十 一条第三款的规定，技术评审的方式包括：现场评审、书面审查和远程评审。&lt;br&gt;
+其中，远程评审是2021年新增评审方式，其不受场地限制，方式更&lt;br&gt;
+加灵活，可以有效节约行政成本，是传统评审方式的有益补充。远程评审工作程序旨在明确远程评审的软硬件要求及相关流程，为远程评审方 式的有效实施和利用提供指导。&lt;/p&gt;
+&lt;h3 id=&#34;第十五条-现场评审适用于首次评审-扩项评审-复查换证有实际能力变化-时评审-发生变更事项影响其符合资质认定条件和要求的变更评审-现场评审应-当对检验检测机构申请相关资质认定事项的技术能力进行逐项确认根据申请范围-安排现场试验-安排现场试验时应当覆盖所有申请类别的主要或关键项目参数-仪-器设备-检测方法-试验人员-试验材料等并覆盖所有检验检测场所-现场评审-结论分为符合基本符合不符合三种情形&#34;&gt;第十五条 现场评审适用于首次评审、扩项评审、复查换证（有实际能力变化 时）评审、发生变更事项影响其符合资质认定条件和要求的变更评审。现场评审应 当对检验检测机构申请相关资质认定事项的技术能力进行逐项确认，根据申请范围 安排现场试验。安排现场试验时应当覆盖所有申请类别的主要或关键项目／参数、仪 器设备、检测方法、试验人员、试验材料等，并覆盖所有检验检测场所。现场评审 结论分为“符合”“基本符合”“不符合”三种情形。&lt;/h3&gt;
+&lt;p&gt;【条文释义】&lt;br&gt;
+本条是对现场评审方式的适用情形与要求的规定。&lt;br&gt;
+采用现场评审方式实施资质认定技术评审的，应当严格依据《检验检测机 构资质认定 现场评审工作程序》（《准则》附件1）规定的工作流程开展现场 评审，并在评审报告中予以体现。&lt;/p&gt;
+&lt;h3 id=&#34;第十六条-书面审查方式适用于已获资质认定技术能力内的少量参数扩项或变-更不影响其符合资质认定条件和要求和上一许可周期内无违法违规行为-未列-入失信名单且申请事项无实质性变化的检验检测机构的复查换证评审-书面审查结-论分为符合不符合两种情形&#34;&gt;第十六条 书面审查方式适用于已获资质认定技术能力内的少量参数扩项或变 更（不影响其符合资质认定条件和要求）和上一许可周期内无违法违规行为、未列 入失信名单且申请事项无实质性变化的检验检测机构的复查换证评审。书面审查结 论分为“符合”“不符合”两种情形。&lt;/h3&gt;
+&lt;p&gt;【条文释义】&lt;br&gt;
+本条是对书面审查方式适用情形与要求的规定。&lt;br&gt;
+检验检测机构申请参数扩项，一般应进行现场评审。以书面审查作为评审 方式仅限检验检测机构已具备同类方法检测资质，且仅申请少量参数扩项的情 形。&lt;/p&gt;
+&lt;h3 id=&#34;第十七条-远程评审是指使用信息和通信技术对检验检测机构实施的技术评-审-采用方式可以为但不限于利用远程电信会议设施等对远程场所包括潜-在危险场所实施评审包括音频-视频和数据共享以及其他技术手段通过远程-接入方式对文件和记录审核同步的即实时的或者是异步的在适用时通过-静止影像-视频或者音频录制的手段记录信息和证据-下列情形可选择远程评审&#34;&gt;第十七条 远程评审是指使用信息和通信技术对检验检测机构实施的技术评 审。采用方式可以为（但不限于）：利用远程电信会议设施等对远程场所（包括潜 在危险场所）实施评审，包括音频、视频和数据共享以及其他技术手段；通过远程 接入方式对文件和记录审核，同步的（即实时的）或者是异步的（在适用时）通过 静止影像、视频或者音频录制的手段记录信息和证据。下列情形可选择远程评审：&lt;/h3&gt;
+&lt;h3 id=&#34;一由于不可抗力疫情-安全-旅途限制等无法前往现场评审&#34;&gt;（一）由于不可抗力（疫情、安全、旅途限制等）无法前往现场评审；&lt;/h3&gt;
+&lt;h3 id=&#34;二检验检测机构从事完全相同的检测活动有多个地点各地点均运行相同的-质量管理体系且可以在任何一个地点查阅所有其他地点的电子记录及数据的&#34;&gt;（二）检验检测机构从事完全相同的检测活动有多个地点，各地点均运行相同的 质量管理体系，且可以在任何一个地点查阅所有其他地点的电子记录及数据的；&lt;/h3&gt;
+&lt;h3 id=&#34;三已获资质认定技术能力内的少量参数变更及扩项&#34;&gt;（三）已获资质认定技术能力内的少量参数变更及扩项；&lt;/h3&gt;
+&lt;h3 id=&#34;四现场评审后需要进行复核但复核无法在规定时间内完成-远程评审结论分为符合基本符合不符合三种情形&#34;&gt;（四）现场评审后需要进行复核，但复核无法在规定时间内完成。 远程评审结论分为“符合”“基本符合”“不符合”三种情形。&lt;/h3&gt;
+&lt;p&gt;【条文释义】&lt;br&gt;
+本条是对远程评审方式的适用情形与要求的规定。&lt;br&gt;
+新冠疫情期间，远程评审作为无法开展现场评审的临时性补救措施发挥了 重要的作用。远程评审将信息通信技术应用于资质认定评审活动，在特定的情 况下，既解决了不到现场无法完成评审活动的问题，也满足了检验检测机构申 请资质的需求，是对资质认定评审方式的有益补充。修订后的《管理办法》将 远程评审固化为资质认定技术评审方式，资质认定部门在组织开展技术评审过 程中可结合实际情况灵活选择，进一步优化评审流程、提高评审效率，降低行 政成本。但远程评审对软硬件设备、人员操作提出了更高的要求，资质认定部 门应在与检验检测机构、评审人员协商一致的情况下使用。&lt;/p&gt;
+&lt;h3 id=&#34;第十八条-检验检测机构资质认定告知承诺依据检验检测机构资质认定告知-承诺实施办法试行和有关规定实施-应当对检验检测机构承诺的真实性进行-现场核查告知承诺程序核查表见附件4-告知承诺的现场核查程序参照一般程序的现场评审方式进行&#34;&gt;第十八条 检验检测机构资质认定告知承诺依据《检验检测机构资质认定告知 承诺实施办法（试行）》和有关规定实施。应当对检验检测机构承诺的真实性进行 现场核查（告知承诺程序核查表见附件4）。告知承诺的现场核查程序参照一般程序的现场评审方式进行。&lt;/h3&gt;
+&lt;p&gt;【条文释义】&lt;br&gt;
+本条是告知承诺核查程序要求的规定。&lt;br&gt;
+告知承诺许可对行政许可程序进行了流程再造，资质认定部门依据 检验检测机构承诺直接作出行政许可决定，再于3个月内开展现场核查， 现场核查的内容和流程可参照《检验检测机构资质认定 现场评审工作程 序》。&lt;/p&gt;
+&lt;h3 id=&#34;第十九条-告知承诺现场核查应当由资质认定部门组织实施现场核查人员应-当在规定的时限内进行核查并出具现场核查结论-核查结论分为承诺属实承-诺基本属实承诺严重不实虚假承诺三种情形-并根据相应结论由核查组通-知申请人整改或者向资质认定部门作出撤销相应许可事项的建议&#34;&gt;第十九条 告知承诺现场核查应当由资质认定部门组织实施，现场核查人员应 当在规定的时限内进行核查并出具现场核查结论。核查结论分为：“承诺属实”“承 诺基本属实”“承诺严重不实／虚假承诺”三种情形。并根据相应结论，由核查组通 知申请人整改，或者向资质认定部门作出撤销相应许可事项的建议。&lt;/h3&gt;
+&lt;p&gt;【条文释义】&lt;br&gt;
+本条是对告知承诺现场核查要求的规定，具体可参照《检测机构资 质认定告知承诺实施办法（试行）》。对于核查结论为承诺严重不实／ 虚假承诺的，资质认定部门可依据《行政许可法》《行政处罚法》的相关规定撤销许可或作出行政处罚。&lt;/p&gt;
+&lt;h2 id=&#34;第四章-附则&#34;&gt;第四章 附则&lt;/h2&gt;
+&lt;h3 id=&#34;第二十条-专业技术评价机构以及相关评审人员在技术评审活动中的违法违规-行为依照检验检测机构资质认定管理办法及检验检测机构资质认定评审员-管理办法试行的相关规定予以处理&#34;&gt;第二十条 专业技术评价机构以及相关评审人员在技术评审活动中的违法违规 行为，依照《检验检测机构资质认定管理办法》及《检验检测机构资质认定评审员 管理办法（试行）》的相关规定予以处理。&lt;/h3&gt;
+&lt;p&gt;【条文释义】&lt;br&gt;
+本条是对专业技术评价机构以及相关评审人员的评审行为的规定。 其中，公职人员参加评审活动还应符合国家有关法律法规的要求。&lt;/p&gt;
+&lt;h3 id=&#34;第二十一条-本准则自2023年12月1日起施行-检验检测机构资质认定-评审准则国认实201633号同时废止&#34;&gt;第二十一条 本准则自2023年12月1日起施行。《检验检测机构资质认定 评审准则》（国认实〔2016〕33号）同时废止。&lt;/h3&gt;
+&lt;p&gt;【条文释义】&lt;br&gt;
+本条是对《准则》施行时间的规定。&lt;/p&gt;
+">法规动态 | 文字版  |  关于印发《 <检验检测机构资质认定评审准则>条文释义》的函</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" href="https://wegrowth.github.io/VrgG_h_aw/"" data-c="
+          &lt;p&gt;&lt;img src=&#34;https://wegrowth.github.io/post-images/1685720533679.png&#34; alt=&#34;检验检测机构资质认定评审准则&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;strong&gt;市场监管总局关于发布《检验检测机构资质认定评审准则》的公告&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;2023年第21号&lt;/p&gt;
+&lt;p&gt;为落实《质量强国建设纲要》关于深化检验检测机构资质审批制度改革、全面实施告知承诺和优化审批服务的要求，市场监管总局修订了《检验检测机构资质认定评审准则》，已经2023年5月15日总局第9次局务会议通过，现予公告，自2023年12月1日起施行。《检验检测机构资质认定评审准则》（国认实〔2016〕33号）同时废止。&lt;/p&gt;
+&lt;p&gt;​                                                                                                                 市场监管总局&lt;br&gt;
+​                                                                                                                  2023年5月30日&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;检验检测机构资质认定评审准则&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第一章 总则&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;第一条 依照《中华人民共和国计量法》及其实施细则、《中华人民共和国认证认可条例》等法律、行政法规的规定，为依法实施《检验检测机构资质认定管理办法》相关资质认定技术评审要求，制定本准则。&lt;/p&gt;
+&lt;p&gt;第二条 在中华人民共和国境内开展检验检测机构资质认定技术评审（含告知承诺核查，下同）工作，应当遵守本准则。&lt;/p&gt;
+&lt;p&gt;第三条 本准则所称检验检测机构，是指依照《检验检测机构资质认定管理办法》的相关规定，依法成立，依据相关标准或者技术规范，利用仪器设备、环境设施等技术条件和专业技能，对产品或者法律法规规定的特定对象进行检验检测的专业技术组织。&lt;/p&gt;
+&lt;p&gt;本准则所称资质认定，是指依照《检验检测机构资质认定管理办法》的相关规定，由市场监督管理部门依照法律、行政法规规定，对向社会出具具有证明作用的数据、结果的检验检测机构的基本条件和技术能力是否符合法定要求实施的评价许可。&lt;/p&gt;
+&lt;p&gt;本准则所称资质认定技术评审，是指依照《检验检测机构资质认定管理办法》的相关规定，由市场监管总局或者省级市场监督管理部门（以下统称资质认定部门）自行或者委托专业技术评价机构组织相关专业评审人员，对检验检测机构申请的资质认定事项是否符合资质认定条件以及相关要求所进行的技术性审查。&lt;/p&gt;
+&lt;p&gt;第四条 针对不同行业或者领域的特殊性，市场监管总局、国务院有关主管部门，依照有关法律法规的规定，制定和发布相关技术评审补充要求，评审补充要求与本准则一并作为技术评审依据。&lt;/p&gt;
+&lt;p&gt;第五条 依照《检验检测机构资质认定管理办法》《检验检测机构资质认定告知承诺实施办法（试行）》等的相关规定，对于采用告知承诺程序实施资质认定的，对检验检测机构承诺内容是否属实进行现场核查的内容与程序，应当符合本准则的相关规定。&lt;/p&gt;
+&lt;p&gt;第六条 资质认定技术评审工作应当坚持统一规范、客观公正、科学准确、公平公开、便利高效的原则。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第二章 评审内容与要求&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;第七条 资质认定技术评审内容包括：对检验检测机构主体、人员、场所环境、设备设施和管理体系等方面是否符合资质认定要求的审查。&lt;/p&gt;
+&lt;p&gt;第八条 检验检测机构应当是依法成立并能够承担相应法律责任的法人或者其他组织。&lt;/p&gt;
+&lt;p&gt;（一）检验检测机构或者其所在的组织应当有明确的法律地位，对其出具的检验检测数据、结果负责，并承担法律责任。不具备独立法人资格的检验检测机构应当经所在法人单位授权。&lt;/p&gt;
+&lt;p&gt;（二）检验检测机构应当以公开方式对其遵守法定要求、独立公正从业、履行社会责任、严守诚实信用等情况进行自我承诺。&lt;/p&gt;
+&lt;p&gt;（三）检验检测机构应当独立于其出具的检验检测数据、结果所涉及的利益相关方，不受任何可能干扰其技术判断的因素影响，保证检验检测数据、结果公正准确、可追溯。&lt;/p&gt;
+&lt;p&gt;（四）检验检测机构及其人员应当对其在检验检测活动中所知悉的国家秘密、商业秘密负有保密义务，并制定实施相应的保密措施。&lt;/p&gt;
+&lt;p&gt;第九条 检验检测机构应当具有与其从事检验检测活动相适应的检验检测技术人员和管理人员。&lt;/p&gt;
+&lt;p&gt;（一）检验检测机构与其人员建立劳动关系应当符合《中华人民共和国劳动法》《中华人民共和国劳动合同法》的有关规定，法律、行政法规对检验检测人员执业资格或者禁止从业另有规定的，依照其规定。&lt;/p&gt;
+&lt;p&gt;（二）检验检测机构人员的受教育程度、专业技术背景和工作经历、资质资格、技术能力应当符合工作需要。&lt;/p&gt;
+&lt;p&gt;（三）检验检测报告授权签字人应当具有中级及以上相关专业技术职称或者同等能力，并符合相关技术能力要求。&lt;/p&gt;
+&lt;p&gt;第十条 检验检测机构应当具有固定的工作场所，工作环境符合检验检测要求。&lt;/p&gt;
+&lt;p&gt;（一）检验检测机构具有符合标准或者技术规范要求的检验检测场所，包括固定的、临时的、可移动的或者多个地点的场所。&lt;/p&gt;
+&lt;p&gt;（二）检验检测工作环境及安全条件符合检验检测活动要求。&lt;/p&gt;
+&lt;p&gt;第十一条 检验检测机构应当具备从事检验检测活动所必需的检验检测设备设施。&lt;/p&gt;
+&lt;p&gt;（一）检验检测机构应当配备具有独立支配使用权、性能符合工作要求的设备和设施。&lt;/p&gt;
+&lt;p&gt;（二）检验检测机构应当对检验检测数据、结果的准确性或者有效性有影响的设备（包括用于测量环境条件等辅助测量设备）实施检定、校准或核查，保证数据、结果满足计量溯源性要求。&lt;/p&gt;
+&lt;p&gt;（三）检验检测机构如使用标准物质，应当满足计量溯源性要求。&lt;/p&gt;
+&lt;p&gt;第十二条 检验检测机构应当建立保证其检验检测活动独立、公正、科学、诚信的管理体系，并确保该管理体系能够得到有效、可控、稳定实施，持续符合检验检测机构资质认定条件以及相关要求。&lt;/p&gt;
+&lt;p&gt;（一）检验检测机构应当依据法律法规、标准（包括但不限于国家标准、行业标准、国际标准）的规定制定完善的管理体系文件，包括政策、制度、计划、程序和作业指导书等。检验检测机构建立的管理体系应当符合自身实际情况并有效运行。&lt;/p&gt;
+&lt;p&gt;（二）检验检测机构应当依法开展有效的合同审查。对相关要求、标书、合同的偏离、变更应当征得客户同意并通知相关人员。&lt;/p&gt;
+&lt;p&gt;（三）检验检测机构选择和购买的服务、供应品应当符合检验检测工作需求。&lt;/p&gt;
+&lt;p&gt;（四）检验检测机构能正确使用有效的方法开展检验检测活动。检验检测方法包括标准方法和非标准方法，应当优先使用标准方法。使用标准方法前应当进行验证；使用非标准方法前，应当先对方法进行确认，再验证。&lt;/p&gt;
+&lt;p&gt;（五）当检验检测标准、技术规范或者声明与规定要求的符合性有测量不确定度要求时，检验检测机构应当报告测量不确定度。&lt;/p&gt;
+&lt;p&gt;（六）检验检测机构出具的检验检测报告，应当客观真实、方法有效、数据完整、信息齐全、结论明确、表述清晰并使用法定计量单位。&lt;/p&gt;
+&lt;p&gt;（七）检验检测机构应当对质量记录和技术记录的管理作出规定，包括记录的标识、贮存、保护、归档留存和处置等内容。记录信息应当充分、清晰、完整。检验检测原始记录和报告保存期限不少于6年。&lt;/p&gt;
+&lt;p&gt;（八）检验检测机构在运用计算机信息系统实施检验检测、数据传输或者对检验检测数据和相关信息进行管理时，应当具有保障安全性、完整性、正确性措施。&lt;/p&gt;
+&lt;p&gt;（九）检验检测机构应当实施有效的数据、结果质量控制活动，质量控制活动与检验检测工作相适应。数据、结果质量控制活动包括内部质量控制活动和外部质量控制活动。内部质量控制活动包括但不限于人员比对、设备比对、留样再测、盲样考核等。外部质量控制活动包括但不限于能力验证、实验室间比对等。&lt;/p&gt;
+&lt;p&gt;第十三条 有关法律法规及标准、技术规范对检验检测机构的主体、人员、场所环境、设备设施和管理体系等条件有特殊规定的，检验检测机构还应当符合相关特殊要求。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第三章 评审方式与程序&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;第十四条 检验检测机构资质认定一般程序的技术评审方式包括：现场评审（现场评审工作程序见附件1）、书面审查（书面审查工作程序见附件2）和远程评审（远程评审工作程序见附件3）。根据机构申请的具体情况，采取不同技术评审方式对机构申请的资质认定事项进行审查。（一般程序审查〔告知承诺核查〕表见附件4）。&lt;/p&gt;
+&lt;p&gt;第十五条 现场评审适用于首次评审、扩项评审、复查换证（有实际能力变化时）评审、发生变更事项影响其符合资质认定条件和要求的变更评审。现场评审应当对检验检测机构申请相关资质认定事项的技术能力进行逐项确认，根据申请范围安排现场试验。安排现场试验时应当覆盖所有申请类别的主要或关键项目/参数、仪器设备、检测方法、试验人员、试验材料等，并覆盖所有检验检测场所。现场评审结论分为“符合”“基本符合”“不符合”三种情形。&lt;/p&gt;
+&lt;p&gt;第十六条 书面审查方式适用于已获资质认定技术能力内的少量参数扩项或变更（不影响其符合资质认定条件和要求）和上一许可周期内无违法违规行为、未列入失信名单且申请事项无实质性变化的检验检测机构的复查换证评审。书面审查结论分为“符合”“不符合”两种情形。&lt;/p&gt;
+&lt;p&gt;第十七条 远程评审是指使用信息和通信技术对检验检测机构实施的技术评审。采用方式可以为（但不限于）：利用远程电信会议设施等对远程场所（包括潜在危险场所）实施评审，包括音频、视频和数据共享以及其他技术手段；通过远程接入方式对文件和记录审核，同步的（即实时的）或者是异步的（在适用时）通过静止影像、视频或者音频录制的手段记录信息和证据。下列情形可选择远程评审：&lt;/p&gt;
+&lt;p&gt;（一）由于不可抗力（疫情、安全、旅途限制等）无法前往现场评审；&lt;/p&gt;
+&lt;p&gt;（二）检验检测机构从事完全相同的检测活动有多个地点，各地点均运行相同的管理体系，且可以在任何一个地点查阅所有其他地点的电子记录及数据的；&lt;/p&gt;
+&lt;p&gt;（三）已获资质认定技术能力内的少量参数变更及扩项；&lt;/p&gt;
+&lt;p&gt;（四）现场评审后仍需要进行复核，但复核无法在规定时间内完成。&lt;/p&gt;
+&lt;p&gt;远程评审结论分为“符合”“基本符合”“不符合”三种情形。&lt;/p&gt;
+&lt;p&gt;第十八条 检验检测机构资质认定告知承诺依据《检验检测机构资质认定告知承诺实施办法（试行）》和有关规定实施。应当对检验检测机构承诺的真实性进行现场核查（告知承诺程序核查表见附件4）。告知承诺的现场核查程序参照一般程序的现场评审方式进行。&lt;/p&gt;
+&lt;p&gt;第十九条 告知承诺现场核查应当由资质认定部门组织实施，现场核查人员应当在规定的时限内进行核查并出具现场核查结论。核查结论分为：“承诺属实”“承诺基本属实”“承诺严重不实/虚假承诺”三种情形。并根据相应结论，由核查组通知申请人整改，或者向资质认定部门作出撤销相应许可事项的建议。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第四章 附则&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;第二十条 专业技术评价机构以及相关评审人员在技术评审活动中的违法违规行为，依照《检验检测机构资质认定管理办法》及《检验检测机构资质认定评审员管理办法（试行）》的相关规定予以处理。&lt;/p&gt;
+&lt;p&gt;第二十一条 本准则自2023年12月1日起施行。《检验检测机构资质认定评审准则》（国认实〔2016〕33号）同时废止。&lt;/p&gt;
+&lt;p&gt;附件：1.检验检测机构资质认定现场评审工作程序&lt;/p&gt;
+&lt;p&gt;​     2.检验检测机构资质认定书面审查工作程序&lt;/p&gt;
+&lt;p&gt;​     3.检验检测机构资质认定远程评审工作程序&lt;/p&gt;
+&lt;p&gt;​     4.《检验检测机构资质认定评审准则》一般&lt;/p&gt;
+&lt;p&gt;​     程序审查（告知承诺核查）表&lt;/p&gt;
+&lt;p&gt;注：信息来源于 市场监管总局网站&lt;br&gt;
+https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/rkjcs/art/2023/art_b97b0b1addbf4e8aaca43cb26f13883b.html&lt;/p&gt;
+">法规动态 | 检验检测机构资质认定评审准则  正式发布</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" href="https://wegrowth.github.io/q9B0RrdG3/"" data-c="
+          &lt;p&gt;为了完善检验检测机构授权签字人考核，确保授权签字人能力符合检验检测机构资质认定要求，省市场监管局决定改进检验检测机构授权签字人考核方式，建立拟任授权签字人试卷考核和现场考核相结合的考核制度。现将有关事项通告如下：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;一、考核范围&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;自2023年5月10日起新申请的检验检测机构资质认定行政审批中的授权签字人，均需参加试卷考核，具体包括检验检测机构（含机动车检测机构）&lt;strong&gt;首次申请的拟任授权签字人，以及扩项、地址变更、复查换证等需现场评审所涉及的新增拟任授权签字人。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;二、考核时间、地点&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;检验检测机构授权签字人试卷考核与组建评审组并行准备，试卷考核在评审专家现场评审前进行&lt;/strong&gt;。考核时间原则上为每周星期五上午，考核用时60分钟。网上审批系统将以短信方式告知参考人员考核的具体时间、属地考点、联络人及联系电话等。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;三、考核内容&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;考核内容分为通用知识和补充要求。通用知识主要包括与检验检测机构资质认定相关的《中华人民共和国计量法》《中华人民共和国计量法实施细则》《中华人民共和国标准化法》《中华人民共和国标准化法实施条例》《中华人民共和国产品质量法》《中华人民共和国认证认可条例》《检验检测机构资质认定管理办法》《检验检测机构监督管理办法》《检验检测机构资质认定能力评价 检验检测机构通用要求》（RB/T214-2017），以及其他相关法律、行政法规、规章、规范性文件中涉及检验检测的通用条文和内容；申请的行业领域涉及国家有补充要求的，同时考核补充要求的内容。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;四、考核方式&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;计算机生成试卷进行闭卷考核，由相关市场监管局组织实施，试题均为客观题，满分100分，试行期60分（含）以上为合格。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;五、相关要求&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;1.参考人员携带身份证并放于考桌右上方，供监考人员核对身份。考试用电脑由相关市场监管局提供，参考人员不得将电脑、手机等电子设备和与考核相关的资料带入考场。&lt;/p&gt;
+&lt;p&gt;2.参考人员应在约定的时间参加考核，迟到超过15分钟的，视为自动放弃本次考核。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3.通过试卷考核的拟任授权签字人方有资格参加现场评审中的现场考核。拟任授权签字人不得以已通过试卷考核为由拒绝参加现场考核，评审组长也不因相关人员已通过试卷考核而降低现场考核标准或减少考核项目。未通过试卷考核的拟任授权签字人不能参加现场考核，若相应的授权签字领域无其他授权签字人覆盖，相应的检测能力不予推荐。若所有拟任授权签字人均为新增授权签字人，且考核均不合格，检验检测机构的行政审批申请将不予许可。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;4.省市场监管局行政审批处将通过现场或视频等方式对相关市场监管局授权签字人试卷考核现场进行抽检巡查。&lt;/p&gt;
+&lt;p&gt;5.相应取消《省市场监管局关于检验检测机构资质认定相关变更审批改为报备的通告》中授权签字人报备的规定。&lt;/p&gt;
+&lt;p&gt;江苏省市场监督管理局&lt;br&gt;
+2023年4月6日&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;信息来源于 江苏省市场监督管理总局&lt;/p&gt;
+&lt;/blockquote&gt;
+">行业监管 | 江苏省市场监督管理局关于对检验检测机构资质认定拟任授权签字人试行试卷考核的通告</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" href="https://wegrowth.github.io/uYVSe8h22/"" data-c="
+          &lt;p&gt;&lt;strong&gt;一、品牌活动介绍&lt;/strong&gt;&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;1&#34;&gt;&lt;img src=&#34;https://wegrowth.github.io/post-images/1681712336269.jpg&#34; alt=&#34;活动名称&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;【&lt;strong&gt;安徽环境监测实验室高质量发展 TEDx 沙龙&lt;/strong&gt;】是为环境监测实验室运营管理层面打造的品牌活动。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;围绕  “&lt;strong&gt;T (Technology) 技术、E（Evolution）发展、D（Design）设计&lt;/strong&gt;” 三个重点方向，建立一种包容开放的态度和场景；&lt;/li&gt;
+&lt;li&gt;邀请环境监测管理层、市场人员、技术人员及行业相关人员，去阐述探讨实验室的经营发展的思考和观点，想法的交流与碰撞，以设计谋划实验室管理发展积极的措施与方法论；&lt;/li&gt;
+&lt;li&gt;设计安徽环境监测实验室更完善的解决方案，致力于每个实验室高质量发展。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;活动品牌原创发起人：汪颖裕&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;活动周期：每周1期，周末（节假日除外）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;二、第三期 安徽环境监测实验室高质量发展 TEDx 沙龙 活动信息&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;日期及时间：第三期  2023.04.22 （周六），13:00-15:30&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;注：若遇客观因素，日期调整会及时通知&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;谢绝空降&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;地点：中核安徽计量检测有限公司，安徽省界首市&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;中核安徽检测是中核矿业科技改革重组后搭建的第一个产业化平台公司，是“央地”合作的典范。在国企改革三年行动的攻坚之年、关键之年，作为中核矿业科技改革重组后搭建的第一个产业化平台公司，中核安徽检测立足“三新一高”，以新理念谋划新业态，采取“中核矿业科技控股、联合地方国企和优秀民资的混合所有制模式，强强联合，旨在建立一个为当地经济发展提供技术支撑，并辐射服务周边区域的有影响力的综合性区域检测中心。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://wegrowth.github.io/post-images/1681712371377.jpg&#34; alt=&#34;中核安徽外景&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://wegrowth.github.io/post-images/1681712388218.jpg&#34; alt=&#34;中核安徽外景&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://wegrowth.github.io/post-images/1681712397237.jpg&#34; alt=&#34;中核安徽内景&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第三期主题：安徽环境监测实验室 生产与运营管理的高绩效增量模式&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;环境监测实验室如何提高公司层面的“土壤肥力”&lt;/li&gt;
+&lt;li&gt;环境监测实验室精益生产关键实践思路&lt;/li&gt;
+&lt;li&gt;内部运营管理、外部业务发展 具体的高绩效增量模式探讨&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;开放、包容、同发展。&lt;/p&gt;
+&lt;p&gt;走进实验室，秉承一种开放包容的态度，提供实验室发展更多的观点与趋势交流的第三空间！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;总要有这样一处地方，想法碰撞，火花闪耀，探讨环境监测实验室发展坚定的力量。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;诚挚邀请实验室及行业相关人员参加交流，活动报名联系&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;汪颖裕&lt;br&gt;
+手机：182 5510 6132&lt;br&gt;
+微信：wegrowth2023&lt;br&gt;
+微信公众号：奕起橙长&lt;br&gt;
+网址：http://wegrowth.top/&lt;/p&gt;
+">关于第三期 安徽环境监测实验室高质量发展 TEDx 沙龙的通知</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" href="https://wegrowth.github.io/PDsVjCmJD/"" data-c="
+          &lt;p&gt;&lt;strong&gt;一、2023年4月7日 《检验检测机构能力验证管理办法》正式发布。&lt;/strong&gt;&lt;br&gt;
+http://wegrowth.top/tcLgdklAw/&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;二、中国环境监测总站关于发布2023年国家环境监测网实验室能力考核计划的通知。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;三、建议各环境监测实验室根据实验室计划按时报名参加，其中第一期4月份开展，各实验室注意登录国家环境监测网能力考核系统查看具体报名时间。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://wegrowth.github.io/post-images/1681366023042.png&#34; alt=&#34;1&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://wegrowth.github.io/post-images/1681366037873.png&#34; alt=&#34;2&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://wegrowth.github.io/post-images/1681366047188.png&#34; alt=&#34;3&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://wegrowth.github.io/post-images/1681366055699.png&#34; alt=&#34;4&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;汪颖裕&lt;br&gt;
+环境监测实验室高质量发展布道师&lt;br&gt;
+安徽环境监测第三空间 社群主理人&lt;br&gt;
+安徽环境监测实验室高质量发展 TEDx 沙龙活动 原创发起人&lt;br&gt;
+手机：182 5510 6132&lt;br&gt;
+邮箱：wegrowth2023@163.com&lt;br&gt;
+微信公众号：奕起橙长&lt;br&gt;
+网址：http://www.wegrowth.top/&lt;/p&gt;
+&lt;/blockquote&gt;
+">能力验证 | 关于发布2023年国家环境监测网实验室能力考核计划的通知</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" href="https://wegrowth.github.io/tcLgdklAw/"" data-c="
+          &lt;figure data-type=&#34;image&#34; tabindex=&#34;1&#34;&gt;&lt;img src=&#34;https://wegrowth.github.io/post-images/1681369633978.png&#34; alt=&#34;市场监管总局关于发布《检验检测机构能力验证管理办法》的公告&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;市场监管总局关于发布《检验检测机构能力验证管理办法》的公告&lt;/strong&gt;&lt;br&gt;
+2023年第13号&lt;br&gt;
+行政规范性文件《检验检测机构能力验证管理办法》已经2023年3月1日市场监管总局第4次局务会议通过，现予公告，自发布之日起施行。《实验室能力验证实施办法》（国家认证认可监督管理委员会2006年第9号公告）同时废止。&lt;/p&gt;
+&lt;p&gt;市场监管总局&lt;br&gt;
+2023年3月27日&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;检验检测机构能力验证管理办法&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第一章 总  则&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;第一条  为规范市场监督管理部门（以下简称市场监管部门）组织开展的检验检测机构能力验证工作，加强检验检测机构事中事后监督管理，督促检验检测机构落实主体责任，保证其技术能力持续符合资质认定条件和要求，依照《检验检测机构资质认定管理办法》《检验检测机构监督管理办法》等有关规定，制定本办法。&lt;/p&gt;
+&lt;p&gt;第二条  本办法所称能力验证，是指市场监管部门采取实验室间比对等方式，按照相关标准或者技术规范预先制定的考核规则，对检验检测机构技术能力是否持续符合资质认定条件和要求实施的技术管理手段。&lt;/p&gt;
+&lt;p&gt;第三条  由市场监管部门组织实施及监督管理的能力验证工作，适用本办法。&lt;/p&gt;
+&lt;p&gt;第四条  国家市场监督管理总局（以下简称市场监管总局）负责统一协调、组织实施、监督管理检验检测机构能力验证工作。&lt;/p&gt;
+&lt;p&gt;省级市场监管部门负责所辖行政区域内检验检测机构能力验证的实施和管理工作。&lt;/p&gt;
+&lt;p&gt;第五条  检验检测机构能力验证工作，应当遵循客观公正、科学合理、统一规范的原则。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第二章 能力验证组织与实施&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;第六条  市场监管部门根据检验检测机构管理工作需要提出能力验证需求，征集能力验证项目，制定年度能力验证工作计划。制定计划时，应当优先考虑涉及国家安全、公共安全、生态安全、公众健康等检验检测领域的能力验证项目。&lt;/p&gt;
+&lt;p&gt;市场监管总局负责国家级检验检测机构能力验证计划的制定和发布，并通报省级市场监管部门。&lt;/p&gt;
+&lt;p&gt;省级市场监管部门负责统筹所辖行政区域内检验检测机构能力验证计划的制定和发布，并将相关材料上报市场监管总局。&lt;/p&gt;
+&lt;p&gt;第七条  组织实施能力验证计划的市场监管部门应当确认能力验证承担机构的技术能力，明确承担机构的责任和义务，并对承担机构及其承担的能力验证活动进行监督，发现承担机构在能力验证工作中存在重大问题或者能力验证结果评价不合理等情形的，应当及时督促其改正。&lt;/p&gt;
+&lt;p&gt;第八条  能力验证承担机构应当符合以下要求：&lt;/p&gt;
+&lt;p&gt;（一）依法成立并能够承担相应法律责任的法人或者其他组织；&lt;/p&gt;
+&lt;p&gt;（二）具有与承担能力验证活动相适应的人员、设备、设施和环境；&lt;/p&gt;
+&lt;p&gt;（三）具有并有效运行保证其能力验证活动规范、独立、公正、科学、诚信的管理体系；&lt;/p&gt;
+&lt;p&gt;（四）能够制备或者取得能力验证物品（样品），保证能力验证物品（样品）均匀性和稳定性，并对能力验证物品（样品）进行有效管理，包括物品（样品）存储、包装、标识、分发和处置等；&lt;/p&gt;
+&lt;p&gt;（五）熟悉相关检验检测标准，能够合理、有效地统计和评价能力验证数据和结果；&lt;/p&gt;
+&lt;p&gt;（六）未被列入经营异常名录或者严重违法失信名单。&lt;/p&gt;
+&lt;p&gt;第九条  能力验证承担机构应当按照相关标准或者技术规范的规定实施能力验证活动；策划、制定能力验证方案；制备或者取得能力验证物品（样品），并对其进行验证、定值和分发；对参加能力验证的检验检测机构提交的数据进行统计分析和结果评价，编制能力验证结果报告；按照市场监管部门的要求向参加能力验证的检验检测机构发放能力验证结果报告。&lt;/p&gt;
+&lt;p&gt;第十条  检验检测机构应当积极实施人员比对、设备比对、留样再测等内部质量控制措施，并按照市场监管部门的要求参加相应能力验证活动，以保证技术能力能够持续符合资质认定条件和要求。&lt;/p&gt;
+&lt;p&gt;检验检测机构应当依据相关标准或者技术规范的要求独立完成能力验证物品（样品）检测，并在规定时间内真实、客观地报送检验检测数据、结果及相关原始记录，不得私下比对串通能力验证数据、结果或者出具虚假能力验证数据、结果。&lt;/p&gt;
+&lt;p&gt;第十一条  能力验证结果分为合格和不合格。&lt;/p&gt;
+&lt;p&gt;结果合格是指按照相关标准或者技术规范规定的统计和评价技术手段确定的能力验证数据和结果满意。&lt;/p&gt;
+&lt;p&gt;结果不合格是指按照相关标准或者技术规范规定的统计和评价技术手段确定的能力验证数据和结果不满意或者有问题。&lt;/p&gt;
+&lt;p&gt;第十二条  能力验证承担机构在能力验证工作完成后，应当及时向市场监管部门报送能力验证结果报告，内容包括：能力验证项目名称、项目实施起止时间、验证的检验检测参数、依据的检验检测标准、能力验证物品（样品）的均匀性和稳定性检验结果、参加机构名单和评价结果、统计数据、技术分析和建议等信息。&lt;/p&gt;
+&lt;p&gt;第十三条  市场监管部门应当对组织实施的能力验证结果报告进行验收和评估，及时纠正存在的问题，并监督承担机构对能力验证结果报告作进一步修改和完善。&lt;/p&gt;
+&lt;p&gt;第十四条  对能力验证结果存在异议的，检验检测机构可以在收到能力验证结果之日起15个工作日内向组织实施能力验证的市场监管部门提出申诉。市场监管部门应当组织专家和承担机构对申诉内容进行研究，并及时给出答复。&lt;/p&gt;
+&lt;p&gt;第十五条  市场监管部门应当及时向社会公布其组织实施的能力验证结果信息，并通报相关行业主管部门。&lt;/p&gt;
+&lt;p&gt;第十六条  能力验证承担机构应当准确、客观、公正地实施能力验证活动，并对所出具的统计结果、评价结论、能力验证结果和报告负责。&lt;/p&gt;
+&lt;p&gt;第十七条  能力验证承担机构和能力验证参加机构应当保存能力验证活动的原始记录、数据信息和结果报告，保存期限不少于六年。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第三章 能力验证结果处理与使用&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;第十八条  对于无故不参加能力验证的检验检测机构，市场监管部门应当予以纠正并公布机构名单，并在“双随机、一公开”监督抽查中加大对其抽查概率。&lt;/p&gt;
+&lt;p&gt;第十九条  检验检测机构私下比对串通能力验证数据、结果，或者提供虚假能力验证数据、结果的，市场监管部门应当判定其能力验证结果不合格，并予以公布；属于《市场监督管理严重违法失信名单管理办法》规定情形的，依照其规定予以处理。&lt;/p&gt;
+&lt;p&gt;第二十条  能力验证相关检验检测项目结果不合格的检验检测机构，应当在规定期限内完成整改，向市场监管部门提交整改和验证材料，并经市场监管部门确认通过。整改期间或者整改后技术能力仍不能符合资质认定条件和要求，并擅自向社会出具具有证明作用的检验检测数据、结果的，将按照《检验检测机构资质认定管理办法》《检验检测机构监督管理办法》相关规定进行处理。&lt;/p&gt;
+&lt;p&gt;第二十一条  能力验证承担机构违反公正性要求，能力验证活动弄虚作假，泄露有关能力验证数据、结果或者参加机构商业秘密等有关信息的，市场监管部门应当予以公布且三年内不再委托该机构承担相关能力验证活动。&lt;/p&gt;
+&lt;p&gt;第二十二条  市场监管部门可以通过组织论证、专家评议、监督检查、抽查档案、征求意见等方式，对检验检测机构能力验证活动进行监督检查。&lt;/p&gt;
+&lt;p&gt;第二十三条  市场监管部门可以将能力验证结果作为对检验检测机构分类监督管理的依据。&lt;/p&gt;
+&lt;p&gt;对于能力验证结果合格的检验检测机构，市场监管部门可以视情况简化其相关项目的资质认定技术评审内容。&lt;/p&gt;
+&lt;p&gt;第二十四条  相关行业主管部门依照本办法组织开展能力验证活动，将能力验证结果报送市场监管部门，促进能力验证资源和数据信息共享。市场监管部门应当积极采信依照本办法组织实施的能力验证结果。&lt;/p&gt;
+&lt;p&gt;鼓励检验检测机构积极参加国内外有关行业主管部门以及其他能力验证提供机构组织开展的能力验证活动，持续提升技术能力水平。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第四章 附  则&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;第二十五条　本办法由市场监管总局负责解释。&lt;/p&gt;
+&lt;p&gt;第二十六条　本办法自发布之日起施行。《实验室能力验证实施办法》（国家认证认可监督管理委员会2006年第9号公告）同时废止。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;转自  国家市场监督管理总局网站&lt;/p&gt;
+&lt;/blockquote&gt;
+">法规动态 |《检验检测机构能力验证管理办法》正式发布</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" href="https://wegrowth.github.io/qF4FFgFW7/"" data-c="
+          &lt;p&gt;&lt;strong&gt;一、品牌活动介绍&lt;/strong&gt;&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;1&#34;&gt;&lt;img src=&#34;https://wegrowth.github.io/post-images/1679018978993.png&#34; alt=&#34;安徽环境监测实验室高质量发展TEDx沙龙&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;【&lt;strong&gt;安徽环境监测实验室高质量发展 TEDx 沙龙&lt;/strong&gt;】是为环境监测实验室运营管理层面打造的品牌活动。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;围绕 “T (Technology) 技术、E（Evolution）发展、D（Design）设计” 三个重点方向，建立一种包容开放的态度和场景；&lt;/li&gt;
+&lt;li&gt;邀请环境监测管理层、市场人员、技术人员及行业相关人员，去阐述探讨实验室的经营发展的思考和观点，想法的交流与碰撞，以设计谋划实验室管理发展积极的措施与方法论；&lt;/li&gt;
+&lt;li&gt;设计安徽环境监测实验室更完善的解决方案，致力于每个实验室高质量发展。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;活动品牌原创发起人：汪颖裕&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;活动周期：每周1期，每周末（节假日除外）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;二、第二期 安徽环境监测实验室高质量发展 TEDx 沙龙 活动信息&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;时间：第二期  2023.04.09 （周日），沙龙：13:00-15:00 （午餐：11:00-12:30 ）&lt;/li&gt;
+&lt;li&gt;谢绝空降。&lt;/li&gt;
+&lt;li&gt;地点：安徽省宁国市，安徽国邦检测有限公司&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://wegrowth.github.io/post-images/1680587384806.png&#34; alt=&#34;安徽国邦检测有限公司 位置图&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://wegrowth.github.io/post-images/1680587409819.jpg&#34; alt=&#34;场地外景1&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://wegrowth.github.io/post-images/1680587429245.jpg&#34; alt=&#34;场地外景2&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第二期主题：安徽环境监测实验室 仪器设备、标准物质选型解决方案的探讨（认知与信息差）&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;行业间竞争外，还有开放、同发展。&lt;br&gt;
+走进实验室，秉承一种开放包容的态度，提供实验室发展更多的观点与趋势交流的第三空间！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;诚挚欢迎实验室及行业相关人员参加交流。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;总要有这样一处地方，想法碰撞，火花闪耀，探讨环境监测实验室发展坚定的力量。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;活动报名联系：汪颖裕，Tel：182 5510 6132   微信：wegrowth2023&lt;/p&gt;
+&lt;p&gt;website：http://wegrowth.top/&lt;/p&gt;
+">关于第二期 安徽环境监测实验室高质量发展 TEDx 沙龙的通知</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" href="https://wegrowth.github.io/20230322/"" data-c="
+          &lt;h2 id=&#34;一-第一期安徽环境监测实验室高质量发展-tedx-沙龙复盘&#34;&gt;一、第一期安徽环境监测实验室高质量发展 TEDx 沙龙复盘&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;从活动名称和主旨的确定，提前至 @东游记｜寻物寻味寻生活 活动场地考察，到第一期【安徽环境监测实验室高质量发展TEDx沙龙】的顺利举办；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;围绕 “T (Technology) 技术、E（Evolution）发展、D（Design）设计” 三个重点方向，建立一种包容开放的态度和场景，连续3小时的探讨交流，现在脑子里还是噼里啪啦作响，与一群人的连接，面对面，才能看到更多，人员对于实验室发展也更明朗；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;下一步将是新的力量，欢迎行业相关老师参加第二期沙龙。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;1&#34;&gt;&lt;img src=&#34;https://wegrowth.github.io/post-images/1679417805799.png&#34; alt=&#34;第一期安徽环境监测实验室高质量发展 TEDx 沙龙复盘&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;二-品牌活动介绍&#34;&gt;二、品牌活动介绍&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;总要有这样一种场景，想法碰撞，火花闪耀，&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;探讨环境监测实验室高质量发展坚定的力量—奕起橙长&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;【安徽环境监测实验室高质量发展 TEDx 沙龙】&lt;/strong&gt; 是为环境监测实验室运营管理层面打造的品牌活动。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;围绕 “T (Technology) 技术、E（Evolution）发展、D（Design）设计” 三个重点方向，建立一种包容开放的态度和场景；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;邀请&lt;strong&gt;环境监测机构的管理层、市场人员、技术人员及行业相关人员&lt;/strong&gt;，以实验室实际发展状态为依据，去阐述探讨实验室的经营发展的思考和观点，想法的交流与碰撞，以设计谋划实验室管理发展积极的措施与方法论；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;探讨安徽环境监测实验室更完善的解决方案，挖掘每个实验室可大幅改善的空间，助力实验室高质量发展。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;活动品牌原创发起人：汪颖裕&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;活动周期：每周1期，每周末（节假日除外）&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;活动报名联系：汪颖裕，Tel：182 5510 6132   微信：wegrowth2023&lt;/p&gt;
+&lt;p&gt;website：http://wegrowth.top/&lt;/p&gt;
+">复盘 | 第一期安徽环境监测实验室高质量发展 TEDx 沙龙</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" href="https://wegrowth.github.io/guan-yu-di-yi-qi-an-hui-huan-jing-jian-ce-shi-yan-shi-gao-zhi-liang-fa-zhan-tedx-sha-long-de-tong-zhi/"" data-c="
+          &lt;p&gt;&lt;strong&gt;一、品牌活动介绍&lt;/strong&gt;&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;1&#34;&gt;&lt;img src=&#34;https://wegrowth.github.io/post-images/1679018978993.png&#34; alt=&#34;安徽环境监测实验室高质量发展TEDx沙龙&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;【&lt;strong&gt;安徽环境监测实验室高质量发展 TEDx 沙龙&lt;/strong&gt;】是为环境监测实验室运营管理层面打造的品牌活动。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;围绕 “T (Technology) 技术、E（Evolution）发展、D（Design）设计” 三个重点方向，建立一种包容开放的态度和场景；&lt;/li&gt;
+&lt;li&gt;邀请环境监测管理层、市场人员、技术人员及行业相关人员，去阐述探讨实验室的经营发展的思考和观点，想法的交流与碰撞，以设计谋划实验室管理发展积极的措施与方法论；&lt;/li&gt;
+&lt;li&gt;寻找安徽环境监测实验室更完善的解决方案，致力于每个实验室高质量发展。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;活动品牌原创发起人：汪颖裕&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;活动周期：每周1期，每周六（节假日除外）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;二、第一期 安徽环境监测实验室高质量发展 TEDx 沙龙 活动信息&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;时间：第一期 2023.03.18 （周六） 14:00-17:00&lt;/li&gt;
+&lt;li&gt;人数：6人，谢绝空降。&lt;/li&gt;
+&lt;li&gt;地点：合肥市蜀山区黄山路金大地1912东街15号&lt;br&gt;
+&lt;img src=&#34;https://wegrowth.github.io/post-images/1679017352180.png&#34; alt=&#34;东游记 位置图&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://wegrowth.github.io/post-images/1679018225928.jpg&#34; alt=&#34;场地外景&#34; loading=&#34;lazy&#34;&gt;&lt;br&gt;
+&lt;img src=&#34;https://wegrowth.github.io/post-images/1679018260482.jpg&#34; alt=&#34;场地实景&#34; loading=&#34;lazy&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;第一期主题：安徽环境监测实验室行业发展特点、趋势探讨及运营发展破冰之道&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;茶馆以外的工作、生活节奏快，或许紧张，甚至迷茫。&lt;br&gt;
+但茶馆是丰盈而寂静的，让人放松，安静下来想一想我们的方向。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;诚挚欢迎实验室及行业相关人员有时间来喝茶交流。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;总要有这样一处地方，想法碰撞，火花闪耀，探讨环境监测实验室发展坚定的力量。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;活动联系：汪颖裕，182 5510 6132（微信同号）&lt;/p&gt;
+">关于第一期 安徽环境监测实验室高质量发展 TEDx 沙龙的通知</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" href="https://wegrowth.github.io/the-top-10-skills-of-2025/"" data-c="
+          &lt;p&gt;近几天在互联网上浏览到个“不新鲜”的事情：2020年世界经济论坛发布的《2020年未来就业报告》。&lt;/p&gt;
+&lt;p&gt;里面列出了展望2025年，预测全球就业市场最需要的10类能力。其实，列出来的不止10个，但重点抽提出来的是TOP10。&lt;/p&gt;
+&lt;p&gt;信息来源：&lt;br&gt;
+Future of Jobs Survey 2020, World Economic Forum&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;1&#34;&gt;&lt;img src=&#34;https://wegrowth.github.io/post-images/1646268404274.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;the-top-10-skills-of-2025-2025年十大技能&#34;&gt;The Top 10 skills of 2025    2025年十大技能&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Analytical Thinking and innovation   分析思维与创新能力&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Active learning and learning strategies  主动学习和学习策略能力&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Complex problem-solving  复杂的问题解决能力&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Critical thinking and analysis  批判性思维与分析能力&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Creativity, originality, and initiative   创意，主动性与原创能力&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Leadership and social influence   领导力和社会影响力&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Technology use, monitoring, and control   技术的使用与监测能力&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Technology design and programming   技术设计与编程能力&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Resilience, stress tolerance, and flexibility   弹性，灵活性和压力承受能力&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Reasoning, problem-solving, and ideation   推理，解决问题和构思能力&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;这10大技能被分成了四个大类。&lt;/p&gt;
+&lt;p&gt;第一类是&lt;strong&gt;解决问题的能力&lt;/strong&gt;，包括分析思维和创新能力；复杂问题解决能力；批判思维和分析能力；创意、主动性与原创能力；推理、解决问题和构思能力。&lt;/p&gt;
+&lt;p&gt;第二类是&lt;strong&gt;自我管理的能力&lt;/strong&gt;，包括主动学习和学习策略能力；弹性、灵活性和压力承受能力。&lt;/p&gt;
+&lt;p&gt;第三类是&lt;strong&gt;与人工作的能力&lt;/strong&gt;，即领导力和社会影响力。&lt;/p&gt;
+&lt;p&gt;第四类是&lt;strong&gt;技术的使用与开发能力&lt;/strong&gt;，包括技术的使用与监测能力、技术设计与编程能力。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;实践建议&lt;/strong&gt;：&lt;/p&gt;
+&lt;p&gt;职场： 已经是3月，目前的春招较冷淡，有意向跳槽或寻找新方向的职场人，可以对标上面的“就业市场最需要的10类能力”，根据市场所需的变化学习新技能，学习新技能的趋势正在加速。各位加油~&lt;/p&gt;
+">The Top 10 skills of 2025</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" href="https://wegrowth.github.io/test/"" data-c="
+          &lt;p&gt;test&lt;/p&gt;
+">test</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" href="https://wegrowth.github.io/about/"" data-c="
+          &lt;blockquote&gt;
+&lt;p&gt;欢迎来到我的小站，很高兴遇见你！🤝&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;关于本站&#34;&gt;🏠 关于本站&lt;/h2&gt;
+&lt;p&gt;#让实验室变得更好是我们共同的愿景&lt;br&gt;
+#奕起橙长&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;实验室建立、运营及发展规划的解决方案&lt;/li&gt;
+&lt;li&gt;环境监测技术探讨、交流&lt;/li&gt;
+&lt;li&gt;环境监测法规、政策等解读分享&lt;/li&gt;
+&lt;li&gt;安徽地区环境监测人员培训、人才推荐&lt;/li&gt;
+&lt;li&gt;环境监测实验室日常疑难点交流、建议&lt;/li&gt;
+&lt;li&gt;其他交流&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;汪颖裕&#34;&gt;👨‍💻 汪颖裕&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;安徽环境监测第三空间社群（目前100+人数）主理人&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;环境监测实验室运营&amp;amp;服务的布道师和践行者&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;环境监测12年，具有独立的行业分析及判断&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;实践 [知识管理] 和 [结构化复盘] 在环境监测领域的应用&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;擅写作-热爱跑步&#34;&gt;⛹ 擅写作、热爱跑步&lt;/h2&gt;
+&lt;p&gt;奕起橙长   微信公众号主理人&lt;br&gt;
+2017年完成  宁海 Classic 50K  山地越野跑。&lt;/p&gt;
+&lt;h2 id=&#34;联系方式&#34;&gt;📬 联系方式&lt;/h2&gt;
+&lt;p&gt;微信:  wegrowth2024&lt;br&gt;
+网址：&lt;a href=&#34;https://wegrowth.top&#34; title=&#34;wegrowth&#34;&gt;奕起橙长wegrowth_环境监测&lt;/a&gt;&lt;/p&gt;
+">关于本站</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" href="https://wegrowth.github.io/hello-gridea/"" data-c="
+          &lt;p&gt;👏  欢迎使用 &lt;strong&gt;Gridea&lt;/strong&gt; ！&lt;br&gt;
+✍️  &lt;strong&gt;Gridea&lt;/strong&gt; 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/getgridea/gridea&#34;&gt;Github&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://gridea.dev/&#34;&gt;Gridea 主页&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;http://fehey.com/&#34;&gt;示例网站&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;特性&#34;&gt;特性👇&lt;/h2&gt;
+&lt;p&gt;📝  你可以使用最酷的 &lt;strong&gt;Markdown&lt;/strong&gt; 语法，进行快速创作&lt;/p&gt;
+&lt;p&gt;🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片&lt;/p&gt;
+&lt;p&gt;🏷️  你可以对文章进行标签分组&lt;/p&gt;
+&lt;p&gt;📋  你可以自定义菜单，甚至可以创建外部链接菜单&lt;/p&gt;
+&lt;p&gt;💻  你可以在 &lt;strong&gt;Windows&lt;/strong&gt;，&lt;strong&gt;MacOS&lt;/strong&gt; 或 &lt;strong&gt;Linux&lt;/strong&gt; 设备上使用此客户端&lt;/p&gt;
+&lt;p&gt;🌎  你可以使用 &lt;strong&gt;𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌&lt;/strong&gt; 或 &lt;strong&gt;Coding Pages&lt;/strong&gt; 向世界展示，未来将支持更多平台&lt;/p&gt;
+&lt;p&gt;💬  你可以进行简单的配置，接入 &lt;a href=&#34;https://github.com/gitalk/gitalk&#34;&gt;Gitalk&lt;/a&gt; 或 &lt;a href=&#34;https://github.com/SukkaW/DisqusJS&#34;&gt;DisqusJS&lt;/a&gt; 评论系统&lt;/p&gt;
+&lt;p&gt;🇬🇧  你可以使用&lt;strong&gt;中文简体&lt;/strong&gt;或&lt;strong&gt;英语&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力&lt;/p&gt;
+&lt;p&gt;🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步&lt;/p&gt;
+&lt;p&gt;🌱 当然 &lt;strong&gt;Gridea&lt;/strong&gt; 还很年轻，有很多不足，但请相信，它会不停向前 🏃&lt;/p&gt;
+&lt;p&gt;未来，它一定会成为你离不开的伙伴&lt;/p&gt;
+&lt;p&gt;尽情发挥你的才华吧！&lt;/p&gt;
+&lt;p&gt;😘 Enjoy~&lt;/p&gt;
+">Hello Gridea</a>
+      </div>
+      
+    </div>
+  </div>
+</div>
+<script>
+  // var escape = "[{&#34;content&#34;:&#34;&lt;p&gt;&lt;strong&gt;实验室仪器、耗材、实验室新建、改造的设计装修及家具、实验室信息管理Lims 系统 ，2024.06.01-06.18 期间价格美丽，今年就这次活动力度大，欢迎联系咨询，18255106132&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;助力您的实验室发展，降本增效！！&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;**分析仪器：**气相色谱、便携气相色谱仪、离子色谱、紫外可见光度计、原子吸收、原子荧光、低本底α/β测量仪、测氡仪等&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;前处理仪器：&lt;/strong&gt;&lt;br&gt;\n热脱附-热解析、吹扫捕集、顶空进样器、微波消解仪、加压/快速溶剂萃取仪、平行真空浓缩仪、冷冻干燥机、氮吹仪、自动配标仪等&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;通用仪器：&lt;/strong&gt;&lt;br&gt;\n纯水机、离心机、电子天平、洗瓶机、灭菌锅（器）、培养箱等&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;电化学仪器：&lt;/strong&gt;&lt;br&gt;\npH计、电导率仪、便携式多参数水质检测仪、浊度计等&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;采样仪器：&lt;/strong&gt;&lt;br&gt;\n烟尘/烟气采样仪、空气采样器、紫外烟气分析仪等&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;其他：&lt;/strong&gt;&lt;br&gt;\n标准溶液及原子吸收石墨管、实验手套、试剂、玻璃器皿等各类耗材&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;实验室信息管理系统&lt;/strong&gt;&lt;br&gt;\n可灵活根据实验室实际目标定制开发，活动期间锁定Lims系统优惠，&lt;br&gt;\n即使暂时没有需求也没关系的，未来1年内启动，均可按此次优惠。&lt;/p&gt;\n&#34;,&#34;fileName&#34;:&#34;oN9eMFVc8&#34;,&#34;abstract&#34;:&#34;&#34;,&#34;title&#34;:&#34;2024.06.01-06.18 实验室活动&#34;,&#34;tags&#34;:[],&#34;date&#34;:&#34;2024-06-10 20:22:21&#34;,&#34;dateFormat&#34;:&#34;2024-06-10&#34;,&#34;feature&#34;:&#34;&#34;,&#34;link&#34;:&#34;https://wegrowth.github.io/oN9eMFVc8/&#34;,&#34;hideInList&#34;:false,&#34;isTop&#34;:true,&#34;stats&#34;:{&#34;text&#34;:&#34;2 min read&#34;,&#34;time&#34;:70000,&#34;words&#34;:341,&#34;minutes&#34;:2},&#34;description&#34;:&#34;实验室仪器、耗材、实验室新建、改造的设计装修及家具、实验室信息管理Lims 系统 ，2024.06.01-06.18 期间价格美丽，今年就这次活动力度大，欢迎联系咨询，18255106132\n助力您的实验室发展，降本增效！！\n**分析仪器：...&#34;,&#34;toc&#34;:&#34;&#34;},{&#34;content&#34;:&#34;&lt;p&gt;&lt;strong&gt;复制下方的下载直链，可下载 word版 附表，方便各机构使用&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;https://wegrowth.lanzoul.com/iPAjt1zz83qj&lt;br&gt;\n密码:74df&lt;/p&gt;\n&lt;hr&gt;\n&lt;p&gt;各县（市）区、开发区市场监管局：&lt;/p&gt;\n&lt;p&gt;为加强我市检验检测机构（以下简称机构）证后监管，落实机构主体责任,规范检验检测市场秩序，依据省局检验检测机构监管工作要求，结合我市检验检测机构分类监管情况，市局决定组织开展2024年度全市检验检测机构监督检查工作。现就有关事项通知如下：&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;一、检查范围&lt;/strong&gt;&lt;br&gt;\n2023年12月31日前取得省级检验检测机构资质认定证书的机构。&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;二、检查内容&lt;/strong&gt;&lt;br&gt;\n依据《检验检测机构资质认定管理办法》《检验检测机构监督管理办法》及相关法律法规，以打击“不实”和“虚假”检验检测报告为主要目标，以检查检验检测报告和原始记录为主要手段，重点检查机构是否存在违法违规检验检测行为，基本条件和技术能力是否能够持续符合资质认定的条件和要求，是否按照资质认定证书规定的能力范围向社会出具具有证明作用的数据、结果，是否按照规定办理变更手续，管理体系是否正常运行等。&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;三、检查时间&lt;/strong&gt;&lt;br&gt;\n即日起至9月30日，D类检验检测机构由辖区局自行确定，与市局检查时间错开，但9月底需完成。&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;四、检查形式&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;（一）检验检测机构自查&lt;br&gt;\n2024年6月3日前，各机构按照《2024年度省级资质认定检验检测机构自查表》（附件1）完成自查自纠，如实填写自查表，由机构最高管理者签名，上报辖区局备案。市局督促机构做好自查自纠工作。现场检查要对机构自查情况进行核查。&lt;/p&gt;\n&lt;p&gt;（二）市、县级分类监管与“双随机、一公开”相结合监督检查&lt;br&gt;\n各单位要按照《关于印发&amp;lt;安徽省检验检测机构信用风险分类监管实施方案&amp;gt;的通知》《关于做好2024年全省检验检测机构信用风险分类监管工作的通知》要求，对辖区内机构开展分类监管与“双随机、一公开”相结合监督检查。为提升监管效能，鼓励各单位聘请异地专家进行现场检查，我市辖区内交叉互查。对常压液体危险货物罐体出厂检验、机动车检验、生态环境监测、电动自行车检验检测等重点领域加大抽查比例，严厉打击非法改装、“大吨小标”、常压液体危险货物罐车“大罐小标”等行为。&lt;/p&gt;\n&lt;p&gt;食品类：A类抽取比例不少于三分之一，B类抽取比例不少于二分之一，C类年内监督检查不少于1次，以上由县区局开展（其中市局认检处配合抽检处开展部分机构检查，市局抽取的机构，县区局可不再开展），D类市县两级各开展一次检查。&lt;/p&gt;\n&lt;p&gt;综合类：A类抽取比例不少于三分之一，B类抽取比例不少于二分之一，C类年内监督检查不少于1次，以上由县区局开展，市局主要配合市级联合监督检查（市级联合抽取机构，县区局可不再开展），D类市县两级各开展一次检查。&lt;/p&gt;\n&lt;p&gt;环境、机动车类：A类抽取比例不少于三分之一，B类抽取比例不少于二分之一，C类年内监督检查不少于1次，以上由县区局开展，市局主要联合市级开展联合监督检查（市级联合抽取机构，县区局可不再开展），D类市县两级各开展一次检查。&lt;/p&gt;\n&lt;p&gt;另市局在我市机构数量较多辖区抽取部分机构直接开展检查，具体名单由市局与辖区局商定。&lt;/p&gt;\n&lt;p&gt;检查组由行政监管人员及2名资质认定评审员或技术专家组成，对有分支机构的机构，除对总部进行检查外，应至少抽查1处分支机构。对上级交办、群众举报及日常检查中发现问题线索较多的检验检测机构可直接纳入检查名单。检查组要认真履职尽责，所需经费由各单位统筹安排。&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;五、工作要求&lt;/strong&gt;&lt;br&gt;\n（一）各单位要认真履行属地监管责任，按照《资质认定检验检测机构现场监督检查工作规范》要求（有特殊规定的，从其规定），开展现场监督检查（检查表格见附件2），做好不符合问题确认记录（附件3），不符合问题描述要详细准确，证据链完整。对监督检（抽）查中发现问题，要督促机构整改到位（整改表格见附件4），并依法依规处理。上级部门将适时组织对我市监督检查情况进行区域交叉互查。&lt;/p&gt;\n&lt;p&gt;（二）机构应提供相关工作场所和检查所需材料，并对提供的各种材料真实性负责，不得以任何理由拒绝、拖延检查。检查组应秉持公正、客观、严肃的工作纪律，严守保密要求，遵守相关法律法规和有关廉政规定。&lt;/p&gt;\n&lt;p&gt;（三）各单位要全面依法履行职责、严格落实工作责任，全面增强事中事后监管的系统性、整体性和协同性。检查组对现场检查发现的问题要及时提出整改意见，并督促检验检测机构落实完成，检查组按职责分工同步负责检验检测机构后处理整改验收工作；对发现重大违法违规行为的检验检测机构要及时向辖区局领导报告并适时向市局认证检测监管处报备；对监督检查中发现伪造数据、不检测出报告、出具虚假检验检测报告的机构要从严查处，涉及其他部门法律法规的问题及线索要及时移交；涉及撤销资质认定证书的情形要及时上报， 由省局依法办理相关撤销手续。&lt;/p&gt;\n&lt;p&gt;（四）各单位组织开展的监督检查，于2024年10月15日前，将《2024年度安徽省XX市（县）检验检测机构监督检查工作报告》《2024年度安徽省XX市（县）XX类检验检测机构监督检查不符合问题确认记录》《2024年度安徽省XX市（县）XX类检验检测机构监督检查结果后处理统计表》（附件5）加盖公章扫描件和可编辑电子版发送至市局认证检测监管处邮箱，并按照《安徽省市场监管“双随机、一公开”办法》要求，将检查相关信息向社会公示。&lt;/p&gt;\n&lt;p&gt;（五）各单位按照市局现场检查后通报的处理意见，依据《检验检测机构资质认定管理办法》《检验检测机构监督管理办法》等有关规定开展后处理工作，实现“查处一起、震慑一片、规范一批”。处理完成后10日内，将具体处理结果报送至市局认证检测监管处。&lt;/p&gt;\n&lt;p&gt;联 系 人：吴飞、陈国友&lt;br&gt;\n联系电话：0551-62315531、62315530&lt;br&gt;\n邮    箱：hfscrjc@163.com&lt;/p&gt;\n&lt;p&gt;附件：&lt;/p&gt;\n&lt;ol&gt;\n&lt;li&gt;2024年度省级资质认定检验检测机构自查表&lt;/li&gt;\n&lt;li&gt;2024年度安徽省XX市（县）XX类检验检测机构监督检查表&lt;/li&gt;\n&lt;li&gt;2024年度安徽省XX市（县）XX类检验检测机构监督检查不符合问题确认记录&lt;/li&gt;\n&lt;li&gt;2024年度安徽省检验检测机构证后监督检查整改确认表&lt;/li&gt;\n&lt;li&gt;2024年度安徽省XX市（县）XX类检验检测机构监督检查结果后处理统计表&lt;br&gt;\n2024年5月14日&lt;/li&gt;\n&lt;/ol&gt;\n&#34;,&#34;fileName&#34;:&#34;91-Njm3nv&#34;,&#34;abstract&#34;:&#34;&#34;,&#34;title&#34;:&#34;监督检查 | 合肥市 关于组织开展2024年度检验检测机构监督检查工作的通知&#34;,&#34;tags&#34;:[{&#34;name&#34;:&#34;双随机检查&#34;,&#34;slug&#34;:&#34;hyNARk3pw&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://wegrowth.github.io/hyNARk3pw/&#34;},{&#34;name&#34;:&#34;检验检测&#34;,&#34;slug&#34;:&#34;D5OBvjSgD&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://wegrowth.github.io/D5OBvjSgD/&#34;}],&#34;date&#34;:&#34;2024-05-28 09:42:51&#34;,&#34;dateFormat&#34;:&#34;2024-05-28&#34;,&#34;feature&#34;:&#34;&#34;,&#34;link&#34;:&#34;https://wegrowth.github.io/91-Njm3nv/&#34;,&#34;hideInList&#34;:false,&#34;isTop&#34;:true,&#34;stats&#34;:{&#34;text&#34;:&#34;8 min read&#34;,&#34;time&#34;:422000,&#34;words&#34;:2061,&#34;minutes&#34;:8},&#34;description&#34;:&#34;复制下方的下载直链，可下载 word版 附表，方便各机构使用\nhttps://wegrowth.lanzoul.com/iPAjt1zz83qj\n密码:74df\n\n各县（市）区、开发区市场监管局：\n为加强我市检验检测机构（以下简称机构）证后...&#34;,&#34;toc&#34;:&#34;&#34;},{&#34;content&#34;:&#34;&lt;p&gt;&lt;strong&gt;国务院关于印发《推动大规模设备更新和消费品以旧换新行动方案》的通知&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;国发〔2024〕7号&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;各省、自治区、直辖市人民政府，国务院各部委、各直属机构：&lt;/p&gt;\n&lt;p&gt;现将《推动大规模设备更新和消费品以旧换新行动方案》印发给你们，请认真贯彻执行。&lt;/p&gt;\n&lt;p&gt;国务院&lt;/p&gt;\n&lt;p&gt;2024年3月7日&lt;/p&gt;\n&lt;p&gt;（此件公开发布）&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;推动大规模设备更新和消费品以旧换新行动方案&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;推动大规模设备更新和消费品以旧换新是加快构建新发展格局、推动高质量发展的重要举措，将有力促进投资和消费，既利当前、更利长远。为贯彻落实党中央决策部署，现就推动新一轮大规模设备更新和消费品以旧换新，制定如下行动方案。&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;一、总体要求&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;推动大规模设备更新和消费品以旧换新，要以习近平新时代中国特色社会主义思想为指导，深入贯彻党的二十大精神，贯彻落实中央经济工作会议和中央财经委员会第四次会议部署，统筹扩大内需和深化供给侧结构性改革，实施设备更新、消费品以旧换新、回收循环利用、标准提升四大行动，大力促进先进设备生产应用，推动先进产能比重持续提升，推动高质量耐用消费品更多进入居民生活，畅通资源循环利用链条，大幅提高国民经济循环质量和水平。&lt;/p&gt;\n&lt;p&gt;——坚持市场为主、政府引导。充分发挥市场配置资源的决定性作用，结合各类设备和消费品更新换代差异化需求，依靠市场提供多样化供给和服务。更好发挥政府作用，加大财税、金融、投资等政策支持力度，打好政策组合拳，引导商家适度让利，形成更新换代规模效应。&lt;/p&gt;\n&lt;p&gt;——坚持鼓励先进、淘汰落后。建立激励和约束相结合的长效机制，加快淘汰落后产品设备，提升安全可靠水平，促进产业高端化、智能化、绿色化发展。加快建设全国统一大市场，破除地方保护。&lt;/p&gt;\n&lt;p&gt;——坚持标准引领、有序提升。对标国际先进水平，结合产业发展实际，加快制定修订节能降碳、环保、安全、循环利用等领域标准。统筹考虑企业承受能力和消费者接受程度，有序推动标准落地实施。&lt;/p&gt;\n&lt;p&gt;到2027年，工业、农业、建筑、交通、教育、文旅、医疗等领域设备投资规模较2023年增长25%以上；重点行业主要用能设备能效基本达到节能水平，环保绩效达到A级水平的产能比例大幅提升，规模以上工业企业数字化研发设计工具普及率、关键工序数控化率分别超过90%、75%；报废汽车回收量较2023年增加约一倍，二手车交易量较2023年增长45%，废旧家电回收量较2023年增长30%，再生材料在资源供给中的占比进一步提升。&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;二、实施设备更新行动&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;（一）推进重点行业设备更新改造。围绕推进新型工业化，以节能降碳、超低排放、安全生产、数字化转型、智能化升级为重要方向，聚焦钢铁、有色、石化、化工、建材、电力、机械、航空、船舶、轻纺、电子等重点行业，大力推动生产设备、用能设备、发输配电设备等更新和技术改造。加快推广能效达到先进水平和节能水平的用能设备，分行业分领域实施节能降碳改造。推广应用智能制造设备和软件，加快工业互联网建设和普及应用，培育数字经济赋智赋能新模式。严格落实能耗、排放、安全等强制性标准和设备淘汰目录要求，依法依规淘汰不达标设备。&lt;/p&gt;\n&lt;p&gt;（二）加快建筑和市政基础设施领域设备更新。围绕建设新型城镇化，结合推进城市更新、老旧小区改造，以住宅电梯、供水、供热、供气、污水处理、环卫、城市生命线工程、安防等为重点，分类推进更新改造。加快更新不符合现行产品标准、安全风险高的老旧住宅电梯。推进各地自来水厂及加压调蓄供水设施设备升级改造。有序推进供热计量改造，持续推进供热设施设备更新改造。以外墙保温、门窗、供热装置等为重点，推进存量建筑节能改造。持续实施燃气等老化管道更新改造。加快推进城镇生活污水垃圾处理设施设备补短板、强弱项。推动地下管网、桥梁隧道、窨井盖等城市生命线工程配套物联智能感知设备建设。加快重点公共区域和道路视频监控等安防设备改造。&lt;/p&gt;\n&lt;p&gt;（三）支持交通运输设备和老旧农业机械更新。持续推进城市公交车电动化替代，支持老旧新能源公交车和动力电池更新换代。加快淘汰国三及以下排放标准营运类柴油货车。加强电动、氢能等绿色航空装备产业化能力建设。加快高耗能高排放老旧船舶报废更新，大力支持新能源动力船舶发展，完善新能源动力船舶配套基础设施和标准规范，逐步扩大电动、液化天然气动力、生物柴油动力、绿色甲醇动力等新能源船舶应用范围。持续实施好农业机械报废更新补贴政策，结合农业生产需要和农业机械化发展水平阶段，扎实推进老旧农业机械报废更新，加快农业机械结构调整。&lt;/p&gt;\n&lt;p&gt;（四）提升教育文旅医疗设备水平。**推动符合条件的高校、职业院校（含技工院校）更新置换先进教学及科研技术设备，提升教学科研水平。严格落实学科教学装备配置标准，保质保量配置并及时更新教学仪器设备。**推进索道缆车、游乐设备、演艺设备等文旅设备更新提升。加强优质高效医疗卫生服务体系建设，推进医疗卫生机构装备和信息化设施迭代升级，鼓励具备条件的医疗机构加快医学影像、放射治疗、远程诊疗、手术机器人等医疗装备更新改造。推动医疗机构病房改造提升，补齐病房环境与设施短板。&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;三、实施消费品以旧换新行动&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;（五）开展汽车以旧换新。加大政策支持力度，畅通流通堵点，促进汽车梯次消费、更新消费。组织开展全国汽车以旧换新促销活动，鼓励汽车生产企业、销售企业开展促销活动，并引导行业有序竞争。严格执行机动车强制报废标准规定和车辆安全环保检验标准，依法依规淘汰符合强制报废标准的老旧汽车。因地制宜优化汽车限购措施，推进汽车使用全生命周期管理信息交互系统建设。&lt;/p&gt;\n&lt;p&gt;（六）开展家电产品以旧换新。以提升便利性为核心，畅通家电更新消费链条。支持家电销售企业联合生产企业、回收企业开展以旧换新促销活动，开设线上线下家电以旧换新专区，对以旧家电换购节能家电的消费者给予优惠。鼓励有条件的地方对消费者购买绿色智能家电给予补贴。加快实施家电售后服务提升行动。&lt;/p&gt;\n&lt;p&gt;（七）推动家装消费品换新。通过政府支持、企业让利等多种方式，支持居民开展旧房装修、厨卫等局部改造，持续推进居家适老化改造，积极培育智能家居等新型消费。推动家装样板间进商场、进社区、进平台，鼓励企业打造线上样板间，提供价格实惠的产品和服务，满足多样化消费需求。&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;四、实施回收循环利用行动&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;（八）完善废旧产品设备回收网络。加快“换新+回收”物流体系和新模式发展，支持耐用消费品生产、销售企业建设逆向物流体系或与专业回收企业合作，上门回收废旧消费品。进一步完善再生资源回收网络，支持建设一批集中分拣处理中心。优化报废汽车回收拆解企业布局，推广上门取车服务模式。完善公共机构办公设备回收渠道。支持废旧产品设备线上交易平台发展。&lt;/p&gt;\n&lt;p&gt;（九）支持二手商品流通交易。持续优化二手车交易登记管理，促进便利交易。大力发展二手车出口业务。推动二手电子产品交易规范化，防范泄露及恶意恢复用户信息。推动二手商品交易平台企业建立健全平台内经销企业、用户的评价机制，加强信用记录、违法失信行为等信息共享。支持电子产品生产企业发展二手交易、翻新维修等业务。&lt;/p&gt;\n&lt;p&gt;（十）有序推进再制造和梯次利用。鼓励对具备条件的废旧生产设备实施再制造，再制造产品设备质量特性和安全环保性能应不低于原型新品。推广应用无损检测、增材制造、柔性加工等技术工艺，提升再制造加工水平。深入推进汽车零部件、工程机械、机床等传统设备再制造，探索在风电光伏、航空等新兴领域开展高端装备再制造业务。加快风电光伏、动力电池等产品设备残余寿命评估技术研发，有序推进产品设备及关键部件梯次利用。&lt;/p&gt;\n&lt;p&gt;（十一）推动资源高水平再生利用。推动再生资源加工利用企业集聚化、规模化发展，引导低效产能逐步退出。完善废弃电器电子产品处理支持政策，研究扩大废弃电器电子产品处理制度覆盖范围。支持建设一批废钢铁、废有色金属、废塑料等再生资源精深加工产业集群。积极有序发展以废弃油脂、非粮生物质为主要原料的生物质液体燃料。探索建设符合国际标准的再生塑料、再生金属等再生材料使用情况信息化追溯系统。持续提升废有色金属利用技术水平，加强稀贵金属提取技术研发应用。及时完善退役动力电池、再生材料等进口标准和政策。&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;五、实施标准提升行动&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;（十二）加快完善能耗、排放、技术标准。对标国际先进水平，加快制修订一批能耗限额、产品设备能效强制性国家标准，动态更新重点用能产品设备能效先进水平、节能水平和准入水平，加快提升节能指标和市场准入门槛。加快乘用车、重型商用车能量消耗量值相关限制标准升级。加快完善重点行业排放标准，优化提升大气、水污染物等排放控制水平。修订完善清洁生产评价指标体系，制修订重点行业企业碳排放核算标准。完善风力发电机、光伏设备及产品升级与退役等标准。&lt;/p&gt;\n&lt;p&gt;（十三）强化产品技术标准提升。聚焦汽车、家电、家居产品、消费电子、民用无人机等大宗消费品，加快安全、健康、性能、环保、检测等标准升级。加快完善家电产品质量安全标准体系，大力普及家电安全使用年限和节能知识。加快升级消费品质量标准，制定消费品质量安全监管目录，严格质量安全监管。完善碳标签等标准体系，充分发挥标准引领、绿色认证、高端认证等作用。&lt;/p&gt;\n&lt;p&gt;（十四）加强资源循环利用标准供给。完善材料和零部件易回收、易拆解、易再生、再制造等绿色设计标准。制修订废弃电器电子产品回收规范等再生资源回收标准。出台手机、平板电脑等电子产品二手交易中信息清除方法国家标准，引导二手电子产品经销企业建立信息安全管理体系和信息技术服务管理体系，研究制定二手电子产品可用程度分级标准。&lt;/p&gt;\n&lt;p&gt;（十五）强化重点领域国内国际标准衔接。建立完善国际标准一致性跟踪转化机制，开展我国标准与相关国际标准比对分析，转化一批先进适用国际标准，不断提高国际标准转化率。支持国内机构积极参与国际标准制修订，支持新能源汽车等重点行业标准走出去。加强质量标准、检验检疫、认证认可等国内国际衔接。&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;六、强化政策保障&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;（十六）加大财政政策支持力度。把符合条件的设备更新、循环利用项目纳入中央预算内投资等资金支持范围。坚持中央财政和地方政府联动支持消费品以旧换新，通过中央财政安排的节能减排补助资金支持符合条件的汽车以旧换新；鼓励有条件的地方统筹使用中央财政安排的现代商贸流通体系相关资金等，支持家电等领域耐用消费品以旧换新。持续实施好老旧营运车船更新补贴，支持老旧船舶、柴油货车等更新。鼓励有条件的地方统筹利用中央财政安排的城市交通发展奖励资金，支持新能源公交车及电池更新。用好用足农业机械报废更新补贴政策。中央财政设立专项资金，支持废弃电器电子产品回收处理工作。进一步完善政府绿色采购政策，加大绿色产品采购力度。严肃财经纪律，强化财政资金全过程、全链条、全方位监管，提高财政资金使用的有效性和精准性。&lt;/p&gt;\n&lt;p&gt;（十七）完善税收支持政策。加大对节能节水、环境保护、安全生产专用设备税收优惠支持力度，把数字化智能化改造纳入优惠范围。推广资源回收企业向自然人报废产品出售者“反向开票”做法。配合再生资源回收企业增值税简易征收政策，研究完善所得税征管配套措施，优化税收征管标准和方式。&lt;/p&gt;\n&lt;p&gt;（十八）优化金融支持。运用再贷款政策工具，引导金融机构加强对设备更新和技术改造的支持；中央财政对符合再贷款报销条件的银行贷款给予一定贴息支持。发挥扩大制造业中长期贷款投放工作机制作用。引导银行机构合理增加绿色信贷，加强对绿色智能家电生产、服务和消费的金融支持。鼓励银行机构在依法合规、风险可控前提下，适当降低乘用车贷款首付比例，合理确定汽车贷款期限、信贷额度。&lt;/p&gt;\n&lt;p&gt;（十九）加强要素保障。加强企业技术改造项目用地、用能等要素保障。对不新增用地、以设备更新为主的技术改造项目，简化前期审批手续。统筹区域内生活垃圾分类收集、中转贮存及再生资源回收设施建设，将其纳入公共基础设施用地范围，保障合理用地需求。&lt;/p&gt;\n&lt;p&gt;（二十）强化创新支撑。聚焦长期困扰传统产业转型升级的产业基础、重大技术装备“卡脖子”难题，积极开展重大技术装备科技攻关。完善“揭榜挂帅”、“赛马”和创新产品迭代等机制，强化制造业中试能力支撑，加快创新成果产业化应用。&lt;/p&gt;\n&lt;p&gt;各地区、各部门要在党中央集中统一领导下，完善工作机制，加强统筹协调，做好政策解读，营造推动大规模设备更新和消费品以旧换新的良好社会氛围。国家发展改革委要会同有关部门建立工作专班，加强协同配合，强化央地联动。各有关部门要按照职责分工制定具体方案和配套政策，落实部门责任，加强跟踪分析，推动各项任务落实落细。重大事项及时按程序请示报告。&lt;/p&gt;\n&#34;,&#34;fileName&#34;:&#34;mwpxsBy3Z&#34;,&#34;abstract&#34;:&#34;&#34;,&#34;title&#34;:&#34;高校、职业院校教育设备更新 | 国务院关于印发《推动大规模设备更新和  消费品以旧换新行动方案》的通知&#34;,&#34;tags&#34;:[{&#34;name&#34;:&#34;教育设备&#34;,&#34;slug&#34;:&#34;sCsFyjUrZ&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://wegrowth.github.io/sCsFyjUrZ/&#34;},{&#34;name&#34;:&#34;高等学校&#34;,&#34;slug&#34;:&#34;wFWPaSloQG&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://wegrowth.github.io/wFWPaSloQG/&#34;},{&#34;name&#34;:&#34;职业院校&#34;,&#34;slug&#34;:&#34;7lAmJ3KAMj&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://wegrowth.github.io/7lAmJ3KAMj/&#34;},{&#34;name&#34;:&#34;仪器设备&#34;,&#34;slug&#34;:&#34;yBrS4H2g9&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://wegrowth.github.io/yBrS4H2g9/&#34;}],&#34;date&#34;:&#34;2024-03-15 12:02:29&#34;,&#34;dateFormat&#34;:&#34;2024-03-15&#34;,&#34;feature&#34;:&#34;&#34;,&#34;link&#34;:&#34;https://wegrowth.github.io/mwpxsBy3Z/&#34;,&#34;hideInList&#34;:false,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;15 min read&#34;,&#34;time&#34;:895000,&#34;words&#34;:4470,&#34;minutes&#34;:15},&#34;description&#34;:&#34;国务院关于印发《推动大规模设备更新和消费品以旧换新行动方案》的通知\n国发〔2024〕7号\n各省、自治区、直辖市人民政府，国务院各部委、各直属机构：\n现将《推动大规模设备更新和消费品以旧换新行动方案》印发给你们，请认真贯彻执行。\n国务院\n20...&#34;,&#34;toc&#34;:&#34;&#34;},{&#34;content&#34;:&#34;&lt;p&gt;&lt;strong&gt;上海市生态环境监测弄虚作假行为调查处理办法&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;第一条（目的和依据）&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;为规范对本市生态环境监测活动中弄虚作假行为的调查处理，加强生态环境监测数据质量监督管理，依据《中华人民共和国环境保护法》《中华人民共和国大气污染防治法》《中华人民共和国水污染防治法》《中华人民共和国噪声污染防治法》《排污许可管理条例》《上海市环境保护条例》等法律法规和《上海市深化环境监测改革提高环境监测数据质量实施方案》等有关规定，结合本市实际，制定本办法。&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;第二条（定义）&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;本办法所称生态环境监测，是指依照法律法规和标准规范，对环境质量、生态质量、污染物排放状况及其变化趋势的采样观测、分析测试、综合评价等活动。&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;第三条（适用范围）&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;本办法适用于对本市企业事业单位、其他生产经营者（以下简称“排污单位”）和市区两级生态环境部门下属环境监测机构、社会环境监测机构、环境监测设备运营维护机构（以下简称“生态环境监测机构”）等有关生态环境监测弄虚作假行为的调查处理。&lt;/p&gt;\n&lt;p&gt;对党政领导干部和国家机关工作人员有关生态环境监测弄虚作假行为的调查处理，按照国家和本市有关规定执行。&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;第四条（职责分工）&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;市生态环境局负责本市范围内生态环境监测弄虚作假行为调查处理的监督、协调和指导；各区生态环境局、中国（上海）自由贸易试验区管理委员会保税区管理局和中国（上海）自由贸易试验区临港新片区管理委员会负责辖区职责范围内生态环境监测的监督管理；市区两级生态环境执法机构负责辖区职责范围内生态环境监测弄虚作假行为的调查处理；相关技术机构为生态环境监测弄虚作假行为的监督管理和调查处理提供技术支持。&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;第五条（责任义务）&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;排污单位委托生态环境监测机构开展手工监测和自动监测设备运维的，应当对生态环境监测机构的资质和能力进行核实，依法签订服务合同，约定参数项目、周期频次、样品获取方式、监测依据、报告形式、分包信息、权利义务、计费方式以及违约责任等内容；对生态环境监测机构的现场监测活动进行监督，如实完整记录监测时间、点位布设、生产工况、样品保存等信息，并在相关原始监测记录上签字确认。&lt;/p&gt;\n&lt;p&gt;生态环境监测机构应当依照有关生态环境监测标准规范和服务合同履行监测要求，如实将监测实施情况告知排污单位，并向排污单位提供原始监测记录和监测报告。&lt;/p&gt;\n&lt;p&gt;排污单位和生态环境监测机构开展生态环境监测，应当妥善保存原始记录，保证各类台账真实完整，并依法公开相关监测数据和信息。&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;第六条（基本原则）&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;对生态环境监测弄虚作假行为的调查和处理，应当坚持依法依规、实事求是、客观公正的原则。&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;第七条（生态环境监测机构弄虚作假行为）&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;生态环境监测机构存在下列篡改、伪造生态环境监测数据的行为，认定为弄虚作假：&lt;/p&gt;\n&lt;p&gt;（一）未开展采样、分析，直接出具监测数据，或者到现场采样但未开设烟道采样口，出具监测数据的；&lt;/p&gt;\n&lt;p&gt;（二）更换、隐匿、遗弃监测样品，通过擅自变更采样点位、时间等方式改变监测样品的污染物浓度、组成、状态等性质，干扰采样环境或者采样活动的；&lt;/p&gt;\n&lt;p&gt;（三）故意漏检监测项目，改变监测条件，不正常运行或者破坏监测设备及辅助设备，不正当修改监测仪器及设备参数的；&lt;/p&gt;\n&lt;p&gt;（四）篡改、伪造手工监测记录、自动监测设备运行维护记录的；&lt;/p&gt;\n&lt;p&gt;（五）篡改、伪造和生态环境监测有关的生产记录、污染治理设施运行记录的；&lt;/p&gt;\n&lt;p&gt;（六）其他涉嫌篡改、伪造生态环境监测数据的情形。&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;第八条（排污单位弄虚作假行为）&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;排污单位存在下列篡改、伪造生态环境监测数据的行为，认定为弄虚作假：&lt;/p&gt;\n&lt;p&gt;（一）委托生态环境监测服务机构开展监测时，生态环境监测服务机构存在第七条所列行为，但排污单位未按要求对生态环境监测服务机构的监测时间、点位布设、生产工况、样品保存等现场监测活动进行监督并记录的；&lt;/p&gt;\n&lt;p&gt;（二）自主开展监测时，存在第七条所列行为的；&lt;/p&gt;\n&lt;p&gt;（三）强令、授意生态环境监测服务机构篡改、伪造监测数据或者在未作整改的前提下，进行多家或多次监测委托，挑选监测报告的；&lt;/p&gt;\n&lt;p&gt;（四）提供与事实情况不相符的陈述、证明材料等行为；&lt;/p&gt;\n&lt;p&gt;（五）使用失实或虚假监测报告作为监测数据信息公开依据的；&lt;/p&gt;\n&lt;p&gt;（六）其他涉嫌篡改、伪造生态环境监测数据的情形。&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;第九条（监督检查）&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;市区两级生态环境部门组织生态环境执法机构和相关技术机构实施生态环境监测领域的日常监督管理检查、监督执法检查、专项检查和部门联合检查等计划性检查活动。&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;第十条（审查立案）&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;负有查处职责的生态环境执法机构负责对监督检查中发现涉嫌存在生态环境监测弄虚作假行为，或从投诉举报、媒体曝光、上级部门转办交办、其他部门移送等途径获取相关弄虚作假线索进行审查立案。生态环境监测弄虚作假案件的管辖、立案和调查 取证等应按照《中华人民共和国行政处罚法》和《生态环境行政处罚办法》的有关规定实施。&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;第十一条 （处理处罚）&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;根据调查结果，由市区两级生态环境部门依据相关法律法规对排污单位、生态环境监测机构予以处理。其他法律法规另有规定的，从其规定。&lt;/p&gt;\n&lt;p&gt;（一）生态环境监测机构存在本办法第七条行为的，依据《上海市环境保护条例》第九十八条在有关环境服务活动中弄虚作假等法律、法规有关规定予以处罚。&lt;/p&gt;\n&lt;p&gt;（二）排污单位存在本办法第八条第（一）项行为的，依据《上海市环境保护条例》第八十二条台账弄虚作假等法律、法规有关规定予以处罚。&lt;/p&gt;\n&lt;p&gt;（三）排污单位存在本办法第八条第（二）、（三）、（四）项行为的，依据《中华人民共和国大气污染防治法》第九十九条第三项、《中华人民共和国水污染防治法》第八十三条第三项、《排污许可管理条例》第三十四条第二项逃避监管排放污染物等法律、法规有关规定予以处罚。&lt;/p&gt;\n&lt;p&gt;（四）排污单位存在本办法第八条第（五）项行为的，依据《排污许可管理条例》第三十六条第七项不如实公开污染物排放信息予以处罚。&lt;/p&gt;\n&lt;p&gt;（五）生态环境监测弄虚作假行为造成环境损害或者生态破坏的，应当承担相应的生态环境损害赔偿责任。&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;第十二条 （通报移送）&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;市区两级生态环境部门在查处生态环境监测弄虚作假案件中，发现涉及其他相关部门职责的，应当依法向相关部门通报或移送。其中，对于生态环境监测机构弄虚作假行为涉嫌同时违反资质认定管理相关规定的，应当向有关市场监督管理部门通报或移送；对于外省市生态环境监测机构涉嫌弄虚作假的，还应当向机构注册地所属省级生态环境部门通报或移送。&lt;/p&gt;\n&lt;p&gt;市区两级生态环境部门查实的环境监测弄虚作假案件，依法应当拘留的，除按照有关法律法规进行处罚外，还应当依法移送公安机关予以拘留；涉嫌环境犯罪的，及时移送公安机关追究刑事责任。&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;第十三条 （信息公开）&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;市区两级生态环境部门应当按照有关规定，将排污单位、生态环境监测机构有关生态环境监测弄虚作假行政处罚信息、信用监管和信用评价等信息纳入上海市公共信用信息服务平台，向社会公开。&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;第十四条 （社会监督）&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;任何单位和个人发现生态环境监测弄虚作假行为，可通过信函、传真、电子邮件、12345市民服务热线或“上海环境”网站等渠道向市或区生态环境部门举报。生态环境部门应当严格为举报单位或个人保密，并对举报内容进行调查核实。针对实名举报并经查实的案件，按照《上海市生态环境违法行为举报奖励办法》的有关规定可给予举报人奖励。&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;第十五条（解释权）&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;本办法由上海市生态环境局负责解释。&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;第十六条（施行日期）&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;本办法自2024年2月1日起施行，有效期至2029年 1月31日。&lt;/p&gt;\n&#34;,&#34;fileName&#34;:&#34;D8QcrbxH5&#34;,&#34;abstract&#34;:&#34;&#34;,&#34;title&#34;:&#34;法规动态｜上海市生态环境监测弄虚作假行为调查处理办法&#34;,&#34;tags&#34;:[{&#34;name&#34;:&#34;环境监测&#34;,&#34;slug&#34;:&#34;BcvhrXKpB&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://wegrowth.github.io/BcvhrXKpB/&#34;}],&#34;date&#34;:&#34;2024-02-20 18:00:00&#34;,&#34;dateFormat&#34;:&#34;2024-02-20&#34;,&#34;feature&#34;:&#34;https://wegrowth.github.io/post-images/D8QcrbxH5.png&#34;,&#34;link&#34;:&#34;https://wegrowth.github.io/D8QcrbxH5/&#34;,&#34;hideInList&#34;:false,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;9 min read&#34;,&#34;time&#34;:522000,&#34;words&#34;:2610,&#34;minutes&#34;:9},&#34;description&#34;:&#34;上海市生态环境监测弄虚作假行为调查处理办法\n第一条（目的和依据）\n为规范对本市生态环境监测活动中弄虚作假行为的调查处理，加强生态环境监测数据质量监督管理，依据《中华人民共和国环境保护法》《中华人民共和国大气污染防治法》《中华人民共和国水污染...&#34;,&#34;toc&#34;:&#34;&#34;},{&#34;content&#34;:&#34;&lt;figure data-type=\&#34;image\&#34; tabindex=\&#34;1\&#34;&gt;&lt;img src=\&#34;https://wegrowth.github.io/post-images/1697626059843.png\&#34; alt=\&#34;关于印发《＜检验检测机构资质认定评审准则＞条文释义》的函\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/figure&gt;\n&lt;p&gt;国家市场监督管理总局司局函&lt;/p&gt;\n&lt;p&gt;市监检测（司）函〔2023〕37号 关于印发《＜检验检测机构资质认定评审准则＞条文释义》的函&lt;br&gt;\n各省、自治区、直辖市和新疆生产建设兵团市场监管局（厅、委） 检验检测监督管理职能处室：&lt;br&gt;\n新版《检验检测机构资质认定评审准则》（以下简称《准则》） 将于2023年12月1日起正式实施。为进一步推动《准则》的贯彻落实，我们组织编写了《＜检验检测机构资质认定评审准则＞ 条文释义》，现予印发，请遵照执行。&lt;br&gt;\n执行中有何问题，请及时反馈我司。&lt;br&gt;\n市场监管总局认可检测司&lt;br&gt;\n2023年10月16日&lt;/p&gt;\n&lt;h1 id=\&#34;检验检测机构资质认定评审准则条文释义\&#34;&gt;《检验检测机构资质认定评审准则》条文释义&lt;/h1&gt;\n&lt;h2 id=\&#34;第一章-总则\&#34;&gt;第一章 总则&lt;/h2&gt;\n&lt;h3 id=\&#34;第一条-依照中华人民共和国计量法及其实施细则-中华人民共和国认-证认可条例等法律-行政法规的规定为依法实施检验检测机构资质认定管理-办法相关资质认定技术评审要求制定本准则\&#34;&gt;第一条 依照《中华人民共和国计量法》及其实施细则、《中华人民共和国认 证认可条例》等法律、行政法规的规定，为依法实施《检验检测机构资质认定管理 办法》相关资质认定技术评审要求，制定本准则。&lt;/h3&gt;\n&lt;p&gt;【条文释义】&lt;br&gt;\n本条是《检验检测机构资质认定评审准则》（以下简称《准则》）制定的目的和依据。《准则》是市场监管总局制定的行政规范性文件。&lt;br&gt;\n《法律、行政法规、国务院决定设定的行政许可事项清单（2023年版）》 已于2023年3月16日发布。其中，检验检测机构资质认定行政许可的设 定和实施依据已调整为：《中华人民共和国计量法》《中华人民共和国产 品质量法》《中华人民共和国食品安全法》《中华人民共和国计量法实施 细则》《中华人民共和国认证认可条例》《医疗器械监督管理条例》，具体条款如下：&lt;br&gt;\n1．《中华人民共和国计量法》第二十二条：为社会提供公证数据的产 品质量检验机构，必须经省级以上人民政府计量行政部门对其计量检定、 测试的能力和可靠性考核合格。&lt;br&gt;\n2．《中华人民共和国产品质量法》第十九条：产品质量检验机构必须 具备相应的检测条件和能力，经省级以上人民政府市场监督管理部门或者 其授权的部门考核合格后，方可承担产品质量检验工作。法律、行政法规 对产品质量检验机构另有规定的，依照有关法律、行政法规的规定执行。&lt;br&gt;\n3．《中华人民共和国食品安全法》第八十四条：食品检验机构按照国 家有关认证认可的规定取得资质认定后，方可从事食品检验活动。但是， 法律另有规定的除外。&lt;br&gt;\n4．《中华人民共和国计量法实施细则》第二十九条：为社会提供公证 数据的产品质量检验机构，必须经省级以上人民政府计量行政部门计量认证。&lt;br&gt;\n第三十条：产品质量检验机构计量认证的内容：（一）计量检定、测 试设备的性能；（二）计量检定、测试设备的工作环境和人员的操作技能； （三）保证量值统一、准确的措施及检测数据公正可靠的管理制度。&lt;br&gt;\n第三十一条：产品质量检验机构提出计量认证申请后，省级以上人民 政府计量行政部门应指定所属的计量检定机构或者被授权的技术机构按 照本细则第三十条规定的内容进行考核。考核合格后，由接受申请的省级 以上人民政府计量行政部门发给计量认证合格证书。产品质量检验机构自 愿签署告知承诺书并按要求提交材料的，按照告知承诺相关程序办理。未 取得计量认证合格证书的，不得开展产品质量检验工作。&lt;br&gt;\n5．《中华人民共和国认证认可条例》第十五条：向社会出具具有证明 作用的数据和结果的检查机构、实验室，应当具备有关法律、行政法规规 定的基本条件和能力，并依法经认定后，方可从事相应活动，认定结果由 国务院认证认可监督管理部门公布。&lt;br&gt;\n6．《医疗器械监督管理条例》第七十五条：医疗器械检验机构资质认 定工作按照国家有关规定实行统一管理。经国务院认证认可监督管理部门 会同国务院药品监督管理部门认定的检验机构，方可对医疗器械实施检验。&lt;br&gt;\n此外，一些特别法也将资质认定／计量认证作为特殊领域检验检测机 构准入条件。依据《全国人民代表大会常务委员会关于司法鉴定管理问题 的决定》和《关于深化环境监测改革提高环境监测数据质量的意见》，开展司法鉴定机构检测实验室、环境监测机构的资质认定。&lt;/p&gt;\n&lt;h3 id=\&#34;第二条-在中华人民共和国境内开展检验检测机构资质认定技术评审含告知承诺核查下同工作应当遵守本准则\&#34;&gt;第二条 在中华人民共和国境内开展检验检测机构资质认定技术评审（含告知承诺核查，下同）工作，应当遵守本准则。&lt;/h3&gt;\n&lt;p&gt;【条文释义】&lt;br&gt;\n本条规定了《准则》的适用范围。&lt;br&gt;\n明确资质认定技术评审（含告知承诺核查）应当遵照本《准则》实施。 《检验检测机构资质认定管理办法》（以下简称《管理办法》）要求资质 认定部门自受理申请之日起，应当在30个工作日内，依据检验检测机构 资质认定基本规范和评审准则的要求，完成对申请人的技术评审。&lt;br&gt;\n《国务院关于深化“证照分离”改革进一步激发市场主体发展活力的 通知》（国发〔2021〕7号）要求“对通过告知承诺取得许可的企业，有 关主管部门要加强事中事后监管，确有必要的可以开展全覆盖核查。”为 了有效降低检验检测机构资质认定管理风险，对于通过告知承诺程序取得 资质认定的检验检测机构，市场监管部门依据《检验检测机构资质认定告 知承诺实施办法（试行）》开展核查。告知承诺核查内容是检验检测机构 的承诺真实性，属于技术评审范畴，应遵守《准则》的相关规定。&lt;/p&gt;\n&lt;h3 id=\&#34;第三条-本准则所称检验检测机构是指依照检验检测机构资质认定管理办-法的相关规定依法成立依据相关标准或者技术规范利用仪器设备-环境设施等技术条件和专业技能对产品或者法律法规规定的特定对象进行检验检测的专-业技术组织\&#34;&gt;第三条 本准则所称检验检测机构，是指依照《检验检测机构资质认定管理办 法》的相关规定，依法成立，依据相关标准或者技术规范，利用仪器设备、环境设施等技术条件和专业技能，对产品或者法律法规规定的特定对象进行检验检测的专 业技术组织。&lt;/h3&gt;\n&lt;h3 id=\&#34;本准则所称资质认定是指依照检验检测机构资质认定管理办法的相关规-定由市场监督管理部门依照法律-行政法规规定对向社会出具具有证明作用的-数据-结果的检验检测机构的基本条件和技术能力是否符合法定要求实施的评价许\&#34;&gt;本准则所称资质认定，是指依照《检验检测机构资质认定管理办法》的相关规 定，由市场监督管理部门依照法律、行政法规规定，对向社会出具具有证明作用的 数据、结果的检验检测机构的基本条件和技术能力是否符合法定要求实施的评价许 。&lt;/h3&gt;\n&lt;h3 id=\&#34;本准则所称资质认定技术评审是指依照检验检测机构资质认定管理办法-的相关规定由市场监管总局或者省级市场监督管理部门以下统称资质认定部门-自行或者委托专业技术评价机构组织相关专业评审人员对检验检测机构申请的资-质认定事项是否符合资质认定条件以及相关要求所进行的技术性审查\&#34;&gt;本准则所称资质认定技术评审，是指依照《检验检测机构资质认定管理办法》 的相关规定，由市场监管总局或者省级市场监督管理部门（以下统称资质认定部门） 自行或者委托专业技术评价机构组织相关专业评审人员，对检验检测机构申请的资 质认定事项是否符合资质认定条件以及相关要求所进行的技术性审查。&lt;/h3&gt;\n&lt;p&gt;【条文释义】&lt;br&gt;\n本条是关于检验检测机构、资质认定、资质认定技术评审的定义，分 别对应《管理办法》第二条第一款、第二款和第二十四条。&lt;/p&gt;\n&lt;h3 id=\&#34;第四条-针对不同行业或者领域的特殊性市场监管总局-国务院有关主管部-门依照有关法律法规的规定制定和发布相关技术评审补充要求评审补充要求-与本准则一并作为技术评审依据\&#34;&gt;第四条 针对不同行业或者领域的特殊性，市场监管总局、国务院有关主管部 门，依照有关法律法规的规定，制定和发布相关技术评审补充要求，评审补充要求 与本准则一并作为技术评审依据。&lt;/h3&gt;\n&lt;p&gt;【条文释义】&lt;br&gt;\n本条是对特殊行业和领域的检验检测机构技术评审补充要求使用的规定。&lt;br&gt;\n1．市场监管总局和国务院有关主管部门，依照有关法律、行政法规的 规定，以文件形式制定发布机动车检验、食品检验、医疗器械检验、环境 监测、刑事技术、人防工程防护设备检测、进出口商品检验等不同领域资质认定条件或技术评审补充要求。具体参照：《机动车检验机构资质认定评审补充技术要求》（市监检测函〔2022〕 111号）、《食品检验机构资质认定条件》（食药监科〔2016〕106号）、 《医疗器械检验机构资质认定条件》（食药监科〔2015〕249号）、《检验 检测机构资质认定生态环境监测机构评审补充要求》（国市监检测〔2018〕 245号）、《人防工程防护设备检测机构专项要求》（国人防〔2017〕271 号）、《检验检测机构资质认定刑事技术机构评审补充要求》（国认实〔2016〕 71号）、《进出口商品检验机构资质认定准入特别条件》（国市监检测规 〔2022〕1号）。&lt;br&gt;\n2．对于从事上述领域检验检测活动的机构，在主体、人员、场所环境、 设备设施和管理体系等方面，除满足本《准则》的要求外，还应满足相应的补充要求。&lt;/p&gt;\n&lt;h3 id=\&#34;第五条-依照检验检测机构资质认定管理办法检验检测机构资质认定告-知承诺实施办法试行的相关规定对于采用告知承诺程序实施资质认定的-对检验检测机构承诺内容是否属实进行现场核查的内容与程序应当符合本准则的相关规定\&#34;&gt;第五条 依照《检验检测机构资质认定管理办法》《检验检测机构资质认定告 知承诺实施办法（试行）》的相关规定，对于采用告知承诺程序实施资质认定的， 对检验检测机构承诺内容是否属实进行现场核查的内容与程序，应当符合本准则的相关规定。&lt;/h3&gt;\n&lt;p&gt;【条文释义】&lt;br&gt;\n本条是关于告知承诺现场核查的规定。&lt;br&gt;\n对于采用告知承诺程序实施资质认定的，应依据本《准则》开展告知 承诺现场核查，现场核查的内容应符合本《准则》第二章的要求，现场核 查的程序应符合本《准则》第三章的要求。&lt;/p&gt;\n&lt;h3 id=\&#34;第六条-资质认定技术评审工作应当坚持统一规范-客观公正-科学准确-公-平公开-便利高效的原则\&#34;&gt;第六条 资质认定技术评审工作应当坚持统一规范、客观公正、科学准确、公 平公开、便利高效的原则。&lt;/h3&gt;\n&lt;p&gt;【条文释义】&lt;br&gt;\n本条是资质认定技术评审工作的原则。&lt;br&gt;\n《管理办法》第七条规定：检验检测机构资质认定工作应当遵循统一规 范、客观公正、科学准确、公平公开、便利高效的原则。&lt;/p&gt;\n&lt;h2 id=\&#34;第二章-评审内容与要求\&#34;&gt;第二章 评审内容与要求&lt;/h2&gt;\n&lt;h3 id=\&#34;第七条-资质认定技术评审内容包括对检验检测机构主体-人员-场所环境-设备设施和管理体系等方面是否符合资质认定要求的审查\&#34;&gt;第七条 资质认定技术评审内容包括：对检验检测机构主体、人员、场所环境、 设备设施和管理体系等方面是否符合资质认定要求的审查。&lt;/h3&gt;\n&lt;p&gt;【条文释义】&lt;br&gt;\n本条是对资质认定技术评审内容的规定。&lt;br&gt;\n《管理办法》第九条规定，申请资质认定的检验检测机构应当符合以下 条件：依法成立并能够承担相应法律责任的法人或者其他组织；具有与其 从事检验检测活动相适应的检验检测技术人员和管理人员；具有固定的工 作场所，工作环境满足检验检测要求；具备从事检验检测活动所必需的检 验检测设备设施；具有并有效运行保证其检验检测活动独立、公正、科学、 诚信的管理体系；符合有关法律法规或者标准、技术规范规定的特殊要求。 资质认定技术评审内容是对资质认定许可条件的细化，未增加检验检测机 构的要求和义务。&lt;/p&gt;\n&lt;h3 id=\&#34;第八条-检验检测机构应当是依法成立并能够承担相应法律责任的法人或者其他组织\&#34;&gt;第八条 检验检测机构应当是依法成立并能够承担相应法律责任的法人或者其他组织。&lt;/h3&gt;\n&lt;p&gt;【条文释义】&lt;br&gt;\n本条是对检验检测机构的法律地位和法律责任的规定。&lt;/p&gt;\n&lt;p&gt;（一）检验检测机构或者其所在的组织应当有明确的法律地位，对其出具的检验检测数据、结果负责，并承担法律责任。不具备独立法人资格的检验检测机构应经所在法人单位授权。&lt;br&gt;\n【条文释义】&lt;br&gt;\n1．依法设立的法人包括机关法人、事业单位法人、企业法人和民政部门登记的民办非企业法人，其他组织包括经核准登记的企业法人分支机构、 特殊普通合伙企业。&lt;br&gt;\n法人或者其他组织应具有有效的登记、注册文件，其登记、注册文件中的经营范围（业务范围）应包含检验检测服务或相关内容，不得有影响 其检验检测活动公正性的经营项目，如生产、销售等。&lt;br&gt;\n生产企业出资设立，具有独立法人资格的检验检测机构可以申请检验 检测机构资质认定。&lt;br&gt;\n2．检验检测机构作为检验检测活动的责任主体，应对其出具的检验检 测数据、结果负责，并承担相应法律责任。&lt;br&gt;\n不具备独立法人资格的检验检测机构，应当取得其所在法人机构授权， 明确责任义务。法定代表人不担任检验检测机构最高管理者的，法定代表 人应对最高管理者进行授权。&lt;/p&gt;\n&lt;p&gt;（二）检验检测机构应当以公开方式对其遵守法定要求、独立公正从业、履行社 会责任、严守诚实信用等情况进行自我承诺。&lt;br&gt;\n【条文释义】&lt;br&gt;\n本条是对检验检测机构以公开方式进行自我承诺的规定。&lt;br&gt;\n1．自我承诺的内容包括遵守法定要求、独立公正从业、履行社会责任、 严守诚实信用等。&lt;br&gt;\n2．检验检测机构的自我承诺应在其官方网站、办公场所、公众号等公 示。&lt;/p&gt;\n&lt;p&gt;（三）检验检测机构应当独立于其出具的检验检测数据、结果所涉及的利益相关 方，不受任何可能干扰其技术判断的因素影响，保证检验检测数据、结果公正准确、 可追溯。&lt;br&gt;\n【条文释义】&lt;br&gt;\n本条是对检验检测机构公正性的规定。&lt;br&gt;\n1．检验检测机构及其人员与检验检测委托方、数据和结果使用方或者 其他相关方不存在影响公平公正的关系。&lt;br&gt;\n2．检验检测机构或其所在法人组织还从事检验检测活动以外的工作 时，检验检测机构应当独立运作，并识别、消除与其他部门或岗位可能存 在影响其独立性和公正性的风险。&lt;br&gt;\n3．检验检测机构要保持第三方公正地位，不应参与有损于检验检测独 立性和公正性的活动。&lt;br&gt;\n（四）检验检测机构及其人员应当对其在检验检测活动中所知悉的国家秘密、商业秘密负有保密义务，并制定实施相应的保密措施。&lt;br&gt;\n【条文释义】&lt;br&gt;\n本条是对检验检测机构保密性的规定。&lt;br&gt;\n依据《中华人民共和国保守国家秘密法》的规定，国家秘密是指关系 国家的安全和利益，依照法定程序确定，在一定时间内只限一定范围的人 员知悉的事项。依据《中华人民共和国反不正当竞争法》的规定，商业秘 密，是指不为公众所知悉、具有商业价值并经权利人采取相应保密措施的 技术信息、经营信息等商业信息。&lt;br&gt;\n1．检验检测机构应当按照有关法律、行政法规的规定保护客户秘密和所有权，应制定有关保密制度和措施，并有效实施，以保证客户的利益不 被侵害。&lt;br&gt;\n2．检验检测机构应对进入检验检测现场、设置计算机的安全系统、传输技术信息、保存检验检测记录和形成检验检测报告等环节，采取保密措 施。&lt;br&gt;\n3．除非法律、行政法规有特殊要求，检验检测机构向第三方透露相关信息时，应征得客户同意。&lt;/p&gt;\n&lt;h3 id=\&#34;第九条-检验检测机构应当具有与其从事检验检测活动相适应的检验检测技术人员和管理人员\&#34;&gt;第九条 检验检测机构应当具有与其从事检验检测活动相适应的检验检测技术人员和管理人员。&lt;/h3&gt;\n&lt;p&gt;【条文释义】&lt;br&gt;\n本条是对检验检测机构人员的总体要求。&lt;br&gt;\n（一）检验检测机构与其人员建立劳动关系应当符合《中华人民共和国劳动法》 《中华人民共和国劳动合同法》的有关规定，法律、行政法规对检验检测人员执业资 格或者禁止从业另有规定的，依照其规定。&lt;br&gt;\n【条文释义】&lt;br&gt;\n本条是对检验检测机构人员使用的合法性的规定。&lt;br&gt;\n1．检验检测机构应与其人员建立劳动关系，符合《中华人民共和国劳动法》《中华人民共和国劳动合同法》的有关规定，签订劳动合同。&lt;br&gt;\n2．劳务派遣用工应符合《劳务派遣暂行规定》的要求。&lt;br&gt;\n3．从事特殊行业或领域的检验检测人员应满足相关法律、行政法规对检验检测人员执业资格或者禁止从业的规定。我国已经实施的检测人员职业资格制度有特种设备检验人员、无损检测人员等。《中华人民共和国食品安全法》第一百三十八条第二款规定，违反本法规定，受到开除处分的食品检验机构人员，自处分决定作出之日起十年内不得从事食品检验工作； 因食品安全违法行为受到刑事处罚或者因出具虚假检验报告导致发生重大 食品安全事故受到开除处分的食品检验机构人员，终身不得从事食品检验工作。食品检验机构聘用不得从事食品检验工作的人员的，由授予其资质 的主管部门或者机构撤销该食品检验机构的检验资质。&lt;br&gt;\n（二）检验检测机构人员的受教育程度、专业技术背景和工作经历、资质资格、 技术能力应当符合工作需要。&lt;br&gt;\n【条文释义】&lt;br&gt;\n1．检验检测机构应具有为保证管理体系的有效运行、出具正确检验检 测数据和结果所需的技术人员和管理人员，包括最高管理者、技术负责人、 质量负责人、检验检测人员、授权签字人等，并具有相关人员的任职文件 和授权文件。&lt;br&gt;\n2．技术人员和管理人员的结构和数量、受教育程度、理论基础、技术 背景和经历、实际操作能力、职业素养、资质资格等应满足工作类型、工作范围和工作量的需要。&lt;br&gt;\n3．检验检测机构的技术负责人负责检验检测机构的全部技术活动。技 术负责人应具有中级及以上相关专业技术职称或者具有同等能力。同等能 力是指人员的教育背景、工作经历具备以下条件：博士研究生毕业，且从 事相关专业检验检测活动1年及以上；硕士研究生毕业，且从事相关专业 检验检测活动3年及以上；大学本科毕业，且从事相关专业检验检测活动 5年及以上；大学专科毕业，且从事相关专业检验检测活动8年及以上。&lt;br&gt;\n（三）检验检测报告授权签字人应当具有中级及以上相关专业技术职称或者同等 能力，并符合相关技术能力要求。&lt;br&gt;\n【条文释义】&lt;br&gt;\n1．检验检测报告授权签字人是由检验检测机构授权负责批准签发报告 的人员。检验检测机构资质认定对授权签字人的考核旨在要求机构加强对 关键岗位人员管理和能力确认，并符合相关要求。&lt;br&gt;\n2．授权签字人应具备的条件：&lt;br&gt;\n（1）熟悉检验检测机构资质认定相关法律、行政法规的规定，熟悉《准 则》及相关技术文件的要求；&lt;br&gt;\n（2）具备从事相关专业检验检测的工作经历，熟悉所承担签字领域的 检验检测技术、相应标准或者技术规范；&lt;br&gt;\n（3）熟悉检验检测报告审核签发程序，具备对检验检测结果做出评价 的判断能力；&lt;br&gt;\n（4）检验检测机构应正式授权其签发检验检测报告的职责和范围； （5）检验检测机构授权签字人应具有中级及以上相关专业技术职称或者同等能力。同等能力是指人员的教育背景、工作经历具备以下条件：博 士研究生毕业，且从事相关专业检验检测活动1年及以上；硕士研究生毕 业，且从事相关专业检验检测活动3年及以上；大学本科毕业，且从事相 关专业检验检测活动5年及以上；大学专科毕业，且从事相关专业检验检 测活动8年及以上。&lt;/p&gt;\n&lt;h3 id=\&#34;第十条-检验检测机构应当具有固定的工作场所工作环境符合检验检测要求\&#34;&gt;第十条 检验检测机构应当具有固定的工作场所，工作环境符合检验检测要求。&lt;/h3&gt;\n&lt;p&gt;【条文释义】&lt;br&gt;\n本条是对检验检测机构场所和环境的要求。&lt;br&gt;\n检验检测机构应具有满足检验检测所需要的工作场所，依据标准、 技术规范，识别检验检测所需要的环境条件，并对环境条件进行控制。&lt;br&gt;\n（一）检验检测机构具有符合标准或者技术规范要求的检验检测场所，包括固定 的、临时的、可移动的或者多个地点的场所。&lt;br&gt;\n【条文释义】&lt;br&gt;\n1．固定的场所：指不随检验检测任务而变更，且不可移动的检验检测 活动场所。&lt;br&gt;\n2．临时的场所：指检验检测机构根据现场检验检测需要，临时建立的 检验检测活动场所。&lt;br&gt;\n3．可移动的场所：指利用汽车、动车和轮船等装载检验检测设备设施， 可在移动中实施检验检测活动的场所。&lt;br&gt;\n4．多个地点的场所（多场所）：指检验检测机构存在两个及以上不同 地址的检验检测活动场所。&lt;br&gt;\n5．检验检测活动场所性质包括：自有、上级配置、出资方调配或租赁 等。工作场所不管何种性质，检验检测机构对工作场所应具有完全的使用 权，并能提供证明文件。&lt;br&gt;\n如租用、借用场地，租用、借用场地的期限不少于1年。&lt;br&gt;\n（二）检验检测工作环境及安全条件符合检验检测活动要求。&lt;br&gt;\n【条文释义】&lt;br&gt;\n1．当标准或者技术规范对开展检验检测活动的环境条件有要求时，或 者当环境条件影响检验检测结果质量时，检验检测机构应当对环境条件进 行监测、控制和记录，保证其持续符合标准或者技术规范的要求。&lt;br&gt;\n2．在检验检测机构固定场所以外的场所进行采样、检验检测时，应予 以特别关注，必要时，应提出相应的控制要求并记录，以保证环境条件符 合检验检测标准或者技术规范的要求。&lt;br&gt;\n3．当相邻区域的活动或工作，出现不相容或相互影响时，检验检测机 构应对相关区域进行有效隔离，采取措施消除影响，防止干扰或者交叉污 染，以保证环境条件符合检验检测标准或者技术规范的要求。&lt;br&gt;\n4．检验检测机构应当承担安全生产主体责任。当检验检测标准或技术 规范有相关要求时，应符合规定。&lt;/p&gt;\n&lt;h3 id=\&#34;第十一条-检验检测机构应当具备从事检验检测活动所必需的检验检测设备设施\&#34;&gt;第十一条 检验检测机构应当具备从事检验检测活动所必需的检验检测设备设施。&lt;/h3&gt;\n&lt;p&gt;【条文释义】&lt;br&gt;\n本条是对检验检测机构设备设施的规定。检验检测机构应依据检验检测标准或者技术规范配备满足要求的设备设施。&lt;/p&gt;\n&lt;p&gt;（一）检验检测机构应当配备具有独立支配使用权、性能符合工作要求的设备和设施。&lt;br&gt;\n【条文释义】&lt;br&gt;\n1．检验检测机构应配备具有独立支配使用权、满足检验检测活动要求 的设备和设施，包括但不限于测量仪器、软件、测量标准、标准物质、参 考数据、试剂、消耗品或辅助装置。&lt;br&gt;\n2．检验检测机构租用、借用仪器设备开展检验检测时，应确保： （1）有租用、借用合同，租用、借用期限不少于1年。&lt;br&gt;\n（2）对租用、借用的设备具有完全的使用权、支配权。检验检测机构 租用、借用的仪器设备，应由本检验检测机构的人员操作、维护、检定或 校准，具有此方面规定并能够有效实施。&lt;/p&gt;\n&lt;p&gt;（二）检验检测机构应当对检验检测数据、结果的准确性或者有效性有影响的设 备（包括用于测量环境条件等辅助测量设备）实施检定、校准或核查，保证数据、 结果满足计量溯源性要求。&lt;br&gt;\n【条文释义】&lt;br&gt;\n1．检验检测机构应对检验检测数据和结果的准确性或者有效性有影响 的设备（包括参考标准、辅助测量设备等）实施检定、校准或核查，确认 其是否满足检验检测标准或者技术规范的要求。&lt;br&gt;\n2．无法溯源到国家或国际测量标准时，测量结果应溯源至有证标准物 质、公认的或约定的测量方法、标准，或通过机构间比对等途径，证明其测量结果与同类检验检测机构的一致性。当测量结果溯源至公认的或约定 的测量方法、标准时，检验检测机构应提供该方法、标准的来源等相关证 据。&lt;br&gt;\n3．当仪器设备经校准给出一组修正信息（修正值、修正因子等）时， 检验检测机构应确保修正信息在检验检测工作中加以利用、更新和备份。&lt;br&gt;\n4．检验检测机构在设备定期检定或校准后应进行确认，确认其满足检 验检测要求后方可使用。&lt;br&gt;\n5．需要检定、校准或具有规定有效期的设备应使用标签、编码或其他 方式标识，使设备使用人方便地识别溯源状态或有效期。&lt;br&gt;\n6．检验检测机构应对设备的核查、使用、维护、保管、运输等过程进 行规范管理，以确保其功能正常，并防止污染或性能退化。&lt;br&gt;\n7．对检验检测具有重要影响的设备及其软件应有相关记录，并实施动 态管理，及时补充相关的信息。记录至少应包括以下信息：&lt;br&gt;\n（1）设备及其软件的识别；&lt;br&gt;\n（2）制造商名称、型式标识、系列号或其他唯一性标识； （3）核查设备是否符合规范；&lt;br&gt;\n（4）当前位置（适用时）；&lt;br&gt;\n（5）制造商的说明书（如果有），或指明其地点；&lt;br&gt;\n（6）检定、校准报告或证书的日期、结果，设备调整、验收准则和下 次校准的预定日期；&lt;br&gt;\n（7）设备维护计划，及维护记录（适用时）； （8）设备的任何损坏、故障、改装或修理； （9）量值溯源结果确认。&lt;/p&gt;\n&lt;p&gt;（三）检验检测机构如使用标准物质，应当满足计量溯源性要求。&lt;br&gt;\n【条文释义】&lt;br&gt;\n检验检测机构如使用标准物质，应当满足计量溯源性要求。可能时， 应溯源到国际单位制（SI）单位或有证标准物质。&lt;/p&gt;\n&lt;h3 id=\&#34;第十二条-检验检测机构应当建立保证其检验检测活动独立-公正-科学-诚-信的管理体系并确保该管理体系能够得到有效-可控-稳定实施持续符合检验检测机构资质认定条件以及相关要求\&#34;&gt;第十二条 检验检测机构应当建立保证其检验检测活动独立、公正、科学、诚 信的管理体系，并确保该管理体系能够得到有效、可控、稳定实施，持续符合检验检测机构资质认定条件以及相关要求。&lt;/h3&gt;\n&lt;p&gt;【条文释义】&lt;br&gt;\n本条是对检验检测机构管理体系的总体要求。&lt;br&gt;\n检验检测机构的质量管理和技术运作应通过建立健全、持续改进、有 效运行的管理体系来实现。检验检测机构应建立保证其检验检测活动独立、 公正、科学、诚信的管理体系，并确保该管理体系能够有效、可控、稳定 实施，持续符合检验检测机构资质认定条件以及相关要求。首次申请资质认定的检验检测机构，建立和运行管理体系应不少于3个月。&lt;/p&gt;\n&lt;p&gt;（一）检验检测机构应当依据法律法规、标准（包括但不限于国家标准、行业标 准、国际标准）的规定制定完善的管理体系文件，包括政策、制度、计划、程序和作业指导书等。检验检测机构建立的管理体系应当符合自身实际情况并有效运行。&lt;br&gt;\n【条文释义】&lt;br&gt;\n1．检验检测机构可依据相关法律法规、国家标准、行业标准、国际标 准建立管理体系。检验检测机构建立的管理体系应符合自身实际情况，适应自身检验检测活动。&lt;br&gt;\n2．检验检测机构应将其政策、制度、计划、手册、程序和作业指导书 等制定成文件，文件形式包括但不限于质量手册、程序文件、作业指导书及记录表格等。&lt;br&gt;\n3．检验检测机构管理体系形成文件后，应当以适当的方式传达至有关 人员，使其能够“获取、理解、执行”管理体系。&lt;/p&gt;\n&lt;p&gt;（二）检验检测机构应当开展有效的合同审查。对相关要求、标书、合同的偏离、 变更应当征得客户同意并通知相关人员。&lt;br&gt;\n【条文释义】&lt;br&gt;\n本条是关于合同评审的条款。&lt;br&gt;\n1．检验检测机构建立的管理体系应包含对评审客户要求、标书、 合同的偏离、变更做出规定的内容。&lt;br&gt;\n2．检验检测机构应对要求、标书、合同的偏离、变更加以有效控 制，客户要求的偏离、变更不应影响检验检测机构的诚信或结果的有 效性，对相关要求、标书、合同的偏离、变更应当征得客户同意并通 知相关人员。&lt;br&gt;\n3．检验检测机构应对分包和使用判定规则作出相关规定。&lt;/p&gt;\n&lt;p&gt;（三）检验检测机构选择和购买的服务、供应品应当符合检验检测的工作需求。&lt;br&gt;\n【条文释义】&lt;br&gt;\n本条是对外部提供的产品和服务相关规定的条款。&lt;br&gt;\n检验检测机构应对选择和购买的服务和供应品符合检验检测工作需求做出规定并有效实施，确保服务和供应品的质量符合检验检测工作需求。&lt;br&gt;\n此处供应品指机构开展各种检验检测活动所使用的物品，包括但不限 于测量仪器、软件、测量标准、标准物质、参考数据、试剂、消耗品或辅 助装置。&lt;br&gt;\n此处服务指机构开展各种检验检测活动所需的由从外部获得的活动， 包括但不限于校准服务、抽样服务、检测服务、分包服务、设施和设备维 护服务、能力验证服务以及评审和审核服务。&lt;/p&gt;\n&lt;p&gt;（四）检验检测机构能正确使用有效的方法开展检验检测活动。检验检测方法包 括标准方法和非标准方法，应当优先使用标准方法。使用标准方法前应当进行验证； 使用非标准方法前，应当先对方法进行确认，再验证。&lt;br&gt;\n【条文释义】&lt;br&gt;\n1．检验检测机构应使用有效的方法进行检验检测。检验检测机构应对 检验检测方法定期查新并保留查新记录，确保所用方法正确有效。&lt;br&gt;\n2．可申请资质认定的标准和非标方法包括： （1）国家标准、行业标准、地方标准；&lt;br&gt;\n（2）国际标准化组织（ISO）、国际电工委员会（IEC）、国际电信联 盟（ITU）发布的国际标准以及国际标准化组织确认并公布的其他国际组织 制定的标准；&lt;br&gt;\n（3）国务院有关部门认可采用的国外标准；&lt;br&gt;\n（4）国务院有关部门和省政府有关部门以文件、技术规范等形式发布 和指定的检验检测方法；&lt;br&gt;\n（5）具有自主创新技术、具备竞争优势的团体标准（参见《国家认监委关于推进检验检测机构资质认定统一实施的通知》〔国认实（2018）12 号〕）；&lt;br&gt;\n（6）国务院有关部门和省政府有关部门指定已废止的标准或方法用于监督检查等特定工作的，以指定的标准或方法为依据申请的项目参数仅能 用于该特定工作；&lt;br&gt;\n（7）法律、行政法规、规章对新标准或方法实施另有规定的，从其规 定。&lt;br&gt;\n3．检验检测机构在初次使用标准方法前，应验证能够正确地运用这些 标准方法，如果标准方法发生了变更，应重新予以验证，并提供相关证明 材料。检验检测机构在使用非标准方法前，应先对方法进行确认再验证， 以确保该方法适用于预期的用途，并提供相关证明材料。如果方法发生了 变化，应重新予以确认，并提供相关证明材料。&lt;br&gt;\n验证是指提供客观证据，证明给定项目满足规定要求；确认是对规定要求满足预期用途的验证。&lt;br&gt;\n4．如果标准、技术规范、方法不能被操作人员直接使用，或其内容不便于理解，规定不够简明或缺少足够的信息，或方法中有可选择的步骤， 或在方法运用时造成因人而异，可能影响检验检测数据和结果正确性时， 应制定作业指导书，包括但不限于设备操作规程、样品的制备程序、补充 的检验检测细则。&lt;/p&gt;\n&lt;p&gt;（五）当检验检测标准、技术规范或者声明与规定要求的符合性有测量不确定度 要求时，检验检测机构应当报告测量不确定度。&lt;br&gt;\n【条文释义】&lt;br&gt;\n1．检验检测机构应对报告检验检测结果测量不确定度作出规定。&lt;br&gt;\n2．当检验检测标准、技术规范或者声明与规定要求的符合性有测量 不确定度要求时，检验检测报告中还需包含测量不确定度的信息，并保留记录。&lt;/p&gt;\n&lt;p&gt;（六）检验检测机构出具的检验检测报告应当客观真实、方法有效、数据完整、 信息齐全、结论明确、表述清晰并使用法定计量单位。&lt;br&gt;\n【条文释义】&lt;br&gt;\n1．检验检测机构应准确、清晰、明确和客观地以书面或电子方式出具 检验检测报告。检验检测报告应当客观真实、方法有效、数据完整、信 息齐全、结论明确、表述清晰并使用法定计量单位。&lt;br&gt;\n2．检验检测机构在资质认定范围内出具的报告内容包括但不限于以 下信息：&lt;br&gt;\n（1）标题；&lt;br&gt;\n（2）资质认定标志，检验检测机构公章或者检验检测专用章； （3）检验检测机构的名称和地址；&lt;br&gt;\n（4）检验检测活动的地点（包括客户设施、检验检测机构固定设施 以外的场所、相关的临时或移动设施等）；&lt;br&gt;\n（5）检验检测报告的唯一性标识和每一页上的标识，以确保能够识 别该页是属于检验检测报告的一部分，以及表明检验检测报告结束的清 晰标识；&lt;br&gt;\n（6）客户的名称和联系信息；&lt;br&gt;\n（7）所用检验检测方法；&lt;br&gt;\n（8）检验检测样品的描述、状态和标识；&lt;br&gt;\n（9）样品的接收日期，当抽样环节对检验检测结果的有效性和应用 有重大影响时，应注明样品的抽样日期；&lt;br&gt;\n（10）检验检测日期、报告发布日期；&lt;br&gt;\n（11）当抽样环节对检验检测结果的有效性或应用有影响时，应提供 检验检测机构或其他机构所用的抽样计划和程序的说明；&lt;br&gt;\n（12）检验检测报告签发人；&lt;br&gt;\n（13）检验检测结果，必要时应注明测量单位；&lt;br&gt;\n（14）存在分包时，应注明分包的检验检测项目以及承担分包项目的 检验检测机构信息。&lt;br&gt;\n3．检验检测机构开展检验检测活动的原始记录信息能有效支撑对应 出具的报告内容，以确保报告的可追溯性。&lt;br&gt;\n4．检验检测机构如果使用电子签名，应符合相关法律法规规定。&lt;/p&gt;\n&lt;p&gt;（七）检验检测机构应当对质量记录和技术记录的管理作出规定，包括记录的标识、贮存、保护、归档留存和处置等内容。记录信息应当充分、清晰、完整。检验 检测原始记录和报告保存期限不少于6年。&lt;br&gt;\n【条文释义】&lt;br&gt;\n1．记录分为质量记录和技术记录两类：&lt;br&gt;\n（1）质量记录指检验检测机构管理体系活动中的过程和结果的记录， 包括但不限于合同评审、分包控制、采购、内部审核、管理评审、纠正 措施、预防措施和投诉；&lt;br&gt;\n（2）技术记录指进行检验检测活动的信息记录，包括但不限于原始 观察、导出数据和建立审核路径有关信息的记录，检验检测、环境条件 控制、人员、方法、设备管理、样品和质量监控等记录，以及发出的每 份检验检测报告的副本。&lt;br&gt;\n2．检验检测原始记录应包含充分的信息，确保该项检验检测在尽可 能接近原始条件情况下能够重复。&lt;br&gt;\n3．原始的观察结果、数据应在产生时予以记录。不允许补记、追记、 重抄。&lt;br&gt;\n4．书面记录形成过程中如有错误，应确保技术记录的修改可以追溯 到前一个版本或原始观察结果。&lt;br&gt;\n5．记录可存于不同媒体上，包括但不限于书面、电子和电磁方式。&lt;br&gt;\n6．所有记录的存放条件应有安全保护措施，对电子、电磁存储的记 录也应采取与书面同等措施，并加以保护及备份，防止未经授权的侵入 及修改，以避免原始数据的丢失或改动。&lt;br&gt;\n7．检验检测原始记录和报告保存期限不少于6年。&lt;/p&gt;\n&lt;p&gt;（八）检验检测机构在运用计算机信息系统实施检验检测、数据传输或者对检验 检测数据和相关信息进行管理时，应当具有保障安全性、完整性、正确性措施。&lt;br&gt;\n【条文释义】&lt;br&gt;\n1．检验检测机构在利用计算机信息系统对检验检测数据进行采集、 处理、记录、报告、存储或者检索时，检验检测机构的管理体系文件应 包含保护数据完整性、安全性和不可伪造篡改的内容，防止未经授权的 访问，确保检验检测数据、结果不被篡改、不丢失、可追溯。&lt;br&gt;\n2．检验检测机构应当对所使用的自动化软件的正确性进行验证并保 留相关活动记录，自动化软件包括但不限于信息化管理系统、数据采集 系统、数据处理系统。&lt;br&gt;\n3．检验检测机构管理体系应包含计算机信息系统的数据保护、电子 存储和传输结果的规定。&lt;/p&gt;\n&lt;p&gt;（九）检验检测机构应当实施有效的数据、结果质量控制活动，质量控制活动与检验检测工作相适应。数据、结果质量控制活动包括内部质量控制活动和外部质量 控制活动。内部质量控制活动包括但不限于人员比对、设备比对、留样再测、盲样 考核等。外部质量控制活动包括但不限于能力验证、实验室间比对等。&lt;br&gt;\n【条文释义】&lt;br&gt;\n1．检验检测机构应明确检验检测过程质量控制要求，实施有效的数 据结果质量控制活动，覆盖全部检验检测项目类别，有效监控检验检测 结果的稳定性和准确性。&lt;br&gt;\n2．数据结果质量控制活动包括内部质量控制活动和外部质量控制活 动。内部质量控制方式包括但不限于人员比对、设备比对、留样再测、 盲样考核；外部质量控制活动包括但不限于能力验证、实验室间比对。&lt;br&gt;\n3．检验检测机构在开展数据、结果质量控制活动时，应对其结果进行评价分析。若发现数据异常或超出预先判定规则时，应当组织原因分 析，必要时采取有效的措施纠正，防止报告错误的结果。&lt;/p&gt;\n&lt;h3 id=\&#34;第十三条-有关法律法规及标准-技术规范对检验检测机构的主体-人员-场-所环境-设备设施和管理体系等条件有特殊规定的检验检测机构还应当符合相关特殊要求\&#34;&gt;第十三条 有关法律法规及标准、技术规范对检验检测机构的主体、人员、场 所环境、设备设施和管理体系等条件有特殊规定的，检验检测机构还应当符合相关特殊要求。&lt;/h3&gt;\n&lt;p&gt;【条文释义】&lt;br&gt;\n本条是对特殊领域和行业补充要求的规定。&lt;br&gt;\n1．针对不同行业或者领域的特殊性，市场监管总局和国务院有关主 管部门，依照有关法律、行政法规的规定，制定和发布相关技术评审补 充要求，技术评审补充要求与本《准则》一并作为技术评审依据。&lt;br&gt;\n2．对于开展相关特殊行业和领域的检验检测活动的机构，除满足本 《准则》的要求外，还应满足相应的技术评审补充要求，并按照本《准则》 和技术评审补充要求的规定，配置满足要求的技术资源，完善和有效运 行管理体系，使其各项管理和技术过程能在符合要求的基础上有效运行， 满足特殊行业和领域的需要。&lt;/p&gt;\n&lt;h2 id=\&#34;第三章-评审方式与程序\&#34;&gt;第三章 评审方式与程序&lt;/h2&gt;\n&lt;h3 id=\&#34;第十四条-检验检测机构资质认定一般程序的技术评审方式包括现场评审现-场评审工作程序见附件1-书面审查书面审查工作程序见附件2和远程评审-远程评审工作程序见附件3-根据机构申请的具体情况采取不同技术评审方式-对机构申请的资质认定事项进行审查-一般程序审查告知承诺核查表见附件-4\&#34;&gt;第十四条 检验检测机构资质认定一般程序的技术评审方式包括：现场评审（现 场评审工作程序见附件1）、书面审查（书面审查工作程序见附件2）和远程评审 （远程评审工作程序见附件3）。根据机构申请的具体情况，采取不同技术评审方式 对机构申请的资质认定事项进行审查。〔一般程序审查（告知承诺核查）表见附件 4〕。&lt;/h3&gt;\n&lt;p&gt;【条文释义】&lt;br&gt;\n本条是对资质认定一般程序技术评审方式的规定。依据《管理办法》第十 一条第三款的规定，技术评审的方式包括：现场评审、书面审查和远程评审。&lt;br&gt;\n其中，远程评审是2021年新增评审方式，其不受场地限制，方式更&lt;br&gt;\n加灵活，可以有效节约行政成本，是传统评审方式的有益补充。远程评审工作程序旨在明确远程评审的软硬件要求及相关流程，为远程评审方 式的有效实施和利用提供指导。&lt;/p&gt;\n&lt;h3 id=\&#34;第十五条-现场评审适用于首次评审-扩项评审-复查换证有实际能力变化-时评审-发生变更事项影响其符合资质认定条件和要求的变更评审-现场评审应-当对检验检测机构申请相关资质认定事项的技术能力进行逐项确认根据申请范围-安排现场试验-安排现场试验时应当覆盖所有申请类别的主要或关键项目参数-仪-器设备-检测方法-试验人员-试验材料等并覆盖所有检验检测场所-现场评审-结论分为符合基本符合不符合三种情形\&#34;&gt;第十五条 现场评审适用于首次评审、扩项评审、复查换证（有实际能力变化 时）评审、发生变更事项影响其符合资质认定条件和要求的变更评审。现场评审应 当对检验检测机构申请相关资质认定事项的技术能力进行逐项确认，根据申请范围 安排现场试验。安排现场试验时应当覆盖所有申请类别的主要或关键项目／参数、仪 器设备、检测方法、试验人员、试验材料等，并覆盖所有检验检测场所。现场评审 结论分为“符合”“基本符合”“不符合”三种情形。&lt;/h3&gt;\n&lt;p&gt;【条文释义】&lt;br&gt;\n本条是对现场评审方式的适用情形与要求的规定。&lt;br&gt;\n采用现场评审方式实施资质认定技术评审的，应当严格依据《检验检测机 构资质认定 现场评审工作程序》（《准则》附件1）规定的工作流程开展现场 评审，并在评审报告中予以体现。&lt;/p&gt;\n&lt;h3 id=\&#34;第十六条-书面审查方式适用于已获资质认定技术能力内的少量参数扩项或变-更不影响其符合资质认定条件和要求和上一许可周期内无违法违规行为-未列-入失信名单且申请事项无实质性变化的检验检测机构的复查换证评审-书面审查结-论分为符合不符合两种情形\&#34;&gt;第十六条 书面审查方式适用于已获资质认定技术能力内的少量参数扩项或变 更（不影响其符合资质认定条件和要求）和上一许可周期内无违法违规行为、未列 入失信名单且申请事项无实质性变化的检验检测机构的复查换证评审。书面审查结 论分为“符合”“不符合”两种情形。&lt;/h3&gt;\n&lt;p&gt;【条文释义】&lt;br&gt;\n本条是对书面审查方式适用情形与要求的规定。&lt;br&gt;\n检验检测机构申请参数扩项，一般应进行现场评审。以书面审查作为评审 方式仅限检验检测机构已具备同类方法检测资质，且仅申请少量参数扩项的情 形。&lt;/p&gt;\n&lt;h3 id=\&#34;第十七条-远程评审是指使用信息和通信技术对检验检测机构实施的技术评-审-采用方式可以为但不限于利用远程电信会议设施等对远程场所包括潜-在危险场所实施评审包括音频-视频和数据共享以及其他技术手段通过远程-接入方式对文件和记录审核同步的即实时的或者是异步的在适用时通过-静止影像-视频或者音频录制的手段记录信息和证据-下列情形可选择远程评审\&#34;&gt;第十七条 远程评审是指使用信息和通信技术对检验检测机构实施的技术评 审。采用方式可以为（但不限于）：利用远程电信会议设施等对远程场所（包括潜 在危险场所）实施评审，包括音频、视频和数据共享以及其他技术手段；通过远程 接入方式对文件和记录审核，同步的（即实时的）或者是异步的（在适用时）通过 静止影像、视频或者音频录制的手段记录信息和证据。下列情形可选择远程评审：&lt;/h3&gt;\n&lt;h3 id=\&#34;一由于不可抗力疫情-安全-旅途限制等无法前往现场评审\&#34;&gt;（一）由于不可抗力（疫情、安全、旅途限制等）无法前往现场评审；&lt;/h3&gt;\n&lt;h3 id=\&#34;二检验检测机构从事完全相同的检测活动有多个地点各地点均运行相同的-质量管理体系且可以在任何一个地点查阅所有其他地点的电子记录及数据的\&#34;&gt;（二）检验检测机构从事完全相同的检测活动有多个地点，各地点均运行相同的 质量管理体系，且可以在任何一个地点查阅所有其他地点的电子记录及数据的；&lt;/h3&gt;\n&lt;h3 id=\&#34;三已获资质认定技术能力内的少量参数变更及扩项\&#34;&gt;（三）已获资质认定技术能力内的少量参数变更及扩项；&lt;/h3&gt;\n&lt;h3 id=\&#34;四现场评审后需要进行复核但复核无法在规定时间内完成-远程评审结论分为符合基本符合不符合三种情形\&#34;&gt;（四）现场评审后需要进行复核，但复核无法在规定时间内完成。 远程评审结论分为“符合”“基本符合”“不符合”三种情形。&lt;/h3&gt;\n&lt;p&gt;【条文释义】&lt;br&gt;\n本条是对远程评审方式的适用情形与要求的规定。&lt;br&gt;\n新冠疫情期间，远程评审作为无法开展现场评审的临时性补救措施发挥了 重要的作用。远程评审将信息通信技术应用于资质认定评审活动，在特定的情 况下，既解决了不到现场无法完成评审活动的问题，也满足了检验检测机构申 请资质的需求，是对资质认定评审方式的有益补充。修订后的《管理办法》将 远程评审固化为资质认定技术评审方式，资质认定部门在组织开展技术评审过 程中可结合实际情况灵活选择，进一步优化评审流程、提高评审效率，降低行 政成本。但远程评审对软硬件设备、人员操作提出了更高的要求，资质认定部 门应在与检验检测机构、评审人员协商一致的情况下使用。&lt;/p&gt;\n&lt;h3 id=\&#34;第十八条-检验检测机构资质认定告知承诺依据检验检测机构资质认定告知-承诺实施办法试行和有关规定实施-应当对检验检测机构承诺的真实性进行-现场核查告知承诺程序核查表见附件4-告知承诺的现场核查程序参照一般程序的现场评审方式进行\&#34;&gt;第十八条 检验检测机构资质认定告知承诺依据《检验检测机构资质认定告知 承诺实施办法（试行）》和有关规定实施。应当对检验检测机构承诺的真实性进行 现场核查（告知承诺程序核查表见附件4）。告知承诺的现场核查程序参照一般程序的现场评审方式进行。&lt;/h3&gt;\n&lt;p&gt;【条文释义】&lt;br&gt;\n本条是告知承诺核查程序要求的规定。&lt;br&gt;\n告知承诺许可对行政许可程序进行了流程再造，资质认定部门依据 检验检测机构承诺直接作出行政许可决定，再于3个月内开展现场核查， 现场核查的内容和流程可参照《检验检测机构资质认定 现场评审工作程 序》。&lt;/p&gt;\n&lt;h3 id=\&#34;第十九条-告知承诺现场核查应当由资质认定部门组织实施现场核查人员应-当在规定的时限内进行核查并出具现场核查结论-核查结论分为承诺属实承-诺基本属实承诺严重不实虚假承诺三种情形-并根据相应结论由核查组通-知申请人整改或者向资质认定部门作出撤销相应许可事项的建议\&#34;&gt;第十九条 告知承诺现场核查应当由资质认定部门组织实施，现场核查人员应 当在规定的时限内进行核查并出具现场核查结论。核查结论分为：“承诺属实”“承 诺基本属实”“承诺严重不实／虚假承诺”三种情形。并根据相应结论，由核查组通 知申请人整改，或者向资质认定部门作出撤销相应许可事项的建议。&lt;/h3&gt;\n&lt;p&gt;【条文释义】&lt;br&gt;\n本条是对告知承诺现场核查要求的规定，具体可参照《检测机构资 质认定告知承诺实施办法（试行）》。对于核查结论为承诺严重不实／ 虚假承诺的，资质认定部门可依据《行政许可法》《行政处罚法》的相关规定撤销许可或作出行政处罚。&lt;/p&gt;\n&lt;h2 id=\&#34;第四章-附则\&#34;&gt;第四章 附则&lt;/h2&gt;\n&lt;h3 id=\&#34;第二十条-专业技术评价机构以及相关评审人员在技术评审活动中的违法违规-行为依照检验检测机构资质认定管理办法及检验检测机构资质认定评审员-管理办法试行的相关规定予以处理\&#34;&gt;第二十条 专业技术评价机构以及相关评审人员在技术评审活动中的违法违规 行为，依照《检验检测机构资质认定管理办法》及《检验检测机构资质认定评审员 管理办法（试行）》的相关规定予以处理。&lt;/h3&gt;\n&lt;p&gt;【条文释义】&lt;br&gt;\n本条是对专业技术评价机构以及相关评审人员的评审行为的规定。 其中，公职人员参加评审活动还应符合国家有关法律法规的要求。&lt;/p&gt;\n&lt;h3 id=\&#34;第二十一条-本准则自2023年12月1日起施行-检验检测机构资质认定-评审准则国认实201633号同时废止\&#34;&gt;第二十一条 本准则自2023年12月1日起施行。《检验检测机构资质认定 评审准则》（国认实〔2016〕33号）同时废止。&lt;/h3&gt;\n&lt;p&gt;【条文释义】&lt;br&gt;\n本条是对《准则》施行时间的规定。&lt;/p&gt;\n&#34;,&#34;fileName&#34;:&#34;y_1MFgM77&#34;,&#34;abstract&#34;:&#34;&#34;,&#34;title&#34;:&#34;法规动态 | 文字版  |  关于印发《 &lt;检验检测机构资质认定评审准则&gt;条文释义》的函&#34;,&#34;tags&#34;:[{&#34;name&#34;:&#34;评审准则&#34;,&#34;slug&#34;:&#34;rTCZ677S-&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://wegrowth.github.io/rTCZ677S-/&#34;},{&#34;name&#34;:&#34;资质认定&#34;,&#34;slug&#34;:&#34;NbVftEuu1&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://wegrowth.github.io/NbVftEuu1/&#34;},{&#34;name&#34;:&#34;检验检测&#34;,&#34;slug&#34;:&#34;D5OBvjSgD&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://wegrowth.github.io/D5OBvjSgD/&#34;}],&#34;date&#34;:&#34;2023-10-18 12:44:05&#34;,&#34;dateFormat&#34;:&#34;2023-10-18&#34;,&#34;feature&#34;:&#34;&#34;,&#34;link&#34;:&#34;https://wegrowth.github.io/y_1MFgM77/&#34;,&#34;hideInList&#34;:false,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;45 min read&#34;,&#34;time&#34;:2679000,&#34;words&#34;:13252,&#34;minutes&#34;:45},&#34;description&#34;:&#34;\n国家市场监督管理总局司局函\n市监检测（司）函〔2023〕37号 关于印发《＜检验检测机构资质认定评审准则＞条文释义》的函\n各省、自治区、直辖市和新疆生产建设兵团市场监管局（厅、委） 检验检测监督管理职能处室：\n新版《检验检测机构资质认定评...&#34;,&#34;toc&#34;:&#34;&lt;ul class=\&#34;markdownIt-TOC\&#34;&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E6%A3%80%E9%AA%8C%E6%A3%80%E6%B5%8B%E6%9C%BA%E6%9E%84%E8%B5%84%E8%B4%A8%E8%AE%A4%E5%AE%9A%E8%AF%84%E5%AE%A1%E5%87%86%E5%88%99%E6%9D%A1%E6%96%87%E9%87%8A%E4%B9%89\&#34;&gt;《检验检测机构资质认定评审准则》条文释义&lt;/a&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E7%AC%AC%E4%B8%80%E7%AB%A0-%E6%80%BB%E5%88%99\&#34;&gt;第一章 总则&lt;/a&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E7%AC%AC%E4%B8%80%E6%9D%A1-%E4%BE%9D%E7%85%A7%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E8%AE%A1%E9%87%8F%E6%B3%95%E5%8F%8A%E5%85%B6%E5%AE%9E%E6%96%BD%E7%BB%86%E5%88%99-%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E8%AE%A4-%E8%AF%81%E8%AE%A4%E5%8F%AF%E6%9D%A1%E4%BE%8B%E7%AD%89%E6%B3%95%E5%BE%8B-%E8%A1%8C%E6%94%BF%E6%B3%95%E8%A7%84%E7%9A%84%E8%A7%84%E5%AE%9A%E4%B8%BA%E4%BE%9D%E6%B3%95%E5%AE%9E%E6%96%BD%E6%A3%80%E9%AA%8C%E6%A3%80%E6%B5%8B%E6%9C%BA%E6%9E%84%E8%B5%84%E8%B4%A8%E8%AE%A4%E5%AE%9A%E7%AE%A1%E7%90%86-%E5%8A%9E%E6%B3%95%E7%9B%B8%E5%85%B3%E8%B5%84%E8%B4%A8%E8%AE%A4%E5%AE%9A%E6%8A%80%E6%9C%AF%E8%AF%84%E5%AE%A1%E8%A6%81%E6%B1%82%E5%88%B6%E5%AE%9A%E6%9C%AC%E5%87%86%E5%88%99\&#34;&gt;第一条 依照《中华人民共和国计量法》及其实施细则、《中华人民共和国认 证认可条例》等法律、行政法规的规定，为依法实施《检验检测机构资质认定管理 办法》相关资质认定技术评审要求，制定本准则。&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E7%AC%AC%E4%BA%8C%E6%9D%A1-%E5%9C%A8%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E5%A2%83%E5%86%85%E5%BC%80%E5%B1%95%E6%A3%80%E9%AA%8C%E6%A3%80%E6%B5%8B%E6%9C%BA%E6%9E%84%E8%B5%84%E8%B4%A8%E8%AE%A4%E5%AE%9A%E6%8A%80%E6%9C%AF%E8%AF%84%E5%AE%A1%E5%90%AB%E5%91%8A%E7%9F%A5%E6%89%BF%E8%AF%BA%E6%A0%B8%E6%9F%A5%E4%B8%8B%E5%90%8C%E5%B7%A5%E4%BD%9C%E5%BA%94%E5%BD%93%E9%81%B5%E5%AE%88%E6%9C%AC%E5%87%86%E5%88%99\&#34;&gt;第二条 在中华人民共和国境内开展检验检测机构资质认定技术评审（含告知承诺核查，下同）工作，应当遵守本准则。&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E7%AC%AC%E4%B8%89%E6%9D%A1-%E6%9C%AC%E5%87%86%E5%88%99%E6%89%80%E7%A7%B0%E6%A3%80%E9%AA%8C%E6%A3%80%E6%B5%8B%E6%9C%BA%E6%9E%84%E6%98%AF%E6%8C%87%E4%BE%9D%E7%85%A7%E6%A3%80%E9%AA%8C%E6%A3%80%E6%B5%8B%E6%9C%BA%E6%9E%84%E8%B5%84%E8%B4%A8%E8%AE%A4%E5%AE%9A%E7%AE%A1%E7%90%86%E5%8A%9E-%E6%B3%95%E7%9A%84%E7%9B%B8%E5%85%B3%E8%A7%84%E5%AE%9A%E4%BE%9D%E6%B3%95%E6%88%90%E7%AB%8B%E4%BE%9D%E6%8D%AE%E7%9B%B8%E5%85%B3%E6%A0%87%E5%87%86%E6%88%96%E8%80%85%E6%8A%80%E6%9C%AF%E8%A7%84%E8%8C%83%E5%88%A9%E7%94%A8%E4%BB%AA%E5%99%A8%E8%AE%BE%E5%A4%87-%E7%8E%AF%E5%A2%83%E8%AE%BE%E6%96%BD%E7%AD%89%E6%8A%80%E6%9C%AF%E6%9D%A1%E4%BB%B6%E5%92%8C%E4%B8%93%E4%B8%9A%E6%8A%80%E8%83%BD%E5%AF%B9%E4%BA%A7%E5%93%81%E6%88%96%E8%80%85%E6%B3%95%E5%BE%8B%E6%B3%95%E8%A7%84%E8%A7%84%E5%AE%9A%E7%9A%84%E7%89%B9%E5%AE%9A%E5%AF%B9%E8%B1%A1%E8%BF%9B%E8%A1%8C%E6%A3%80%E9%AA%8C%E6%A3%80%E6%B5%8B%E7%9A%84%E4%B8%93-%E4%B8%9A%E6%8A%80%E6%9C%AF%E7%BB%84%E7%BB%87\&#34;&gt;第三条 本准则所称检验检测机构，是指依照《检验检测机构资质认定管理办 法》的相关规定，依法成立，依据相关标准或者技术规范，利用仪器设备、环境设施等技术条件和专业技能，对产品或者法律法规规定的特定对象进行检验检测的专 业技术组织。&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E6%9C%AC%E5%87%86%E5%88%99%E6%89%80%E7%A7%B0%E8%B5%84%E8%B4%A8%E8%AE%A4%E5%AE%9A%E6%98%AF%E6%8C%87%E4%BE%9D%E7%85%A7%E6%A3%80%E9%AA%8C%E6%A3%80%E6%B5%8B%E6%9C%BA%E6%9E%84%E8%B5%84%E8%B4%A8%E8%AE%A4%E5%AE%9A%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95%E7%9A%84%E7%9B%B8%E5%85%B3%E8%A7%84-%E5%AE%9A%E7%94%B1%E5%B8%82%E5%9C%BA%E7%9B%91%E7%9D%A3%E7%AE%A1%E7%90%86%E9%83%A8%E9%97%A8%E4%BE%9D%E7%85%A7%E6%B3%95%E5%BE%8B-%E8%A1%8C%E6%94%BF%E6%B3%95%E8%A7%84%E8%A7%84%E5%AE%9A%E5%AF%B9%E5%90%91%E7%A4%BE%E4%BC%9A%E5%87%BA%E5%85%B7%E5%85%B7%E6%9C%89%E8%AF%81%E6%98%8E%E4%BD%9C%E7%94%A8%E7%9A%84-%E6%95%B0%E6%8D%AE-%E7%BB%93%E6%9E%9C%E7%9A%84%E6%A3%80%E9%AA%8C%E6%A3%80%E6%B5%8B%E6%9C%BA%E6%9E%84%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%9D%A1%E4%BB%B6%E5%92%8C%E6%8A%80%E6%9C%AF%E8%83%BD%E5%8A%9B%E6%98%AF%E5%90%A6%E7%AC%A6%E5%90%88%E6%B3%95%E5%AE%9A%E8%A6%81%E6%B1%82%E5%AE%9E%E6%96%BD%E7%9A%84%E8%AF%84%E4%BB%B7%E8%AE%B8\&#34;&gt;本准则所称资质认定，是指依照《检验检测机构资质认定管理办法》的相关规 定，由市场监督管理部门依照法律、行政法规规定，对向社会出具具有证明作用的 数据、结果的检验检测机构的基本条件和技术能力是否符合法定要求实施的评价许 。&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E6%9C%AC%E5%87%86%E5%88%99%E6%89%80%E7%A7%B0%E8%B5%84%E8%B4%A8%E8%AE%A4%E5%AE%9A%E6%8A%80%E6%9C%AF%E8%AF%84%E5%AE%A1%E6%98%AF%E6%8C%87%E4%BE%9D%E7%85%A7%E6%A3%80%E9%AA%8C%E6%A3%80%E6%B5%8B%E6%9C%BA%E6%9E%84%E8%B5%84%E8%B4%A8%E8%AE%A4%E5%AE%9A%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95-%E7%9A%84%E7%9B%B8%E5%85%B3%E8%A7%84%E5%AE%9A%E7%94%B1%E5%B8%82%E5%9C%BA%E7%9B%91%E7%AE%A1%E6%80%BB%E5%B1%80%E6%88%96%E8%80%85%E7%9C%81%E7%BA%A7%E5%B8%82%E5%9C%BA%E7%9B%91%E7%9D%A3%E7%AE%A1%E7%90%86%E9%83%A8%E9%97%A8%E4%BB%A5%E4%B8%8B%E7%BB%9F%E7%A7%B0%E8%B5%84%E8%B4%A8%E8%AE%A4%E5%AE%9A%E9%83%A8%E9%97%A8-%E8%87%AA%E8%A1%8C%E6%88%96%E8%80%85%E5%A7%94%E6%89%98%E4%B8%93%E4%B8%9A%E6%8A%80%E6%9C%AF%E8%AF%84%E4%BB%B7%E6%9C%BA%E6%9E%84%E7%BB%84%E7%BB%87%E7%9B%B8%E5%85%B3%E4%B8%93%E4%B8%9A%E8%AF%84%E5%AE%A1%E4%BA%BA%E5%91%98%E5%AF%B9%E6%A3%80%E9%AA%8C%E6%A3%80%E6%B5%8B%E6%9C%BA%E6%9E%84%E7%94%B3%E8%AF%B7%E7%9A%84%E8%B5%84-%E8%B4%A8%E8%AE%A4%E5%AE%9A%E4%BA%8B%E9%A1%B9%E6%98%AF%E5%90%A6%E7%AC%A6%E5%90%88%E8%B5%84%E8%B4%A8%E8%AE%A4%E5%AE%9A%E6%9D%A1%E4%BB%B6%E4%BB%A5%E5%8F%8A%E7%9B%B8%E5%85%B3%E8%A6%81%E6%B1%82%E6%89%80%E8%BF%9B%E8%A1%8C%E7%9A%84%E6%8A%80%E6%9C%AF%E6%80%A7%E5%AE%A1%E6%9F%A5\&#34;&gt;本准则所称资质认定技术评审，是指依照《检验检测机构资质认定管理办法》 的相关规定，由市场监管总局或者省级市场监督管理部门（以下统称资质认定部门） 自行或者委托专业技术评价机构组织相关专业评审人员，对检验检测机构申请的资 质认定事项是否符合资质认定条件以及相关要求所进行的技术性审查。&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E7%AC%AC%E5%9B%9B%E6%9D%A1-%E9%92%88%E5%AF%B9%E4%B8%8D%E5%90%8C%E8%A1%8C%E4%B8%9A%E6%88%96%E8%80%85%E9%A2%86%E5%9F%9F%E7%9A%84%E7%89%B9%E6%AE%8A%E6%80%A7%E5%B8%82%E5%9C%BA%E7%9B%91%E7%AE%A1%E6%80%BB%E5%B1%80-%E5%9B%BD%E5%8A%A1%E9%99%A2%E6%9C%89%E5%85%B3%E4%B8%BB%E7%AE%A1%E9%83%A8-%E9%97%A8%E4%BE%9D%E7%85%A7%E6%9C%89%E5%85%B3%E6%B3%95%E5%BE%8B%E6%B3%95%E8%A7%84%E7%9A%84%E8%A7%84%E5%AE%9A%E5%88%B6%E5%AE%9A%E5%92%8C%E5%8F%91%E5%B8%83%E7%9B%B8%E5%85%B3%E6%8A%80%E6%9C%AF%E8%AF%84%E5%AE%A1%E8%A1%A5%E5%85%85%E8%A6%81%E6%B1%82%E8%AF%84%E5%AE%A1%E8%A1%A5%E5%85%85%E8%A6%81%E6%B1%82-%E4%B8%8E%E6%9C%AC%E5%87%86%E5%88%99%E4%B8%80%E5%B9%B6%E4%BD%9C%E4%B8%BA%E6%8A%80%E6%9C%AF%E8%AF%84%E5%AE%A1%E4%BE%9D%E6%8D%AE\&#34;&gt;第四条 针对不同行业或者领域的特殊性，市场监管总局、国务院有关主管部 门，依照有关法律法规的规定，制定和发布相关技术评审补充要求，评审补充要求 与本准则一并作为技术评审依据。&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E7%AC%AC%E4%BA%94%E6%9D%A1-%E4%BE%9D%E7%85%A7%E6%A3%80%E9%AA%8C%E6%A3%80%E6%B5%8B%E6%9C%BA%E6%9E%84%E8%B5%84%E8%B4%A8%E8%AE%A4%E5%AE%9A%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95%E6%A3%80%E9%AA%8C%E6%A3%80%E6%B5%8B%E6%9C%BA%E6%9E%84%E8%B5%84%E8%B4%A8%E8%AE%A4%E5%AE%9A%E5%91%8A-%E7%9F%A5%E6%89%BF%E8%AF%BA%E5%AE%9E%E6%96%BD%E5%8A%9E%E6%B3%95%E8%AF%95%E8%A1%8C%E7%9A%84%E7%9B%B8%E5%85%B3%E8%A7%84%E5%AE%9A%E5%AF%B9%E4%BA%8E%E9%87%87%E7%94%A8%E5%91%8A%E7%9F%A5%E6%89%BF%E8%AF%BA%E7%A8%8B%E5%BA%8F%E5%AE%9E%E6%96%BD%E8%B5%84%E8%B4%A8%E8%AE%A4%E5%AE%9A%E7%9A%84-%E5%AF%B9%E6%A3%80%E9%AA%8C%E6%A3%80%E6%B5%8B%E6%9C%BA%E6%9E%84%E6%89%BF%E8%AF%BA%E5%86%85%E5%AE%B9%E6%98%AF%E5%90%A6%E5%B1%9E%E5%AE%9E%E8%BF%9B%E8%A1%8C%E7%8E%B0%E5%9C%BA%E6%A0%B8%E6%9F%A5%E7%9A%84%E5%86%85%E5%AE%B9%E4%B8%8E%E7%A8%8B%E5%BA%8F%E5%BA%94%E5%BD%93%E7%AC%A6%E5%90%88%E6%9C%AC%E5%87%86%E5%88%99%E7%9A%84%E7%9B%B8%E5%85%B3%E8%A7%84%E5%AE%9A\&#34;&gt;第五条 依照《检验检测机构资质认定管理办法》《检验检测机构资质认定告 知承诺实施办法（试行）》的相关规定，对于采用告知承诺程序实施资质认定的， 对检验检测机构承诺内容是否属实进行现场核查的内容与程序，应当符合本准则的相关规定。&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E7%AC%AC%E5%85%AD%E6%9D%A1-%E8%B5%84%E8%B4%A8%E8%AE%A4%E5%AE%9A%E6%8A%80%E6%9C%AF%E8%AF%84%E5%AE%A1%E5%B7%A5%E4%BD%9C%E5%BA%94%E5%BD%93%E5%9D%9A%E6%8C%81%E7%BB%9F%E4%B8%80%E8%A7%84%E8%8C%83-%E5%AE%A2%E8%A7%82%E5%85%AC%E6%AD%A3-%E7%A7%91%E5%AD%A6%E5%87%86%E7%A1%AE-%E5%85%AC-%E5%B9%B3%E5%85%AC%E5%BC%80-%E4%BE%BF%E5%88%A9%E9%AB%98%E6%95%88%E7%9A%84%E5%8E%9F%E5%88%99\&#34;&gt;第六条 资质认定技术评审工作应当坚持统一规范、客观公正、科学准确、公 平公开、便利高效的原则。&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E8%AF%84%E5%AE%A1%E5%86%85%E5%AE%B9%E4%B8%8E%E8%A6%81%E6%B1%82\&#34;&gt;第二章 评审内容与要求&lt;/a&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E7%AC%AC%E4%B8%83%E6%9D%A1-%E8%B5%84%E8%B4%A8%E8%AE%A4%E5%AE%9A%E6%8A%80%E6%9C%AF%E8%AF%84%E5%AE%A1%E5%86%85%E5%AE%B9%E5%8C%85%E6%8B%AC%E5%AF%B9%E6%A3%80%E9%AA%8C%E6%A3%80%E6%B5%8B%E6%9C%BA%E6%9E%84%E4%B8%BB%E4%BD%93-%E4%BA%BA%E5%91%98-%E5%9C%BA%E6%89%80%E7%8E%AF%E5%A2%83-%E8%AE%BE%E5%A4%87%E8%AE%BE%E6%96%BD%E5%92%8C%E7%AE%A1%E7%90%86%E4%BD%93%E7%B3%BB%E7%AD%89%E6%96%B9%E9%9D%A2%E6%98%AF%E5%90%A6%E7%AC%A6%E5%90%88%E8%B5%84%E8%B4%A8%E8%AE%A4%E5%AE%9A%E8%A6%81%E6%B1%82%E7%9A%84%E5%AE%A1%E6%9F%A5\&#34;&gt;第七条 资质认定技术评审内容包括：对检验检测机构主体、人员、场所环境、 设备设施和管理体系等方面是否符合资质认定要求的审查。&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E7%AC%AC%E5%85%AB%E6%9D%A1-%E6%A3%80%E9%AA%8C%E6%A3%80%E6%B5%8B%E6%9C%BA%E6%9E%84%E5%BA%94%E5%BD%93%E6%98%AF%E4%BE%9D%E6%B3%95%E6%88%90%E7%AB%8B%E5%B9%B6%E8%83%BD%E5%A4%9F%E6%89%BF%E6%8B%85%E7%9B%B8%E5%BA%94%E6%B3%95%E5%BE%8B%E8%B4%A3%E4%BB%BB%E7%9A%84%E6%B3%95%E4%BA%BA%E6%88%96%E8%80%85%E5%85%B6%E4%BB%96%E7%BB%84%E7%BB%87\&#34;&gt;第八条 检验检测机构应当是依法成立并能够承担相应法律责任的法人或者其他组织。&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E7%AC%AC%E4%B9%9D%E6%9D%A1-%E6%A3%80%E9%AA%8C%E6%A3%80%E6%B5%8B%E6%9C%BA%E6%9E%84%E5%BA%94%E5%BD%93%E5%85%B7%E6%9C%89%E4%B8%8E%E5%85%B6%E4%BB%8E%E4%BA%8B%E6%A3%80%E9%AA%8C%E6%A3%80%E6%B5%8B%E6%B4%BB%E5%8A%A8%E7%9B%B8%E9%80%82%E5%BA%94%E7%9A%84%E6%A3%80%E9%AA%8C%E6%A3%80%E6%B5%8B%E6%8A%80%E6%9C%AF%E4%BA%BA%E5%91%98%E5%92%8C%E7%AE%A1%E7%90%86%E4%BA%BA%E5%91%98\&#34;&gt;第九条 检验检测机构应当具有与其从事检验检测活动相适应的检验检测技术人员和管理人员。&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E7%AC%AC%E5%8D%81%E6%9D%A1-%E6%A3%80%E9%AA%8C%E6%A3%80%E6%B5%8B%E6%9C%BA%E6%9E%84%E5%BA%94%E5%BD%93%E5%85%B7%E6%9C%89%E5%9B%BA%E5%AE%9A%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%9C%BA%E6%89%80%E5%B7%A5%E4%BD%9C%E7%8E%AF%E5%A2%83%E7%AC%A6%E5%90%88%E6%A3%80%E9%AA%8C%E6%A3%80%E6%B5%8B%E8%A6%81%E6%B1%82\&#34;&gt;第十条 检验检测机构应当具有固定的工作场所，工作环境符合检验检测要求。&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E7%AC%AC%E5%8D%81%E4%B8%80%E6%9D%A1-%E6%A3%80%E9%AA%8C%E6%A3%80%E6%B5%8B%E6%9C%BA%E6%9E%84%E5%BA%94%E5%BD%93%E5%85%B7%E5%A4%87%E4%BB%8E%E4%BA%8B%E6%A3%80%E9%AA%8C%E6%A3%80%E6%B5%8B%E6%B4%BB%E5%8A%A8%E6%89%80%E5%BF%85%E9%9C%80%E7%9A%84%E6%A3%80%E9%AA%8C%E6%A3%80%E6%B5%8B%E8%AE%BE%E5%A4%87%E8%AE%BE%E6%96%BD\&#34;&gt;第十一条 检验检测机构应当具备从事检验检测活动所必需的检验检测设备设施。&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E7%AC%AC%E5%8D%81%E4%BA%8C%E6%9D%A1-%E6%A3%80%E9%AA%8C%E6%A3%80%E6%B5%8B%E6%9C%BA%E6%9E%84%E5%BA%94%E5%BD%93%E5%BB%BA%E7%AB%8B%E4%BF%9D%E8%AF%81%E5%85%B6%E6%A3%80%E9%AA%8C%E6%A3%80%E6%B5%8B%E6%B4%BB%E5%8A%A8%E7%8B%AC%E7%AB%8B-%E5%85%AC%E6%AD%A3-%E7%A7%91%E5%AD%A6-%E8%AF%9A-%E4%BF%A1%E7%9A%84%E7%AE%A1%E7%90%86%E4%BD%93%E7%B3%BB%E5%B9%B6%E7%A1%AE%E4%BF%9D%E8%AF%A5%E7%AE%A1%E7%90%86%E4%BD%93%E7%B3%BB%E8%83%BD%E5%A4%9F%E5%BE%97%E5%88%B0%E6%9C%89%E6%95%88-%E5%8F%AF%E6%8E%A7-%E7%A8%B3%E5%AE%9A%E5%AE%9E%E6%96%BD%E6%8C%81%E7%BB%AD%E7%AC%A6%E5%90%88%E6%A3%80%E9%AA%8C%E6%A3%80%E6%B5%8B%E6%9C%BA%E6%9E%84%E8%B5%84%E8%B4%A8%E8%AE%A4%E5%AE%9A%E6%9D%A1%E4%BB%B6%E4%BB%A5%E5%8F%8A%E7%9B%B8%E5%85%B3%E8%A6%81%E6%B1%82\&#34;&gt;第十二条 检验检测机构应当建立保证其检验检测活动独立、公正、科学、诚 信的管理体系，并确保该管理体系能够得到有效、可控、稳定实施，持续符合检验检测机构资质认定条件以及相关要求。&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E7%AC%AC%E5%8D%81%E4%B8%89%E6%9D%A1-%E6%9C%89%E5%85%B3%E6%B3%95%E5%BE%8B%E6%B3%95%E8%A7%84%E5%8F%8A%E6%A0%87%E5%87%86-%E6%8A%80%E6%9C%AF%E8%A7%84%E8%8C%83%E5%AF%B9%E6%A3%80%E9%AA%8C%E6%A3%80%E6%B5%8B%E6%9C%BA%E6%9E%84%E7%9A%84%E4%B8%BB%E4%BD%93-%E4%BA%BA%E5%91%98-%E5%9C%BA-%E6%89%80%E7%8E%AF%E5%A2%83-%E8%AE%BE%E5%A4%87%E8%AE%BE%E6%96%BD%E5%92%8C%E7%AE%A1%E7%90%86%E4%BD%93%E7%B3%BB%E7%AD%89%E6%9D%A1%E4%BB%B6%E6%9C%89%E7%89%B9%E6%AE%8A%E8%A7%84%E5%AE%9A%E7%9A%84%E6%A3%80%E9%AA%8C%E6%A3%80%E6%B5%8B%E6%9C%BA%E6%9E%84%E8%BF%98%E5%BA%94%E5%BD%93%E7%AC%A6%E5%90%88%E7%9B%B8%E5%85%B3%E7%89%B9%E6%AE%8A%E8%A6%81%E6%B1%82\&#34;&gt;第十三条 有关法律法规及标准、技术规范对检验检测机构的主体、人员、场 所环境、设备设施和管理体系等条件有特殊规定的，检验检测机构还应当符合相关特殊要求。&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E7%AC%AC%E4%B8%89%E7%AB%A0-%E8%AF%84%E5%AE%A1%E6%96%B9%E5%BC%8F%E4%B8%8E%E7%A8%8B%E5%BA%8F\&#34;&gt;第三章 评审方式与程序&lt;/a&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E7%AC%AC%E5%8D%81%E5%9B%9B%E6%9D%A1-%E6%A3%80%E9%AA%8C%E6%A3%80%E6%B5%8B%E6%9C%BA%E6%9E%84%E8%B5%84%E8%B4%A8%E8%AE%A4%E5%AE%9A%E4%B8%80%E8%88%AC%E7%A8%8B%E5%BA%8F%E7%9A%84%E6%8A%80%E6%9C%AF%E8%AF%84%E5%AE%A1%E6%96%B9%E5%BC%8F%E5%8C%85%E6%8B%AC%E7%8E%B0%E5%9C%BA%E8%AF%84%E5%AE%A1%E7%8E%B0-%E5%9C%BA%E8%AF%84%E5%AE%A1%E5%B7%A5%E4%BD%9C%E7%A8%8B%E5%BA%8F%E8%A7%81%E9%99%84%E4%BB%B61-%E4%B9%A6%E9%9D%A2%E5%AE%A1%E6%9F%A5%E4%B9%A6%E9%9D%A2%E5%AE%A1%E6%9F%A5%E5%B7%A5%E4%BD%9C%E7%A8%8B%E5%BA%8F%E8%A7%81%E9%99%84%E4%BB%B62%E5%92%8C%E8%BF%9C%E7%A8%8B%E8%AF%84%E5%AE%A1-%E8%BF%9C%E7%A8%8B%E8%AF%84%E5%AE%A1%E5%B7%A5%E4%BD%9C%E7%A8%8B%E5%BA%8F%E8%A7%81%E9%99%84%E4%BB%B63-%E6%A0%B9%E6%8D%AE%E6%9C%BA%E6%9E%84%E7%94%B3%E8%AF%B7%E7%9A%84%E5%85%B7%E4%BD%93%E6%83%85%E5%86%B5%E9%87%87%E5%8F%96%E4%B8%8D%E5%90%8C%E6%8A%80%E6%9C%AF%E8%AF%84%E5%AE%A1%E6%96%B9%E5%BC%8F-%E5%AF%B9%E6%9C%BA%E6%9E%84%E7%94%B3%E8%AF%B7%E7%9A%84%E8%B5%84%E8%B4%A8%E8%AE%A4%E5%AE%9A%E4%BA%8B%E9%A1%B9%E8%BF%9B%E8%A1%8C%E5%AE%A1%E6%9F%A5-%E4%B8%80%E8%88%AC%E7%A8%8B%E5%BA%8F%E5%AE%A1%E6%9F%A5%E5%91%8A%E7%9F%A5%E6%89%BF%E8%AF%BA%E6%A0%B8%E6%9F%A5%E8%A1%A8%E8%A7%81%E9%99%84%E4%BB%B6-4\&#34;&gt;第十四条 检验检测机构资质认定一般程序的技术评审方式包括：现场评审（现 场评审工作程序见附件1）、书面审查（书面审查工作程序见附件2）和远程评审 （远程评审工作程序见附件3）。根据机构申请的具体情况，采取不同技术评审方式 对机构申请的资质认定事项进行审查。〔一般程序审查（告知承诺核查）表见附件 4〕。&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E7%AC%AC%E5%8D%81%E4%BA%94%E6%9D%A1-%E7%8E%B0%E5%9C%BA%E8%AF%84%E5%AE%A1%E9%80%82%E7%94%A8%E4%BA%8E%E9%A6%96%E6%AC%A1%E8%AF%84%E5%AE%A1-%E6%89%A9%E9%A1%B9%E8%AF%84%E5%AE%A1-%E5%A4%8D%E6%9F%A5%E6%8D%A2%E8%AF%81%E6%9C%89%E5%AE%9E%E9%99%85%E8%83%BD%E5%8A%9B%E5%8F%98%E5%8C%96-%E6%97%B6%E8%AF%84%E5%AE%A1-%E5%8F%91%E7%94%9F%E5%8F%98%E6%9B%B4%E4%BA%8B%E9%A1%B9%E5%BD%B1%E5%93%8D%E5%85%B6%E7%AC%A6%E5%90%88%E8%B5%84%E8%B4%A8%E8%AE%A4%E5%AE%9A%E6%9D%A1%E4%BB%B6%E5%92%8C%E8%A6%81%E6%B1%82%E7%9A%84%E5%8F%98%E6%9B%B4%E8%AF%84%E5%AE%A1-%E7%8E%B0%E5%9C%BA%E8%AF%84%E5%AE%A1%E5%BA%94-%E5%BD%93%E5%AF%B9%E6%A3%80%E9%AA%8C%E6%A3%80%E6%B5%8B%E6%9C%BA%E6%9E%84%E7%94%B3%E8%AF%B7%E7%9B%B8%E5%85%B3%E8%B5%84%E8%B4%A8%E8%AE%A4%E5%AE%9A%E4%BA%8B%E9%A1%B9%E7%9A%84%E6%8A%80%E6%9C%AF%E8%83%BD%E5%8A%9B%E8%BF%9B%E8%A1%8C%E9%80%90%E9%A1%B9%E7%A1%AE%E8%AE%A4%E6%A0%B9%E6%8D%AE%E7%94%B3%E8%AF%B7%E8%8C%83%E5%9B%B4-%E5%AE%89%E6%8E%92%E7%8E%B0%E5%9C%BA%E8%AF%95%E9%AA%8C-%E5%AE%89%E6%8E%92%E7%8E%B0%E5%9C%BA%E8%AF%95%E9%AA%8C%E6%97%B6%E5%BA%94%E5%BD%93%E8%A6%86%E7%9B%96%E6%89%80%E6%9C%89%E7%94%B3%E8%AF%B7%E7%B1%BB%E5%88%AB%E7%9A%84%E4%B8%BB%E8%A6%81%E6%88%96%E5%85%B3%E9%94%AE%E9%A1%B9%E7%9B%AE%E5%8F%82%E6%95%B0-%E4%BB%AA-%E5%99%A8%E8%AE%BE%E5%A4%87-%E6%A3%80%E6%B5%8B%E6%96%B9%E6%B3%95-%E8%AF%95%E9%AA%8C%E4%BA%BA%E5%91%98-%E8%AF%95%E9%AA%8C%E6%9D%90%E6%96%99%E7%AD%89%E5%B9%B6%E8%A6%86%E7%9B%96%E6%89%80%E6%9C%89%E6%A3%80%E9%AA%8C%E6%A3%80%E6%B5%8B%E5%9C%BA%E6%89%80-%E7%8E%B0%E5%9C%BA%E8%AF%84%E5%AE%A1-%E7%BB%93%E8%AE%BA%E5%88%86%E4%B8%BA%E7%AC%A6%E5%90%88%E5%9F%BA%E6%9C%AC%E7%AC%A6%E5%90%88%E4%B8%8D%E7%AC%A6%E5%90%88%E4%B8%89%E7%A7%8D%E6%83%85%E5%BD%A2\&#34;&gt;第十五条 现场评审适用于首次评审、扩项评审、复查换证（有实际能力变化 时）评审、发生变更事项影响其符合资质认定条件和要求的变更评审。现场评审应 当对检验检测机构申请相关资质认定事项的技术能力进行逐项确认，根据申请范围 安排现场试验。安排现场试验时应当覆盖所有申请类别的主要或关键项目／参数、仪 器设备、检测方法、试验人员、试验材料等，并覆盖所有检验检测场所。现场评审 结论分为“符合”“基本符合”“不符合”三种情形。&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E7%AC%AC%E5%8D%81%E5%85%AD%E6%9D%A1-%E4%B9%A6%E9%9D%A2%E5%AE%A1%E6%9F%A5%E6%96%B9%E5%BC%8F%E9%80%82%E7%94%A8%E4%BA%8E%E5%B7%B2%E8%8E%B7%E8%B5%84%E8%B4%A8%E8%AE%A4%E5%AE%9A%E6%8A%80%E6%9C%AF%E8%83%BD%E5%8A%9B%E5%86%85%E7%9A%84%E5%B0%91%E9%87%8F%E5%8F%82%E6%95%B0%E6%89%A9%E9%A1%B9%E6%88%96%E5%8F%98-%E6%9B%B4%E4%B8%8D%E5%BD%B1%E5%93%8D%E5%85%B6%E7%AC%A6%E5%90%88%E8%B5%84%E8%B4%A8%E8%AE%A4%E5%AE%9A%E6%9D%A1%E4%BB%B6%E5%92%8C%E8%A6%81%E6%B1%82%E5%92%8C%E4%B8%8A%E4%B8%80%E8%AE%B8%E5%8F%AF%E5%91%A8%E6%9C%9F%E5%86%85%E6%97%A0%E8%BF%9D%E6%B3%95%E8%BF%9D%E8%A7%84%E8%A1%8C%E4%B8%BA-%E6%9C%AA%E5%88%97-%E5%85%A5%E5%A4%B1%E4%BF%A1%E5%90%8D%E5%8D%95%E4%B8%94%E7%94%B3%E8%AF%B7%E4%BA%8B%E9%A1%B9%E6%97%A0%E5%AE%9E%E8%B4%A8%E6%80%A7%E5%8F%98%E5%8C%96%E7%9A%84%E6%A3%80%E9%AA%8C%E6%A3%80%E6%B5%8B%E6%9C%BA%E6%9E%84%E7%9A%84%E5%A4%8D%E6%9F%A5%E6%8D%A2%E8%AF%81%E8%AF%84%E5%AE%A1-%E4%B9%A6%E9%9D%A2%E5%AE%A1%E6%9F%A5%E7%BB%93-%E8%AE%BA%E5%88%86%E4%B8%BA%E7%AC%A6%E5%90%88%E4%B8%8D%E7%AC%A6%E5%90%88%E4%B8%A4%E7%A7%8D%E6%83%85%E5%BD%A2\&#34;&gt;第十六条 书面审查方式适用于已获资质认定技术能力内的少量参数扩项或变 更（不影响其符合资质认定条件和要求）和上一许可周期内无违法违规行为、未列 入失信名单且申请事项无实质性变化的检验检测机构的复查换证评审。书面审查结 论分为“符合”“不符合”两种情形。&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E7%AC%AC%E5%8D%81%E4%B8%83%E6%9D%A1-%E8%BF%9C%E7%A8%8B%E8%AF%84%E5%AE%A1%E6%98%AF%E6%8C%87%E4%BD%BF%E7%94%A8%E4%BF%A1%E6%81%AF%E5%92%8C%E9%80%9A%E4%BF%A1%E6%8A%80%E6%9C%AF%E5%AF%B9%E6%A3%80%E9%AA%8C%E6%A3%80%E6%B5%8B%E6%9C%BA%E6%9E%84%E5%AE%9E%E6%96%BD%E7%9A%84%E6%8A%80%E6%9C%AF%E8%AF%84-%E5%AE%A1-%E9%87%87%E7%94%A8%E6%96%B9%E5%BC%8F%E5%8F%AF%E4%BB%A5%E4%B8%BA%E4%BD%86%E4%B8%8D%E9%99%90%E4%BA%8E%E5%88%A9%E7%94%A8%E8%BF%9C%E7%A8%8B%E7%94%B5%E4%BF%A1%E4%BC%9A%E8%AE%AE%E8%AE%BE%E6%96%BD%E7%AD%89%E5%AF%B9%E8%BF%9C%E7%A8%8B%E5%9C%BA%E6%89%80%E5%8C%85%E6%8B%AC%E6%BD%9C-%E5%9C%A8%E5%8D%B1%E9%99%A9%E5%9C%BA%E6%89%80%E5%AE%9E%E6%96%BD%E8%AF%84%E5%AE%A1%E5%8C%85%E6%8B%AC%E9%9F%B3%E9%A2%91-%E8%A7%86%E9%A2%91%E5%92%8C%E6%95%B0%E6%8D%AE%E5%85%B1%E4%BA%AB%E4%BB%A5%E5%8F%8A%E5%85%B6%E4%BB%96%E6%8A%80%E6%9C%AF%E6%89%8B%E6%AE%B5%E9%80%9A%E8%BF%87%E8%BF%9C%E7%A8%8B-%E6%8E%A5%E5%85%A5%E6%96%B9%E5%BC%8F%E5%AF%B9%E6%96%87%E4%BB%B6%E5%92%8C%E8%AE%B0%E5%BD%95%E5%AE%A1%E6%A0%B8%E5%90%8C%E6%AD%A5%E7%9A%84%E5%8D%B3%E5%AE%9E%E6%97%B6%E7%9A%84%E6%88%96%E8%80%85%E6%98%AF%E5%BC%82%E6%AD%A5%E7%9A%84%E5%9C%A8%E9%80%82%E7%94%A8%E6%97%B6%E9%80%9A%E8%BF%87-%E9%9D%99%E6%AD%A2%E5%BD%B1%E5%83%8F-%E8%A7%86%E9%A2%91%E6%88%96%E8%80%85%E9%9F%B3%E9%A2%91%E5%BD%95%E5%88%B6%E7%9A%84%E6%89%8B%E6%AE%B5%E8%AE%B0%E5%BD%95%E4%BF%A1%E6%81%AF%E5%92%8C%E8%AF%81%E6%8D%AE-%E4%B8%8B%E5%88%97%E6%83%85%E5%BD%A2%E5%8F%AF%E9%80%89%E6%8B%A9%E8%BF%9C%E7%A8%8B%E8%AF%84%E5%AE%A1\&#34;&gt;第十七条 远程评审是指使用信息和通信技术对检验检测机构实施的技术评 审。采用方式可以为（但不限于）：利用远程电信会议设施等对远程场所（包括潜 在危险场所）实施评审，包括音频、视频和数据共享以及其他技术手段；通过远程 接入方式对文件和记录审核，同步的（即实时的）或者是异步的（在适用时）通过 静止影像、视频或者音频录制的手段记录信息和证据。下列情形可选择远程评审：&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E4%B8%80%E7%94%B1%E4%BA%8E%E4%B8%8D%E5%8F%AF%E6%8A%97%E5%8A%9B%E7%96%AB%E6%83%85-%E5%AE%89%E5%85%A8-%E6%97%85%E9%80%94%E9%99%90%E5%88%B6%E7%AD%89%E6%97%A0%E6%B3%95%E5%89%8D%E5%BE%80%E7%8E%B0%E5%9C%BA%E8%AF%84%E5%AE%A1\&#34;&gt;（一）由于不可抗力（疫情、安全、旅途限制等）无法前往现场评审；&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E4%BA%8C%E6%A3%80%E9%AA%8C%E6%A3%80%E6%B5%8B%E6%9C%BA%E6%9E%84%E4%BB%8E%E4%BA%8B%E5%AE%8C%E5%85%A8%E7%9B%B8%E5%90%8C%E7%9A%84%E6%A3%80%E6%B5%8B%E6%B4%BB%E5%8A%A8%E6%9C%89%E5%A4%9A%E4%B8%AA%E5%9C%B0%E7%82%B9%E5%90%84%E5%9C%B0%E7%82%B9%E5%9D%87%E8%BF%90%E8%A1%8C%E7%9B%B8%E5%90%8C%E7%9A%84-%E8%B4%A8%E9%87%8F%E7%AE%A1%E7%90%86%E4%BD%93%E7%B3%BB%E4%B8%94%E5%8F%AF%E4%BB%A5%E5%9C%A8%E4%BB%BB%E4%BD%95%E4%B8%80%E4%B8%AA%E5%9C%B0%E7%82%B9%E6%9F%A5%E9%98%85%E6%89%80%E6%9C%89%E5%85%B6%E4%BB%96%E5%9C%B0%E7%82%B9%E7%9A%84%E7%94%B5%E5%AD%90%E8%AE%B0%E5%BD%95%E5%8F%8A%E6%95%B0%E6%8D%AE%E7%9A%84\&#34;&gt;（二）检验检测机构从事完全相同的检测活动有多个地点，各地点均运行相同的 质量管理体系，且可以在任何一个地点查阅所有其他地点的电子记录及数据的；&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E4%B8%89%E5%B7%B2%E8%8E%B7%E8%B5%84%E8%B4%A8%E8%AE%A4%E5%AE%9A%E6%8A%80%E6%9C%AF%E8%83%BD%E5%8A%9B%E5%86%85%E7%9A%84%E5%B0%91%E9%87%8F%E5%8F%82%E6%95%B0%E5%8F%98%E6%9B%B4%E5%8F%8A%E6%89%A9%E9%A1%B9\&#34;&gt;（三）已获资质认定技术能力内的少量参数变更及扩项；&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E5%9B%9B%E7%8E%B0%E5%9C%BA%E8%AF%84%E5%AE%A1%E5%90%8E%E9%9C%80%E8%A6%81%E8%BF%9B%E8%A1%8C%E5%A4%8D%E6%A0%B8%E4%BD%86%E5%A4%8D%E6%A0%B8%E6%97%A0%E6%B3%95%E5%9C%A8%E8%A7%84%E5%AE%9A%E6%97%B6%E9%97%B4%E5%86%85%E5%AE%8C%E6%88%90-%E8%BF%9C%E7%A8%8B%E8%AF%84%E5%AE%A1%E7%BB%93%E8%AE%BA%E5%88%86%E4%B8%BA%E7%AC%A6%E5%90%88%E5%9F%BA%E6%9C%AC%E7%AC%A6%E5%90%88%E4%B8%8D%E7%AC%A6%E5%90%88%E4%B8%89%E7%A7%8D%E6%83%85%E5%BD%A2\&#34;&gt;（四）现场评审后需要进行复核，但复核无法在规定时间内完成。 远程评审结论分为“符合”“基本符合”“不符合”三种情形。&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E7%AC%AC%E5%8D%81%E5%85%AB%E6%9D%A1-%E6%A3%80%E9%AA%8C%E6%A3%80%E6%B5%8B%E6%9C%BA%E6%9E%84%E8%B5%84%E8%B4%A8%E8%AE%A4%E5%AE%9A%E5%91%8A%E7%9F%A5%E6%89%BF%E8%AF%BA%E4%BE%9D%E6%8D%AE%E6%A3%80%E9%AA%8C%E6%A3%80%E6%B5%8B%E6%9C%BA%E6%9E%84%E8%B5%84%E8%B4%A8%E8%AE%A4%E5%AE%9A%E5%91%8A%E7%9F%A5-%E6%89%BF%E8%AF%BA%E5%AE%9E%E6%96%BD%E5%8A%9E%E6%B3%95%E8%AF%95%E8%A1%8C%E5%92%8C%E6%9C%89%E5%85%B3%E8%A7%84%E5%AE%9A%E5%AE%9E%E6%96%BD-%E5%BA%94%E5%BD%93%E5%AF%B9%E6%A3%80%E9%AA%8C%E6%A3%80%E6%B5%8B%E6%9C%BA%E6%9E%84%E6%89%BF%E8%AF%BA%E7%9A%84%E7%9C%9F%E5%AE%9E%E6%80%A7%E8%BF%9B%E8%A1%8C-%E7%8E%B0%E5%9C%BA%E6%A0%B8%E6%9F%A5%E5%91%8A%E7%9F%A5%E6%89%BF%E8%AF%BA%E7%A8%8B%E5%BA%8F%E6%A0%B8%E6%9F%A5%E8%A1%A8%E8%A7%81%E9%99%84%E4%BB%B64-%E5%91%8A%E7%9F%A5%E6%89%BF%E8%AF%BA%E7%9A%84%E7%8E%B0%E5%9C%BA%E6%A0%B8%E6%9F%A5%E7%A8%8B%E5%BA%8F%E5%8F%82%E7%85%A7%E4%B8%80%E8%88%AC%E7%A8%8B%E5%BA%8F%E7%9A%84%E7%8E%B0%E5%9C%BA%E8%AF%84%E5%AE%A1%E6%96%B9%E5%BC%8F%E8%BF%9B%E8%A1%8C\&#34;&gt;第十八条 检验检测机构资质认定告知承诺依据《检验检测机构资质认定告知 承诺实施办法（试行）》和有关规定实施。应当对检验检测机构承诺的真实性进行 现场核查（告知承诺程序核查表见附件4）。告知承诺的现场核查程序参照一般程序的现场评审方式进行。&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E7%AC%AC%E5%8D%81%E4%B9%9D%E6%9D%A1-%E5%91%8A%E7%9F%A5%E6%89%BF%E8%AF%BA%E7%8E%B0%E5%9C%BA%E6%A0%B8%E6%9F%A5%E5%BA%94%E5%BD%93%E7%94%B1%E8%B5%84%E8%B4%A8%E8%AE%A4%E5%AE%9A%E9%83%A8%E9%97%A8%E7%BB%84%E7%BB%87%E5%AE%9E%E6%96%BD%E7%8E%B0%E5%9C%BA%E6%A0%B8%E6%9F%A5%E4%BA%BA%E5%91%98%E5%BA%94-%E5%BD%93%E5%9C%A8%E8%A7%84%E5%AE%9A%E7%9A%84%E6%97%B6%E9%99%90%E5%86%85%E8%BF%9B%E8%A1%8C%E6%A0%B8%E6%9F%A5%E5%B9%B6%E5%87%BA%E5%85%B7%E7%8E%B0%E5%9C%BA%E6%A0%B8%E6%9F%A5%E7%BB%93%E8%AE%BA-%E6%A0%B8%E6%9F%A5%E7%BB%93%E8%AE%BA%E5%88%86%E4%B8%BA%E6%89%BF%E8%AF%BA%E5%B1%9E%E5%AE%9E%E6%89%BF-%E8%AF%BA%E5%9F%BA%E6%9C%AC%E5%B1%9E%E5%AE%9E%E6%89%BF%E8%AF%BA%E4%B8%A5%E9%87%8D%E4%B8%8D%E5%AE%9E%E8%99%9A%E5%81%87%E6%89%BF%E8%AF%BA%E4%B8%89%E7%A7%8D%E6%83%85%E5%BD%A2-%E5%B9%B6%E6%A0%B9%E6%8D%AE%E7%9B%B8%E5%BA%94%E7%BB%93%E8%AE%BA%E7%94%B1%E6%A0%B8%E6%9F%A5%E7%BB%84%E9%80%9A-%E7%9F%A5%E7%94%B3%E8%AF%B7%E4%BA%BA%E6%95%B4%E6%94%B9%E6%88%96%E8%80%85%E5%90%91%E8%B5%84%E8%B4%A8%E8%AE%A4%E5%AE%9A%E9%83%A8%E9%97%A8%E4%BD%9C%E5%87%BA%E6%92%A4%E9%94%80%E7%9B%B8%E5%BA%94%E8%AE%B8%E5%8F%AF%E4%BA%8B%E9%A1%B9%E7%9A%84%E5%BB%BA%E8%AE%AE\&#34;&gt;第十九条 告知承诺现场核查应当由资质认定部门组织实施，现场核查人员应 当在规定的时限内进行核查并出具现场核查结论。核查结论分为：“承诺属实”“承 诺基本属实”“承诺严重不实／虚假承诺”三种情形。并根据相应结论，由核查组通 知申请人整改，或者向资质认定部门作出撤销相应许可事项的建议。&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E7%AC%AC%E5%9B%9B%E7%AB%A0-%E9%99%84%E5%88%99\&#34;&gt;第四章 附则&lt;/a&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E7%AC%AC%E4%BA%8C%E5%8D%81%E6%9D%A1-%E4%B8%93%E4%B8%9A%E6%8A%80%E6%9C%AF%E8%AF%84%E4%BB%B7%E6%9C%BA%E6%9E%84%E4%BB%A5%E5%8F%8A%E7%9B%B8%E5%85%B3%E8%AF%84%E5%AE%A1%E4%BA%BA%E5%91%98%E5%9C%A8%E6%8A%80%E6%9C%AF%E8%AF%84%E5%AE%A1%E6%B4%BB%E5%8A%A8%E4%B8%AD%E7%9A%84%E8%BF%9D%E6%B3%95%E8%BF%9D%E8%A7%84-%E8%A1%8C%E4%B8%BA%E4%BE%9D%E7%85%A7%E6%A3%80%E9%AA%8C%E6%A3%80%E6%B5%8B%E6%9C%BA%E6%9E%84%E8%B5%84%E8%B4%A8%E8%AE%A4%E5%AE%9A%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95%E5%8F%8A%E6%A3%80%E9%AA%8C%E6%A3%80%E6%B5%8B%E6%9C%BA%E6%9E%84%E8%B5%84%E8%B4%A8%E8%AE%A4%E5%AE%9A%E8%AF%84%E5%AE%A1%E5%91%98-%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95%E8%AF%95%E8%A1%8C%E7%9A%84%E7%9B%B8%E5%85%B3%E8%A7%84%E5%AE%9A%E4%BA%88%E4%BB%A5%E5%A4%84%E7%90%86\&#34;&gt;第二十条 专业技术评价机构以及相关评审人员在技术评审活动中的违法违规 行为，依照《检验检测机构资质认定管理办法》及《检验检测机构资质认定评审员 管理办法（试行）》的相关规定予以处理。&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E6%9D%A1-%E6%9C%AC%E5%87%86%E5%88%99%E8%87%AA2023%E5%B9%B412%E6%9C%881%E6%97%A5%E8%B5%B7%E6%96%BD%E8%A1%8C-%E6%A3%80%E9%AA%8C%E6%A3%80%E6%B5%8B%E6%9C%BA%E6%9E%84%E8%B5%84%E8%B4%A8%E8%AE%A4%E5%AE%9A-%E8%AF%84%E5%AE%A1%E5%87%86%E5%88%99%E5%9B%BD%E8%AE%A4%E5%AE%9E201633%E5%8F%B7%E5%90%8C%E6%97%B6%E5%BA%9F%E6%AD%A2\&#34;&gt;第二十一条 本准则自2023年12月1日起施行。《检验检测机构资质认定 评审准则》（国认实〔2016〕33号）同时废止。&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&#34;},{&#34;content&#34;:&#34;&lt;p&gt;&lt;img src=\&#34;https://wegrowth.github.io/post-images/1685720533679.png\&#34; alt=\&#34;检验检测机构资质认定评审准则\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n&lt;strong&gt;市场监管总局关于发布《检验检测机构资质认定评审准则》的公告&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;2023年第21号&lt;/p&gt;\n&lt;p&gt;为落实《质量强国建设纲要》关于深化检验检测机构资质审批制度改革、全面实施告知承诺和优化审批服务的要求，市场监管总局修订了《检验检测机构资质认定评审准则》，已经2023年5月15日总局第9次局务会议通过，现予公告，自2023年12月1日起施行。《检验检测机构资质认定评审准则》（国认实〔2016〕33号）同时废止。&lt;/p&gt;\n&lt;p&gt;​                                                                                                                 市场监管总局&lt;br&gt;\n​                                                                                                                  2023年5月30日&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;检验检测机构资质认定评审准则&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;第一章 总则&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;第一条 依照《中华人民共和国计量法》及其实施细则、《中华人民共和国认证认可条例》等法律、行政法规的规定，为依法实施《检验检测机构资质认定管理办法》相关资质认定技术评审要求，制定本准则。&lt;/p&gt;\n&lt;p&gt;第二条 在中华人民共和国境内开展检验检测机构资质认定技术评审（含告知承诺核查，下同）工作，应当遵守本准则。&lt;/p&gt;\n&lt;p&gt;第三条 本准则所称检验检测机构，是指依照《检验检测机构资质认定管理办法》的相关规定，依法成立，依据相关标准或者技术规范，利用仪器设备、环境设施等技术条件和专业技能，对产品或者法律法规规定的特定对象进行检验检测的专业技术组织。&lt;/p&gt;\n&lt;p&gt;本准则所称资质认定，是指依照《检验检测机构资质认定管理办法》的相关规定，由市场监督管理部门依照法律、行政法规规定，对向社会出具具有证明作用的数据、结果的检验检测机构的基本条件和技术能力是否符合法定要求实施的评价许可。&lt;/p&gt;\n&lt;p&gt;本准则所称资质认定技术评审，是指依照《检验检测机构资质认定管理办法》的相关规定，由市场监管总局或者省级市场监督管理部门（以下统称资质认定部门）自行或者委托专业技术评价机构组织相关专业评审人员，对检验检测机构申请的资质认定事项是否符合资质认定条件以及相关要求所进行的技术性审查。&lt;/p&gt;\n&lt;p&gt;第四条 针对不同行业或者领域的特殊性，市场监管总局、国务院有关主管部门，依照有关法律法规的规定，制定和发布相关技术评审补充要求，评审补充要求与本准则一并作为技术评审依据。&lt;/p&gt;\n&lt;p&gt;第五条 依照《检验检测机构资质认定管理办法》《检验检测机构资质认定告知承诺实施办法（试行）》等的相关规定，对于采用告知承诺程序实施资质认定的，对检验检测机构承诺内容是否属实进行现场核查的内容与程序，应当符合本准则的相关规定。&lt;/p&gt;\n&lt;p&gt;第六条 资质认定技术评审工作应当坚持统一规范、客观公正、科学准确、公平公开、便利高效的原则。&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;第二章 评审内容与要求&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;第七条 资质认定技术评审内容包括：对检验检测机构主体、人员、场所环境、设备设施和管理体系等方面是否符合资质认定要求的审查。&lt;/p&gt;\n&lt;p&gt;第八条 检验检测机构应当是依法成立并能够承担相应法律责任的法人或者其他组织。&lt;/p&gt;\n&lt;p&gt;（一）检验检测机构或者其所在的组织应当有明确的法律地位，对其出具的检验检测数据、结果负责，并承担法律责任。不具备独立法人资格的检验检测机构应当经所在法人单位授权。&lt;/p&gt;\n&lt;p&gt;（二）检验检测机构应当以公开方式对其遵守法定要求、独立公正从业、履行社会责任、严守诚实信用等情况进行自我承诺。&lt;/p&gt;\n&lt;p&gt;（三）检验检测机构应当独立于其出具的检验检测数据、结果所涉及的利益相关方，不受任何可能干扰其技术判断的因素影响，保证检验检测数据、结果公正准确、可追溯。&lt;/p&gt;\n&lt;p&gt;（四）检验检测机构及其人员应当对其在检验检测活动中所知悉的国家秘密、商业秘密负有保密义务，并制定实施相应的保密措施。&lt;/p&gt;\n&lt;p&gt;第九条 检验检测机构应当具有与其从事检验检测活动相适应的检验检测技术人员和管理人员。&lt;/p&gt;\n&lt;p&gt;（一）检验检测机构与其人员建立劳动关系应当符合《中华人民共和国劳动法》《中华人民共和国劳动合同法》的有关规定，法律、行政法规对检验检测人员执业资格或者禁止从业另有规定的，依照其规定。&lt;/p&gt;\n&lt;p&gt;（二）检验检测机构人员的受教育程度、专业技术背景和工作经历、资质资格、技术能力应当符合工作需要。&lt;/p&gt;\n&lt;p&gt;（三）检验检测报告授权签字人应当具有中级及以上相关专业技术职称或者同等能力，并符合相关技术能力要求。&lt;/p&gt;\n&lt;p&gt;第十条 检验检测机构应当具有固定的工作场所，工作环境符合检验检测要求。&lt;/p&gt;\n&lt;p&gt;（一）检验检测机构具有符合标准或者技术规范要求的检验检测场所，包括固定的、临时的、可移动的或者多个地点的场所。&lt;/p&gt;\n&lt;p&gt;（二）检验检测工作环境及安全条件符合检验检测活动要求。&lt;/p&gt;\n&lt;p&gt;第十一条 检验检测机构应当具备从事检验检测活动所必需的检验检测设备设施。&lt;/p&gt;\n&lt;p&gt;（一）检验检测机构应当配备具有独立支配使用权、性能符合工作要求的设备和设施。&lt;/p&gt;\n&lt;p&gt;（二）检验检测机构应当对检验检测数据、结果的准确性或者有效性有影响的设备（包括用于测量环境条件等辅助测量设备）实施检定、校准或核查，保证数据、结果满足计量溯源性要求。&lt;/p&gt;\n&lt;p&gt;（三）检验检测机构如使用标准物质，应当满足计量溯源性要求。&lt;/p&gt;\n&lt;p&gt;第十二条 检验检测机构应当建立保证其检验检测活动独立、公正、科学、诚信的管理体系，并确保该管理体系能够得到有效、可控、稳定实施，持续符合检验检测机构资质认定条件以及相关要求。&lt;/p&gt;\n&lt;p&gt;（一）检验检测机构应当依据法律法规、标准（包括但不限于国家标准、行业标准、国际标准）的规定制定完善的管理体系文件，包括政策、制度、计划、程序和作业指导书等。检验检测机构建立的管理体系应当符合自身实际情况并有效运行。&lt;/p&gt;\n&lt;p&gt;（二）检验检测机构应当依法开展有效的合同审查。对相关要求、标书、合同的偏离、变更应当征得客户同意并通知相关人员。&lt;/p&gt;\n&lt;p&gt;（三）检验检测机构选择和购买的服务、供应品应当符合检验检测工作需求。&lt;/p&gt;\n&lt;p&gt;（四）检验检测机构能正确使用有效的方法开展检验检测活动。检验检测方法包括标准方法和非标准方法，应当优先使用标准方法。使用标准方法前应当进行验证；使用非标准方法前，应当先对方法进行确认，再验证。&lt;/p&gt;\n&lt;p&gt;（五）当检验检测标准、技术规范或者声明与规定要求的符合性有测量不确定度要求时，检验检测机构应当报告测量不确定度。&lt;/p&gt;\n&lt;p&gt;（六）检验检测机构出具的检验检测报告，应当客观真实、方法有效、数据完整、信息齐全、结论明确、表述清晰并使用法定计量单位。&lt;/p&gt;\n&lt;p&gt;（七）检验检测机构应当对质量记录和技术记录的管理作出规定，包括记录的标识、贮存、保护、归档留存和处置等内容。记录信息应当充分、清晰、完整。检验检测原始记录和报告保存期限不少于6年。&lt;/p&gt;\n&lt;p&gt;（八）检验检测机构在运用计算机信息系统实施检验检测、数据传输或者对检验检测数据和相关信息进行管理时，应当具有保障安全性、完整性、正确性措施。&lt;/p&gt;\n&lt;p&gt;（九）检验检测机构应当实施有效的数据、结果质量控制活动，质量控制活动与检验检测工作相适应。数据、结果质量控制活动包括内部质量控制活动和外部质量控制活动。内部质量控制活动包括但不限于人员比对、设备比对、留样再测、盲样考核等。外部质量控制活动包括但不限于能力验证、实验室间比对等。&lt;/p&gt;\n&lt;p&gt;第十三条 有关法律法规及标准、技术规范对检验检测机构的主体、人员、场所环境、设备设施和管理体系等条件有特殊规定的，检验检测机构还应当符合相关特殊要求。&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;第三章 评审方式与程序&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;第十四条 检验检测机构资质认定一般程序的技术评审方式包括：现场评审（现场评审工作程序见附件1）、书面审查（书面审查工作程序见附件2）和远程评审（远程评审工作程序见附件3）。根据机构申请的具体情况，采取不同技术评审方式对机构申请的资质认定事项进行审查。（一般程序审查〔告知承诺核查〕表见附件4）。&lt;/p&gt;\n&lt;p&gt;第十五条 现场评审适用于首次评审、扩项评审、复查换证（有实际能力变化时）评审、发生变更事项影响其符合资质认定条件和要求的变更评审。现场评审应当对检验检测机构申请相关资质认定事项的技术能力进行逐项确认，根据申请范围安排现场试验。安排现场试验时应当覆盖所有申请类别的主要或关键项目/参数、仪器设备、检测方法、试验人员、试验材料等，并覆盖所有检验检测场所。现场评审结论分为“符合”“基本符合”“不符合”三种情形。&lt;/p&gt;\n&lt;p&gt;第十六条 书面审查方式适用于已获资质认定技术能力内的少量参数扩项或变更（不影响其符合资质认定条件和要求）和上一许可周期内无违法违规行为、未列入失信名单且申请事项无实质性变化的检验检测机构的复查换证评审。书面审查结论分为“符合”“不符合”两种情形。&lt;/p&gt;\n&lt;p&gt;第十七条 远程评审是指使用信息和通信技术对检验检测机构实施的技术评审。采用方式可以为（但不限于）：利用远程电信会议设施等对远程场所（包括潜在危险场所）实施评审，包括音频、视频和数据共享以及其他技术手段；通过远程接入方式对文件和记录审核，同步的（即实时的）或者是异步的（在适用时）通过静止影像、视频或者音频录制的手段记录信息和证据。下列情形可选择远程评审：&lt;/p&gt;\n&lt;p&gt;（一）由于不可抗力（疫情、安全、旅途限制等）无法前往现场评审；&lt;/p&gt;\n&lt;p&gt;（二）检验检测机构从事完全相同的检测活动有多个地点，各地点均运行相同的管理体系，且可以在任何一个地点查阅所有其他地点的电子记录及数据的；&lt;/p&gt;\n&lt;p&gt;（三）已获资质认定技术能力内的少量参数变更及扩项；&lt;/p&gt;\n&lt;p&gt;（四）现场评审后仍需要进行复核，但复核无法在规定时间内完成。&lt;/p&gt;\n&lt;p&gt;远程评审结论分为“符合”“基本符合”“不符合”三种情形。&lt;/p&gt;\n&lt;p&gt;第十八条 检验检测机构资质认定告知承诺依据《检验检测机构资质认定告知承诺实施办法（试行）》和有关规定实施。应当对检验检测机构承诺的真实性进行现场核查（告知承诺程序核查表见附件4）。告知承诺的现场核查程序参照一般程序的现场评审方式进行。&lt;/p&gt;\n&lt;p&gt;第十九条 告知承诺现场核查应当由资质认定部门组织实施，现场核查人员应当在规定的时限内进行核查并出具现场核查结论。核查结论分为：“承诺属实”“承诺基本属实”“承诺严重不实/虚假承诺”三种情形。并根据相应结论，由核查组通知申请人整改，或者向资质认定部门作出撤销相应许可事项的建议。&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;第四章 附则&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;第二十条 专业技术评价机构以及相关评审人员在技术评审活动中的违法违规行为，依照《检验检测机构资质认定管理办法》及《检验检测机构资质认定评审员管理办法（试行）》的相关规定予以处理。&lt;/p&gt;\n&lt;p&gt;第二十一条 本准则自2023年12月1日起施行。《检验检测机构资质认定评审准则》（国认实〔2016〕33号）同时废止。&lt;/p&gt;\n&lt;p&gt;附件：1.检验检测机构资质认定现场评审工作程序&lt;/p&gt;\n&lt;p&gt;​     2.检验检测机构资质认定书面审查工作程序&lt;/p&gt;\n&lt;p&gt;​     3.检验检测机构资质认定远程评审工作程序&lt;/p&gt;\n&lt;p&gt;​     4.《检验检测机构资质认定评审准则》一般&lt;/p&gt;\n&lt;p&gt;​     程序审查（告知承诺核查）表&lt;/p&gt;\n&lt;p&gt;注：信息来源于 市场监管总局网站&lt;br&gt;\nhttps://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/rkjcs/art/2023/art_b97b0b1addbf4e8aaca43cb26f13883b.html&lt;/p&gt;\n&#34;,&#34;fileName&#34;:&#34;VrgG_h_aw&#34;,&#34;abstract&#34;:&#34;&#34;,&#34;title&#34;:&#34;法规动态 | 检验检测机构资质认定评审准则  正式发布&#34;,&#34;tags&#34;:[{&#34;name&#34;:&#34;检验检测 资质认定 评审准则&#34;,&#34;slug&#34;:&#34;_S6cTr2J8&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://wegrowth.github.io/_S6cTr2J8/&#34;}],&#34;date&#34;:&#34;2023-06-02 23:39:33&#34;,&#34;dateFormat&#34;:&#34;2023-06-02&#34;,&#34;feature&#34;:&#34;&#34;,&#34;link&#34;:&#34;https://wegrowth.github.io/VrgG_h_aw/&#34;,&#34;hideInList&#34;:false,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;13 min read&#34;,&#34;time&#34;:741000,&#34;words&#34;:3678,&#34;minutes&#34;:13},&#34;description&#34;:&#34;\n市场监管总局关于发布《检验检测机构资质认定评审准则》的公告\n2023年第21号\n为落实《质量强国建设纲要》关于深化检验检测机构资质审批制度改革、全面实施告知承诺和优化审批服务的要求，市场监管总局修订了《检验检测机构资质认定评审准则》，已经...&#34;,&#34;toc&#34;:&#34;&#34;},{&#34;content&#34;:&#34;&lt;p&gt;为了完善检验检测机构授权签字人考核，确保授权签字人能力符合检验检测机构资质认定要求，省市场监管局决定改进检验检测机构授权签字人考核方式，建立拟任授权签字人试卷考核和现场考核相结合的考核制度。现将有关事项通告如下：&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;一、考核范围&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;自2023年5月10日起新申请的检验检测机构资质认定行政审批中的授权签字人，均需参加试卷考核，具体包括检验检测机构（含机动车检测机构）&lt;strong&gt;首次申请的拟任授权签字人，以及扩项、地址变更、复查换证等需现场评审所涉及的新增拟任授权签字人。&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;二、考核时间、地点&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;检验检测机构授权签字人试卷考核与组建评审组并行准备，试卷考核在评审专家现场评审前进行&lt;/strong&gt;。考核时间原则上为每周星期五上午，考核用时60分钟。网上审批系统将以短信方式告知参考人员考核的具体时间、属地考点、联络人及联系电话等。&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;三、考核内容&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;考核内容分为通用知识和补充要求。通用知识主要包括与检验检测机构资质认定相关的《中华人民共和国计量法》《中华人民共和国计量法实施细则》《中华人民共和国标准化法》《中华人民共和国标准化法实施条例》《中华人民共和国产品质量法》《中华人民共和国认证认可条例》《检验检测机构资质认定管理办法》《检验检测机构监督管理办法》《检验检测机构资质认定能力评价 检验检测机构通用要求》（RB/T214-2017），以及其他相关法律、行政法规、规章、规范性文件中涉及检验检测的通用条文和内容；申请的行业领域涉及国家有补充要求的，同时考核补充要求的内容。&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;四、考核方式&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;计算机生成试卷进行闭卷考核，由相关市场监管局组织实施，试题均为客观题，满分100分，试行期60分（含）以上为合格。&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;五、相关要求&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;1.参考人员携带身份证并放于考桌右上方，供监考人员核对身份。考试用电脑由相关市场监管局提供，参考人员不得将电脑、手机等电子设备和与考核相关的资料带入考场。&lt;/p&gt;\n&lt;p&gt;2.参考人员应在约定的时间参加考核，迟到超过15分钟的，视为自动放弃本次考核。&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;3.通过试卷考核的拟任授权签字人方有资格参加现场评审中的现场考核。拟任授权签字人不得以已通过试卷考核为由拒绝参加现场考核，评审组长也不因相关人员已通过试卷考核而降低现场考核标准或减少考核项目。未通过试卷考核的拟任授权签字人不能参加现场考核，若相应的授权签字领域无其他授权签字人覆盖，相应的检测能力不予推荐。若所有拟任授权签字人均为新增授权签字人，且考核均不合格，检验检测机构的行政审批申请将不予许可。&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;4.省市场监管局行政审批处将通过现场或视频等方式对相关市场监管局授权签字人试卷考核现场进行抽检巡查。&lt;/p&gt;\n&lt;p&gt;5.相应取消《省市场监管局关于检验检测机构资质认定相关变更审批改为报备的通告》中授权签字人报备的规定。&lt;/p&gt;\n&lt;p&gt;江苏省市场监督管理局&lt;br&gt;\n2023年4月6日&lt;/p&gt;\n&lt;blockquote&gt;\n&lt;p&gt;信息来源于 江苏省市场监督管理总局&lt;/p&gt;\n&lt;/blockquote&gt;\n&#34;,&#34;fileName&#34;:&#34;q9B0RrdG3&#34;,&#34;abstract&#34;:&#34;&#34;,&#34;title&#34;:&#34;行业监管 | 江苏省市场监督管理局关于对检验检测机构资质认定拟任授权签字人试行试卷考核的通告&#34;,&#34;tags&#34;:[{&#34;name&#34;:&#34;资质认定&#34;,&#34;slug&#34;:&#34;NbVftEuu1&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://wegrowth.github.io/NbVftEuu1/&#34;},{&#34;name&#34;:&#34;授权签字人&#34;,&#34;slug&#34;:&#34;3x-UJqKcv9&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://wegrowth.github.io/3x-UJqKcv9/&#34;},{&#34;name&#34;:&#34;检验检测&#34;,&#34;slug&#34;:&#34;D5OBvjSgD&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://wegrowth.github.io/D5OBvjSgD/&#34;}],&#34;date&#34;:&#34;2023-04-19 10:57:55&#34;,&#34;dateFormat&#34;:&#34;2023-04-19&#34;,&#34;feature&#34;:&#34;https://wegrowth.github.io/post-images/q9B0RrdG3.png&#34;,&#34;link&#34;:&#34;https://wegrowth.github.io/q9B0RrdG3/&#34;,&#34;hideInList&#34;:false,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;4 min read&#34;,&#34;time&#34;:207000,&#34;words&#34;:1023,&#34;minutes&#34;:4},&#34;description&#34;:&#34;为了完善检验检测机构授权签字人考核，确保授权签字人能力符合检验检测机构资质认定要求，省市场监管局决定改进检验检测机构授权签字人考核方式，建立拟任授权签字人试卷考核和现场考核相结合的考核制度。现将有关事项通告如下：\n一、考核范围\n自2023年...&#34;,&#34;toc&#34;:&#34;&#34;},{&#34;content&#34;:&#34;&lt;p&gt;&lt;strong&gt;一、品牌活动介绍&lt;/strong&gt;&lt;/p&gt;\n&lt;figure data-type=\&#34;image\&#34; tabindex=\&#34;1\&#34;&gt;&lt;img src=\&#34;https://wegrowth.github.io/post-images/1681712336269.jpg\&#34; alt=\&#34;活动名称\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/figure&gt;\n&lt;p&gt;【&lt;strong&gt;安徽环境监测实验室高质量发展 TEDx 沙龙&lt;/strong&gt;】是为环境监测实验室运营管理层面打造的品牌活动。&lt;/p&gt;\n&lt;ol&gt;\n&lt;li&gt;围绕  “&lt;strong&gt;T (Technology) 技术、E（Evolution）发展、D（Design）设计&lt;/strong&gt;” 三个重点方向，建立一种包容开放的态度和场景；&lt;/li&gt;\n&lt;li&gt;邀请环境监测管理层、市场人员、技术人员及行业相关人员，去阐述探讨实验室的经营发展的思考和观点，想法的交流与碰撞，以设计谋划实验室管理发展积极的措施与方法论；&lt;/li&gt;\n&lt;li&gt;设计安徽环境监测实验室更完善的解决方案，致力于每个实验室高质量发展。&lt;/li&gt;\n&lt;/ol&gt;\n&lt;p&gt;&lt;strong&gt;活动品牌原创发起人：汪颖裕&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;活动周期：每周1期，周末（节假日除外）&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;二、第三期 安徽环境监测实验室高质量发展 TEDx 沙龙 活动信息&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;日期及时间：第三期  2023.04.22 （周六），13:00-15:30&lt;/strong&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;注：若遇客观因素，日期调整会及时通知&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;谢绝空降&lt;/strong&gt;&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;地点：中核安徽计量检测有限公司，安徽省界首市&lt;/strong&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;blockquote&gt;\n&lt;p&gt;中核安徽检测是中核矿业科技改革重组后搭建的第一个产业化平台公司，是“央地”合作的典范。在国企改革三年行动的攻坚之年、关键之年，作为中核矿业科技改革重组后搭建的第一个产业化平台公司，中核安徽检测立足“三新一高”，以新理念谋划新业态，采取“中核矿业科技控股、联合地方国企和优秀民资的混合所有制模式，强强联合，旨在建立一个为当地经济发展提供技术支撑，并辐射服务周边区域的有影响力的综合性区域检测中心。&lt;/p&gt;\n&lt;/blockquote&gt;\n&lt;p&gt;&lt;img src=\&#34;https://wegrowth.github.io/post-images/1681712371377.jpg\&#34; alt=\&#34;中核安徽外景\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n&lt;img src=\&#34;https://wegrowth.github.io/post-images/1681712388218.jpg\&#34; alt=\&#34;中核安徽外景\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n&lt;img src=\&#34;https://wegrowth.github.io/post-images/1681712397237.jpg\&#34; alt=\&#34;中核安徽内景\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;第三期主题：安徽环境监测实验室 生产与运营管理的高绩效增量模式&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;环境监测实验室如何提高公司层面的“土壤肥力”&lt;/li&gt;\n&lt;li&gt;环境监测实验室精益生产关键实践思路&lt;/li&gt;\n&lt;li&gt;内部运营管理、外部业务发展 具体的高绩效增量模式探讨&lt;/li&gt;\n&lt;/ul&gt;\n&lt;blockquote&gt;\n&lt;p&gt;开放、包容、同发展。&lt;/p&gt;\n&lt;p&gt;走进实验室，秉承一种开放包容的态度，提供实验室发展更多的观点与趋势交流的第三空间！&lt;/p&gt;\n&lt;/blockquote&gt;\n&lt;p&gt;&lt;strong&gt;总要有这样一处地方，想法碰撞，火花闪耀，探讨环境监测实验室发展坚定的力量。&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;诚挚邀请实验室及行业相关人员参加交流，活动报名联系&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;汪颖裕&lt;br&gt;\n手机：182 5510 6132&lt;br&gt;\n微信：wegrowth2023&lt;br&gt;\n微信公众号：奕起橙长&lt;br&gt;\n网址：http://wegrowth.top/&lt;/p&gt;\n&#34;,&#34;fileName&#34;:&#34;uYVSe8h22&#34;,&#34;abstract&#34;:&#34;&#34;,&#34;title&#34;:&#34;关于第三期 安徽环境监测实验室高质量发展 TEDx 沙龙的通知&#34;,&#34;tags&#34;:[{&#34;name&#34;:&#34;环境监测&#34;,&#34;slug&#34;:&#34;BcvhrXKpB&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://wegrowth.github.io/BcvhrXKpB/&#34;},{&#34;name&#34;:&#34;实验室高质量发展&#34;,&#34;slug&#34;:&#34;NnU46a3R6N&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://wegrowth.github.io/NnU46a3R6N/&#34;},{&#34;name&#34;:&#34;TEDx沙龙&#34;,&#34;slug&#34;:&#34;uCu3pJANE7&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://wegrowth.github.io/uCu3pJANE7/&#34;}],&#34;date&#34;:&#34;2023-04-17 13:43:36&#34;,&#34;dateFormat&#34;:&#34;2023-04-17&#34;,&#34;feature&#34;:&#34;https://wegrowth.github.io/post-images/uYVSe8h22.jpg&#34;,&#34;link&#34;:&#34;https://wegrowth.github.io/uYVSe8h22/&#34;,&#34;hideInList&#34;:false,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;3 min read&#34;,&#34;time&#34;:142000,&#34;words&#34;:690,&#34;minutes&#34;:3},&#34;description&#34;:&#34;一、品牌活动介绍\n\n【安徽环境监测实验室高质量发展 TEDx 沙龙】是为环境监测实验室运营管理层面打造的品牌活动。\n\n围绕  “T (Technology) 技术、E（Evolution）发展、D（Design）设计” 三个重点方向，建立一...&#34;,&#34;toc&#34;:&#34;&#34;},{&#34;content&#34;:&#34;&lt;p&gt;&lt;strong&gt;一、2023年4月7日 《检验检测机构能力验证管理办法》正式发布。&lt;/strong&gt;&lt;br&gt;\nhttp://wegrowth.top/tcLgdklAw/&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;二、中国环境监测总站关于发布2023年国家环境监测网实验室能力考核计划的通知。&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;三、建议各环境监测实验室根据实验室计划按时报名参加，其中第一期4月份开展，各实验室注意登录国家环境监测网能力考核系统查看具体报名时间。&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;img src=\&#34;https://wegrowth.github.io/post-images/1681366023042.png\&#34; alt=\&#34;1\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n&lt;img src=\&#34;https://wegrowth.github.io/post-images/1681366037873.png\&#34; alt=\&#34;2\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n&lt;img src=\&#34;https://wegrowth.github.io/post-images/1681366047188.png\&#34; alt=\&#34;3\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n&lt;img src=\&#34;https://wegrowth.github.io/post-images/1681366055699.png\&#34; alt=\&#34;4\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/p&gt;\n&lt;blockquote&gt;\n&lt;p&gt;汪颖裕&lt;br&gt;\n环境监测实验室高质量发展布道师&lt;br&gt;\n安徽环境监测第三空间 社群主理人&lt;br&gt;\n安徽环境监测实验室高质量发展 TEDx 沙龙活动 原创发起人&lt;br&gt;\n手机：182 5510 6132&lt;br&gt;\n邮箱：wegrowth2023@163.com&lt;br&gt;\n微信公众号：奕起橙长&lt;br&gt;\n网址：http://www.wegrowth.top/&lt;/p&gt;\n&lt;/blockquote&gt;\n&#34;,&#34;fileName&#34;:&#34;PDsVjCmJD&#34;,&#34;abstract&#34;:&#34;&#34;,&#34;title&#34;:&#34;能力验证 | 关于发布2023年国家环境监测网实验室能力考核计划的通知&#34;,&#34;tags&#34;:[{&#34;name&#34;:&#34;能力验证&#34;,&#34;slug&#34;:&#34;ReV5g4hruv&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://wegrowth.github.io/ReV5g4hruv/&#34;},{&#34;name&#34;:&#34;环境监测&#34;,&#34;slug&#34;:&#34;BcvhrXKpB&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://wegrowth.github.io/BcvhrXKpB/&#34;}],&#34;date&#34;:&#34;2023-04-13 13:51:09&#34;,&#34;dateFormat&#34;:&#34;2023-04-13&#34;,&#34;feature&#34;:&#34;https://wegrowth.github.io/post-images/PDsVjCmJD.png&#34;,&#34;link&#34;:&#34;https://wegrowth.github.io/PDsVjCmJD/&#34;,&#34;hideInList&#34;:false,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;1 min read&#34;,&#34;time&#34;:44000,&#34;words&#34;:206,&#34;minutes&#34;:1},&#34;description&#34;:&#34;一、2023年4月7日 《检验检测机构能力验证管理办法》正式发布。\nhttp://wegrowth.top/tcLgdklAw/\n二、中国环境监测总站关于发布2023年国家环境监测网实验室能力考核计划的通知。\n三、建议各环境监测实验室根据实...&#34;,&#34;toc&#34;:&#34;&#34;},{&#34;content&#34;:&#34;&lt;figure data-type=\&#34;image\&#34; tabindex=\&#34;1\&#34;&gt;&lt;img src=\&#34;https://wegrowth.github.io/post-images/1681369633978.png\&#34; alt=\&#34;市场监管总局关于发布《检验检测机构能力验证管理办法》的公告\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/figure&gt;\n&lt;p&gt;&lt;strong&gt;市场监管总局关于发布《检验检测机构能力验证管理办法》的公告&lt;/strong&gt;&lt;br&gt;\n2023年第13号&lt;br&gt;\n行政规范性文件《检验检测机构能力验证管理办法》已经2023年3月1日市场监管总局第4次局务会议通过，现予公告，自发布之日起施行。《实验室能力验证实施办法》（国家认证认可监督管理委员会2006年第9号公告）同时废止。&lt;/p&gt;\n&lt;p&gt;市场监管总局&lt;br&gt;\n2023年3月27日&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;检验检测机构能力验证管理办法&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;第一章 总  则&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;第一条  为规范市场监督管理部门（以下简称市场监管部门）组织开展的检验检测机构能力验证工作，加强检验检测机构事中事后监督管理，督促检验检测机构落实主体责任，保证其技术能力持续符合资质认定条件和要求，依照《检验检测机构资质认定管理办法》《检验检测机构监督管理办法》等有关规定，制定本办法。&lt;/p&gt;\n&lt;p&gt;第二条  本办法所称能力验证，是指市场监管部门采取实验室间比对等方式，按照相关标准或者技术规范预先制定的考核规则，对检验检测机构技术能力是否持续符合资质认定条件和要求实施的技术管理手段。&lt;/p&gt;\n&lt;p&gt;第三条  由市场监管部门组织实施及监督管理的能力验证工作，适用本办法。&lt;/p&gt;\n&lt;p&gt;第四条  国家市场监督管理总局（以下简称市场监管总局）负责统一协调、组织实施、监督管理检验检测机构能力验证工作。&lt;/p&gt;\n&lt;p&gt;省级市场监管部门负责所辖行政区域内检验检测机构能力验证的实施和管理工作。&lt;/p&gt;\n&lt;p&gt;第五条  检验检测机构能力验证工作，应当遵循客观公正、科学合理、统一规范的原则。&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;第二章 能力验证组织与实施&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;第六条  市场监管部门根据检验检测机构管理工作需要提出能力验证需求，征集能力验证项目，制定年度能力验证工作计划。制定计划时，应当优先考虑涉及国家安全、公共安全、生态安全、公众健康等检验检测领域的能力验证项目。&lt;/p&gt;\n&lt;p&gt;市场监管总局负责国家级检验检测机构能力验证计划的制定和发布，并通报省级市场监管部门。&lt;/p&gt;\n&lt;p&gt;省级市场监管部门负责统筹所辖行政区域内检验检测机构能力验证计划的制定和发布，并将相关材料上报市场监管总局。&lt;/p&gt;\n&lt;p&gt;第七条  组织实施能力验证计划的市场监管部门应当确认能力验证承担机构的技术能力，明确承担机构的责任和义务，并对承担机构及其承担的能力验证活动进行监督，发现承担机构在能力验证工作中存在重大问题或者能力验证结果评价不合理等情形的，应当及时督促其改正。&lt;/p&gt;\n&lt;p&gt;第八条  能力验证承担机构应当符合以下要求：&lt;/p&gt;\n&lt;p&gt;（一）依法成立并能够承担相应法律责任的法人或者其他组织；&lt;/p&gt;\n&lt;p&gt;（二）具有与承担能力验证活动相适应的人员、设备、设施和环境；&lt;/p&gt;\n&lt;p&gt;（三）具有并有效运行保证其能力验证活动规范、独立、公正、科学、诚信的管理体系；&lt;/p&gt;\n&lt;p&gt;（四）能够制备或者取得能力验证物品（样品），保证能力验证物品（样品）均匀性和稳定性，并对能力验证物品（样品）进行有效管理，包括物品（样品）存储、包装、标识、分发和处置等；&lt;/p&gt;\n&lt;p&gt;（五）熟悉相关检验检测标准，能够合理、有效地统计和评价能力验证数据和结果；&lt;/p&gt;\n&lt;p&gt;（六）未被列入经营异常名录或者严重违法失信名单。&lt;/p&gt;\n&lt;p&gt;第九条  能力验证承担机构应当按照相关标准或者技术规范的规定实施能力验证活动；策划、制定能力验证方案；制备或者取得能力验证物品（样品），并对其进行验证、定值和分发；对参加能力验证的检验检测机构提交的数据进行统计分析和结果评价，编制能力验证结果报告；按照市场监管部门的要求向参加能力验证的检验检测机构发放能力验证结果报告。&lt;/p&gt;\n&lt;p&gt;第十条  检验检测机构应当积极实施人员比对、设备比对、留样再测等内部质量控制措施，并按照市场监管部门的要求参加相应能力验证活动，以保证技术能力能够持续符合资质认定条件和要求。&lt;/p&gt;\n&lt;p&gt;检验检测机构应当依据相关标准或者技术规范的要求独立完成能力验证物品（样品）检测，并在规定时间内真实、客观地报送检验检测数据、结果及相关原始记录，不得私下比对串通能力验证数据、结果或者出具虚假能力验证数据、结果。&lt;/p&gt;\n&lt;p&gt;第十一条  能力验证结果分为合格和不合格。&lt;/p&gt;\n&lt;p&gt;结果合格是指按照相关标准或者技术规范规定的统计和评价技术手段确定的能力验证数据和结果满意。&lt;/p&gt;\n&lt;p&gt;结果不合格是指按照相关标准或者技术规范规定的统计和评价技术手段确定的能力验证数据和结果不满意或者有问题。&lt;/p&gt;\n&lt;p&gt;第十二条  能力验证承担机构在能力验证工作完成后，应当及时向市场监管部门报送能力验证结果报告，内容包括：能力验证项目名称、项目实施起止时间、验证的检验检测参数、依据的检验检测标准、能力验证物品（样品）的均匀性和稳定性检验结果、参加机构名单和评价结果、统计数据、技术分析和建议等信息。&lt;/p&gt;\n&lt;p&gt;第十三条  市场监管部门应当对组织实施的能力验证结果报告进行验收和评估，及时纠正存在的问题，并监督承担机构对能力验证结果报告作进一步修改和完善。&lt;/p&gt;\n&lt;p&gt;第十四条  对能力验证结果存在异议的，检验检测机构可以在收到能力验证结果之日起15个工作日内向组织实施能力验证的市场监管部门提出申诉。市场监管部门应当组织专家和承担机构对申诉内容进行研究，并及时给出答复。&lt;/p&gt;\n&lt;p&gt;第十五条  市场监管部门应当及时向社会公布其组织实施的能力验证结果信息，并通报相关行业主管部门。&lt;/p&gt;\n&lt;p&gt;第十六条  能力验证承担机构应当准确、客观、公正地实施能力验证活动，并对所出具的统计结果、评价结论、能力验证结果和报告负责。&lt;/p&gt;\n&lt;p&gt;第十七条  能力验证承担机构和能力验证参加机构应当保存能力验证活动的原始记录、数据信息和结果报告，保存期限不少于六年。&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;第三章 能力验证结果处理与使用&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;第十八条  对于无故不参加能力验证的检验检测机构，市场监管部门应当予以纠正并公布机构名单，并在“双随机、一公开”监督抽查中加大对其抽查概率。&lt;/p&gt;\n&lt;p&gt;第十九条  检验检测机构私下比对串通能力验证数据、结果，或者提供虚假能力验证数据、结果的，市场监管部门应当判定其能力验证结果不合格，并予以公布；属于《市场监督管理严重违法失信名单管理办法》规定情形的，依照其规定予以处理。&lt;/p&gt;\n&lt;p&gt;第二十条  能力验证相关检验检测项目结果不合格的检验检测机构，应当在规定期限内完成整改，向市场监管部门提交整改和验证材料，并经市场监管部门确认通过。整改期间或者整改后技术能力仍不能符合资质认定条件和要求，并擅自向社会出具具有证明作用的检验检测数据、结果的，将按照《检验检测机构资质认定管理办法》《检验检测机构监督管理办法》相关规定进行处理。&lt;/p&gt;\n&lt;p&gt;第二十一条  能力验证承担机构违反公正性要求，能力验证活动弄虚作假，泄露有关能力验证数据、结果或者参加机构商业秘密等有关信息的，市场监管部门应当予以公布且三年内不再委托该机构承担相关能力验证活动。&lt;/p&gt;\n&lt;p&gt;第二十二条  市场监管部门可以通过组织论证、专家评议、监督检查、抽查档案、征求意见等方式，对检验检测机构能力验证活动进行监督检查。&lt;/p&gt;\n&lt;p&gt;第二十三条  市场监管部门可以将能力验证结果作为对检验检测机构分类监督管理的依据。&lt;/p&gt;\n&lt;p&gt;对于能力验证结果合格的检验检测机构，市场监管部门可以视情况简化其相关项目的资质认定技术评审内容。&lt;/p&gt;\n&lt;p&gt;第二十四条  相关行业主管部门依照本办法组织开展能力验证活动，将能力验证结果报送市场监管部门，促进能力验证资源和数据信息共享。市场监管部门应当积极采信依照本办法组织实施的能力验证结果。&lt;/p&gt;\n&lt;p&gt;鼓励检验检测机构积极参加国内外有关行业主管部门以及其他能力验证提供机构组织开展的能力验证活动，持续提升技术能力水平。&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;第四章 附  则&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;第二十五条　本办法由市场监管总局负责解释。&lt;/p&gt;\n&lt;p&gt;第二十六条　本办法自发布之日起施行。《实验室能力验证实施办法》（国家认证认可监督管理委员会2006年第9号公告）同时废止。&lt;/p&gt;\n&lt;blockquote&gt;\n&lt;p&gt;转自  国家市场监督管理总局网站&lt;/p&gt;\n&lt;/blockquote&gt;\n&#34;,&#34;fileName&#34;:&#34;tcLgdklAw&#34;,&#34;abstract&#34;:&#34;&#34;,&#34;title&#34;:&#34;法规动态 |《检验检测机构能力验证管理办法》正式发布&#34;,&#34;tags&#34;:[{&#34;name&#34;:&#34;检验检测&#34;,&#34;slug&#34;:&#34;D5OBvjSgD&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://wegrowth.github.io/D5OBvjSgD/&#34;},{&#34;name&#34;:&#34;能力验证&#34;,&#34;slug&#34;:&#34;ReV5g4hruv&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://wegrowth.github.io/ReV5g4hruv/&#34;}],&#34;date&#34;:&#34;2023-04-07 22:12:51&#34;,&#34;dateFormat&#34;:&#34;2023-04-07&#34;,&#34;feature&#34;:&#34;https://wegrowth.github.io/post-images/tcLgdklAw.png&#34;,&#34;link&#34;:&#34;https://wegrowth.github.io/tcLgdklAw/&#34;,&#34;hideInList&#34;:false,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;10 min read&#34;,&#34;time&#34;:544000,&#34;words&#34;:2715,&#34;minutes&#34;:10},&#34;description&#34;:&#34;\n市场监管总局关于发布《检验检测机构能力验证管理办法》的公告\n2023年第13号\n行政规范性文件《检验检测机构能力验证管理办法》已经2023年3月1日市场监管总局第4次局务会议通过，现予公告，自发布之日起施行。《实验室能力验证实施办法》（国...&#34;,&#34;toc&#34;:&#34;&#34;},{&#34;content&#34;:&#34;&lt;p&gt;&lt;strong&gt;一、品牌活动介绍&lt;/strong&gt;&lt;/p&gt;\n&lt;figure data-type=\&#34;image\&#34; tabindex=\&#34;1\&#34;&gt;&lt;img src=\&#34;https://wegrowth.github.io/post-images/1679018978993.png\&#34; alt=\&#34;安徽环境监测实验室高质量发展TEDx沙龙\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/figure&gt;\n&lt;p&gt;【&lt;strong&gt;安徽环境监测实验室高质量发展 TEDx 沙龙&lt;/strong&gt;】是为环境监测实验室运营管理层面打造的品牌活动。&lt;/p&gt;\n&lt;ol&gt;\n&lt;li&gt;围绕 “T (Technology) 技术、E（Evolution）发展、D（Design）设计” 三个重点方向，建立一种包容开放的态度和场景；&lt;/li&gt;\n&lt;li&gt;邀请环境监测管理层、市场人员、技术人员及行业相关人员，去阐述探讨实验室的经营发展的思考和观点，想法的交流与碰撞，以设计谋划实验室管理发展积极的措施与方法论；&lt;/li&gt;\n&lt;li&gt;设计安徽环境监测实验室更完善的解决方案，致力于每个实验室高质量发展。&lt;/li&gt;\n&lt;/ol&gt;\n&lt;p&gt;&lt;strong&gt;活动品牌原创发起人：汪颖裕&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;活动周期：每周1期，每周末（节假日除外）&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;二、第二期 安徽环境监测实验室高质量发展 TEDx 沙龙 活动信息&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;时间：第二期  2023.04.09 （周日），沙龙：13:00-15:00 （午餐：11:00-12:30 ）&lt;/li&gt;\n&lt;li&gt;谢绝空降。&lt;/li&gt;\n&lt;li&gt;地点：安徽省宁国市，安徽国邦检测有限公司&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;img src=\&#34;https://wegrowth.github.io/post-images/1680587384806.png\&#34; alt=\&#34;安徽国邦检测有限公司 位置图\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n&lt;img src=\&#34;https://wegrowth.github.io/post-images/1680587409819.jpg\&#34; alt=\&#34;场地外景1\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n&lt;img src=\&#34;https://wegrowth.github.io/post-images/1680587429245.jpg\&#34; alt=\&#34;场地外景2\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;第二期主题：安徽环境监测实验室 仪器设备、标准物质选型解决方案的探讨（认知与信息差）&lt;/strong&gt;&lt;/p&gt;\n&lt;blockquote&gt;\n&lt;p&gt;行业间竞争外，还有开放、同发展。&lt;br&gt;\n走进实验室，秉承一种开放包容的态度，提供实验室发展更多的观点与趋势交流的第三空间！&lt;/p&gt;\n&lt;/blockquote&gt;\n&lt;p&gt;诚挚欢迎实验室及行业相关人员参加交流。&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;总要有这样一处地方，想法碰撞，火花闪耀，探讨环境监测实验室发展坚定的力量。&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;活动报名联系：汪颖裕，Tel：182 5510 6132   微信：wegrowth2023&lt;/p&gt;\n&lt;p&gt;website：http://wegrowth.top/&lt;/p&gt;\n&#34;,&#34;fileName&#34;:&#34;qF4FFgFW7&#34;,&#34;abstract&#34;:&#34;&#34;,&#34;title&#34;:&#34;关于第二期 安徽环境监测实验室高质量发展 TEDx 沙龙的通知&#34;,&#34;tags&#34;:[{&#34;name&#34;:&#34;环境监测&#34;,&#34;slug&#34;:&#34;BcvhrXKpB&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://wegrowth.github.io/BcvhrXKpB/&#34;},{&#34;name&#34;:&#34;实验室高质量发展&#34;,&#34;slug&#34;:&#34;NnU46a3R6N&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://wegrowth.github.io/NnU46a3R6N/&#34;},{&#34;name&#34;:&#34;TEDx沙龙&#34;,&#34;slug&#34;:&#34;uCu3pJANE7&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://wegrowth.github.io/uCu3pJANE7/&#34;}],&#34;date&#34;:&#34;2023-04-04 13:36:09&#34;,&#34;dateFormat&#34;:&#34;2023-04-04&#34;,&#34;feature&#34;:&#34;&#34;,&#34;link&#34;:&#34;https://wegrowth.github.io/qF4FFgFW7/&#34;,&#34;hideInList&#34;:false,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;2 min read&#34;,&#34;time&#34;:93000,&#34;words&#34;:440,&#34;minutes&#34;:2},&#34;description&#34;:&#34;一、品牌活动介绍\n\n【安徽环境监测实验室高质量发展 TEDx 沙龙】是为环境监测实验室运营管理层面打造的品牌活动。\n\n围绕 “T (Technology) 技术、E（Evolution）发展、D（Design）设计” 三个重点方向，建立一种...&#34;,&#34;toc&#34;:&#34;&#34;},{&#34;content&#34;:&#34;&lt;h2 id=\&#34;一-第一期安徽环境监测实验室高质量发展-tedx-沙龙复盘\&#34;&gt;一、第一期安徽环境监测实验室高质量发展 TEDx 沙龙复盘&lt;/h2&gt;\n&lt;ol&gt;\n&lt;li&gt;\n&lt;p&gt;从活动名称和主旨的确定，提前至 @东游记｜寻物寻味寻生活 活动场地考察，到第一期【安徽环境监测实验室高质量发展TEDx沙龙】的顺利举办；&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;围绕 “T (Technology) 技术、E（Evolution）发展、D（Design）设计” 三个重点方向，建立一种包容开放的态度和场景，连续3小时的探讨交流，现在脑子里还是噼里啪啦作响，与一群人的连接，面对面，才能看到更多，人员对于实验室发展也更明朗；&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;下一步将是新的力量，欢迎行业相关老师参加第二期沙龙。&lt;/p&gt;\n&lt;/li&gt;\n&lt;/ol&gt;\n&lt;figure data-type=\&#34;image\&#34; tabindex=\&#34;1\&#34;&gt;&lt;img src=\&#34;https://wegrowth.github.io/post-images/1679417805799.png\&#34; alt=\&#34;第一期安徽环境监测实验室高质量发展 TEDx 沙龙复盘\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/figure&gt;\n&lt;h2 id=\&#34;二-品牌活动介绍\&#34;&gt;二、品牌活动介绍&lt;/h2&gt;\n&lt;blockquote&gt;\n&lt;p&gt;&lt;strong&gt;总要有这样一种场景，想法碰撞，火花闪耀，&lt;/strong&gt;&lt;br&gt;\n&lt;strong&gt;探讨环境监测实验室高质量发展坚定的力量—奕起橙长&lt;/strong&gt;&lt;/p&gt;\n&lt;/blockquote&gt;\n&lt;p&gt;&lt;strong&gt;【安徽环境监测实验室高质量发展 TEDx 沙龙】&lt;/strong&gt; 是为环境监测实验室运营管理层面打造的品牌活动。&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;\n&lt;p&gt;围绕 “T (Technology) 技术、E（Evolution）发展、D（Design）设计” 三个重点方向，建立一种包容开放的态度和场景；&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;邀请&lt;strong&gt;环境监测机构的管理层、市场人员、技术人员及行业相关人员&lt;/strong&gt;，以实验室实际发展状态为依据，去阐述探讨实验室的经营发展的思考和观点，想法的交流与碰撞，以设计谋划实验室管理发展积极的措施与方法论；&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;探讨安徽环境监测实验室更完善的解决方案，挖掘每个实验室可大幅改善的空间，助力实验室高质量发展。&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;活动品牌原创发起人：汪颖裕&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;活动周期：每周1期，每周末（节假日除外）&lt;/p&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;活动报名联系：汪颖裕，Tel：182 5510 6132   微信：wegrowth2023&lt;/p&gt;\n&lt;p&gt;website：http://wegrowth.top/&lt;/p&gt;\n&#34;,&#34;fileName&#34;:&#34;20230322&#34;,&#34;abstract&#34;:&#34;&#34;,&#34;title&#34;:&#34;复盘 | 第一期安徽环境监测实验室高质量发展 TEDx 沙龙&#34;,&#34;tags&#34;:[{&#34;name&#34;:&#34;环境监测&#34;,&#34;slug&#34;:&#34;BcvhrXKpB&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://wegrowth.github.io/BcvhrXKpB/&#34;},{&#34;name&#34;:&#34;实验室高质量发展&#34;,&#34;slug&#34;:&#34;NnU46a3R6N&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://wegrowth.github.io/NnU46a3R6N/&#34;},{&#34;name&#34;:&#34;TEDx沙龙&#34;,&#34;slug&#34;:&#34;uCu3pJANE7&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://wegrowth.github.io/uCu3pJANE7/&#34;}],&#34;date&#34;:&#34;2023-03-22 00:51:04&#34;,&#34;dateFormat&#34;:&#34;2023-03-22&#34;,&#34;feature&#34;:&#34;https://wegrowth.github.io/post-images/20230322.png&#34;,&#34;link&#34;:&#34;https://wegrowth.github.io/20230322/&#34;,&#34;hideInList&#34;:false,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;2 min read&#34;,&#34;time&#34;:102000,&#34;words&#34;:489,&#34;minutes&#34;:2},&#34;description&#34;:&#34;一、第一期安徽环境监测实验室高质量发展 TEDx 沙龙复盘\n\n\n从活动名称和主旨的确定，提前至 @东游记｜寻物寻味寻生活 活动场地考察，到第一期【安徽环境监测实验室高质量发展TEDx沙龙】的顺利举办；\n\n\n围绕 “T (Technology...&#34;,&#34;toc&#34;:&#34;&lt;ul class=\&#34;markdownIt-TOC\&#34;&gt;\n&lt;li&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E4%B8%80-%E7%AC%AC%E4%B8%80%E6%9C%9F%E5%AE%89%E5%BE%BD%E7%8E%AF%E5%A2%83%E7%9B%91%E6%B5%8B%E5%AE%9E%E9%AA%8C%E5%AE%A4%E9%AB%98%E8%B4%A8%E9%87%8F%E5%8F%91%E5%B1%95-tedx-%E6%B2%99%E9%BE%99%E5%A4%8D%E7%9B%98\&#34;&gt;一、第一期安徽环境监测实验室高质量发展 TEDx 沙龙复盘&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E4%BA%8C-%E5%93%81%E7%89%8C%E6%B4%BB%E5%8A%A8%E4%BB%8B%E7%BB%8D\&#34;&gt;二、品牌活动介绍&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&#34;},{&#34;content&#34;:&#34;&lt;p&gt;&lt;strong&gt;一、品牌活动介绍&lt;/strong&gt;&lt;/p&gt;\n&lt;figure data-type=\&#34;image\&#34; tabindex=\&#34;1\&#34;&gt;&lt;img src=\&#34;https://wegrowth.github.io/post-images/1679018978993.png\&#34; alt=\&#34;安徽环境监测实验室高质量发展TEDx沙龙\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/figure&gt;\n&lt;p&gt;【&lt;strong&gt;安徽环境监测实验室高质量发展 TEDx 沙龙&lt;/strong&gt;】是为环境监测实验室运营管理层面打造的品牌活动。&lt;/p&gt;\n&lt;ol&gt;\n&lt;li&gt;围绕 “T (Technology) 技术、E（Evolution）发展、D（Design）设计” 三个重点方向，建立一种包容开放的态度和场景；&lt;/li&gt;\n&lt;li&gt;邀请环境监测管理层、市场人员、技术人员及行业相关人员，去阐述探讨实验室的经营发展的思考和观点，想法的交流与碰撞，以设计谋划实验室管理发展积极的措施与方法论；&lt;/li&gt;\n&lt;li&gt;寻找安徽环境监测实验室更完善的解决方案，致力于每个实验室高质量发展。&lt;/li&gt;\n&lt;/ol&gt;\n&lt;p&gt;&lt;strong&gt;活动品牌原创发起人：汪颖裕&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;活动周期：每周1期，每周六（节假日除外）&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;二、第一期 安徽环境监测实验室高质量发展 TEDx 沙龙 活动信息&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;时间：第一期 2023.03.18 （周六） 14:00-17:00&lt;/li&gt;\n&lt;li&gt;人数：6人，谢绝空降。&lt;/li&gt;\n&lt;li&gt;地点：合肥市蜀山区黄山路金大地1912东街15号&lt;br&gt;\n&lt;img src=\&#34;https://wegrowth.github.io/post-images/1679017352180.png\&#34; alt=\&#34;东游记 位置图\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n&lt;img src=\&#34;https://wegrowth.github.io/post-images/1679018225928.jpg\&#34; alt=\&#34;场地外景\&#34; loading=\&#34;lazy\&#34;&gt;&lt;br&gt;\n&lt;img src=\&#34;https://wegrowth.github.io/post-images/1679018260482.jpg\&#34; alt=\&#34;场地实景\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;第一期主题：安徽环境监测实验室行业发展特点、趋势探讨及运营发展破冰之道&lt;/strong&gt;&lt;/p&gt;\n&lt;blockquote&gt;\n&lt;p&gt;茶馆以外的工作、生活节奏快，或许紧张，甚至迷茫。&lt;br&gt;\n但茶馆是丰盈而寂静的，让人放松，安静下来想一想我们的方向。&lt;/p&gt;\n&lt;/blockquote&gt;\n&lt;p&gt;诚挚欢迎实验室及行业相关人员有时间来喝茶交流。&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;总要有这样一处地方，想法碰撞，火花闪耀，探讨环境监测实验室发展坚定的力量。&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;活动联系：汪颖裕，182 5510 6132（微信同号）&lt;/p&gt;\n&#34;,&#34;fileName&#34;:&#34;guan-yu-di-yi-qi-an-hui-huan-jing-jian-ce-shi-yan-shi-gao-zhi-liang-fa-zhan-tedx-sha-long-de-tong-zhi&#34;,&#34;abstract&#34;:&#34;&#34;,&#34;title&#34;:&#34;关于第一期 安徽环境监测实验室高质量发展 TEDx 沙龙的通知&#34;,&#34;tags&#34;:[{&#34;name&#34;:&#34;环境监测&#34;,&#34;slug&#34;:&#34;BcvhrXKpB&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://wegrowth.github.io/BcvhrXKpB/&#34;},{&#34;name&#34;:&#34;实验室高质量发展&#34;,&#34;slug&#34;:&#34;NnU46a3R6N&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://wegrowth.github.io/NnU46a3R6N/&#34;},{&#34;name&#34;:&#34;TEDx沙龙&#34;,&#34;slug&#34;:&#34;uCu3pJANE7&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://wegrowth.github.io/uCu3pJANE7/&#34;}],&#34;date&#34;:&#34;2023-03-17 09:30:21&#34;,&#34;dateFormat&#34;:&#34;2023-03-17&#34;,&#34;feature&#34;:&#34;https://wegrowth.github.io/post-images/guan-yu-di-yi-qi-an-hui-huan-jing-jian-ce-shi-yan-shi-gao-zhi-liang-fa-zhan-tedx-sha-long-de-tong-zhi.png&#34;,&#34;link&#34;:&#34;https://wegrowth.github.io/guan-yu-di-yi-qi-an-hui-huan-jing-jian-ce-shi-yan-shi-gao-zhi-liang-fa-zhan-tedx-sha-long-de-tong-zhi/&#34;,&#34;hideInList&#34;:false,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;2 min read&#34;,&#34;time&#34;:88000,&#34;words&#34;:425,&#34;minutes&#34;:2},&#34;description&#34;:&#34;一、品牌活动介绍\n\n【安徽环境监测实验室高质量发展 TEDx 沙龙】是为环境监测实验室运营管理层面打造的品牌活动。\n\n围绕 “T (Technology) 技术、E（Evolution）发展、D（Design）设计” 三个重点方向，建立一种...&#34;,&#34;toc&#34;:&#34;&#34;},{&#34;content&#34;:&#34;&lt;p&gt;近几天在互联网上浏览到个“不新鲜”的事情：2020年世界经济论坛发布的《2020年未来就业报告》。&lt;/p&gt;\n&lt;p&gt;里面列出了展望2025年，预测全球就业市场最需要的10类能力。其实，列出来的不止10个，但重点抽提出来的是TOP10。&lt;/p&gt;\n&lt;p&gt;信息来源：&lt;br&gt;\nFuture of Jobs Survey 2020, World Economic Forum&lt;/p&gt;\n&lt;figure data-type=\&#34;image\&#34; tabindex=\&#34;1\&#34;&gt;&lt;img src=\&#34;https://wegrowth.github.io/post-images/1646268404274.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/figure&gt;\n&lt;h2 id=\&#34;the-top-10-skills-of-2025-2025年十大技能\&#34;&gt;The Top 10 skills of 2025    2025年十大技能&lt;/h2&gt;\n&lt;ol&gt;\n&lt;li&gt;\n&lt;p&gt;Analytical Thinking and innovation   分析思维与创新能力&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;Active learning and learning strategies  主动学习和学习策略能力&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;Complex problem-solving  复杂的问题解决能力&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;Critical thinking and analysis  批判性思维与分析能力&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;Creativity, originality, and initiative   创意，主动性与原创能力&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;Leadership and social influence   领导力和社会影响力&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;Technology use, monitoring, and control   技术的使用与监测能力&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;Technology design and programming   技术设计与编程能力&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;Resilience, stress tolerance, and flexibility   弹性，灵活性和压力承受能力&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;Reasoning, problem-solving, and ideation   推理，解决问题和构思能力&lt;/p&gt;\n&lt;/li&gt;\n&lt;/ol&gt;\n&lt;p&gt;这10大技能被分成了四个大类。&lt;/p&gt;\n&lt;p&gt;第一类是&lt;strong&gt;解决问题的能力&lt;/strong&gt;，包括分析思维和创新能力；复杂问题解决能力；批判思维和分析能力；创意、主动性与原创能力；推理、解决问题和构思能力。&lt;/p&gt;\n&lt;p&gt;第二类是&lt;strong&gt;自我管理的能力&lt;/strong&gt;，包括主动学习和学习策略能力；弹性、灵活性和压力承受能力。&lt;/p&gt;\n&lt;p&gt;第三类是&lt;strong&gt;与人工作的能力&lt;/strong&gt;，即领导力和社会影响力。&lt;/p&gt;\n&lt;p&gt;第四类是&lt;strong&gt;技术的使用与开发能力&lt;/strong&gt;，包括技术的使用与监测能力、技术设计与编程能力。&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;实践建议&lt;/strong&gt;：&lt;/p&gt;\n&lt;p&gt;职场： 已经是3月，目前的春招较冷淡，有意向跳槽或寻找新方向的职场人，可以对标上面的“就业市场最需要的10类能力”，根据市场所需的变化学习新技能，学习新技能的趋势正在加速。各位加油~&lt;/p&gt;\n&#34;,&#34;fileName&#34;:&#34;the-top-10-skills-of-2025&#34;,&#34;abstract&#34;:&#34;&#34;,&#34;title&#34;:&#34;The Top 10 skills of 2025&#34;,&#34;tags&#34;:[{&#34;name&#34;:&#34;职场&#34;,&#34;slug&#34;:&#34;Ps5JOeiRg&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://wegrowth.github.io/Ps5JOeiRg/&#34;}],&#34;date&#34;:&#34;2022-03-02 17:05:21&#34;,&#34;dateFormat&#34;:&#34;2022-03-02&#34;,&#34;feature&#34;:&#34;https://wegrowth.github.io/post-images/the-top-10-skills-of-2025.jpg&#34;,&#34;link&#34;:&#34;https://wegrowth.github.io/the-top-10-skills-of-2025/&#34;,&#34;hideInList&#34;:false,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;2 min read&#34;,&#34;time&#34;:111000,&#34;words&#34;:497,&#34;minutes&#34;:2},&#34;description&#34;:&#34;近几天在互联网上浏览到个“不新鲜”的事情：2020年世界经济论坛发布的《2020年未来就业报告》。\n里面列出了展望2025年，预测全球就业市场最需要的10类能力。其实，列出来的不止10个，但重点抽提出来的是TOP10。\n信息来源：\nFutu...&#34;,&#34;toc&#34;:&#34;&lt;ul class=\&#34;markdownIt-TOC\&#34;&gt;\n&lt;li&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&#34;#the-top-10-skills-of-2025-2025%E5%B9%B4%E5%8D%81%E5%A4%A7%E6%8A%80%E8%83%BD\&#34;&gt;The Top 10 skills of 2025    2025年十大技能&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&#34;},{&#34;content&#34;:&#34;&lt;p&gt;test&lt;/p&gt;\n&#34;,&#34;fileName&#34;:&#34;test&#34;,&#34;abstract&#34;:&#34;&#34;,&#34;title&#34;:&#34;test&#34;,&#34;tags&#34;:[],&#34;date&#34;:&#34;2022-02-28 16:53:19&#34;,&#34;dateFormat&#34;:&#34;2022-02-28&#34;,&#34;feature&#34;:&#34;&#34;,&#34;link&#34;:&#34;https://wegrowth.github.io/test/&#34;,&#34;hideInList&#34;:true,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;1 min read&#34;,&#34;time&#34;:0,&#34;words&#34;:1,&#34;minutes&#34;:1},&#34;description&#34;:&#34;test\n&#34;,&#34;toc&#34;:&#34;&#34;},{&#34;content&#34;:&#34;&lt;blockquote&gt;\n&lt;p&gt;欢迎来到我的小站，很高兴遇见你！🤝&lt;/p&gt;\n&lt;/blockquote&gt;\n&lt;h2 id=\&#34;关于本站\&#34;&gt;🏠 关于本站&lt;/h2&gt;\n&lt;p&gt;#让实验室变得更好是我们共同的愿景&lt;br&gt;\n#奕起橙长&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;实验室建立、运营及发展规划的解决方案&lt;/li&gt;\n&lt;li&gt;环境监测技术探讨、交流&lt;/li&gt;\n&lt;li&gt;环境监测法规、政策等解读分享&lt;/li&gt;\n&lt;li&gt;安徽地区环境监测人员培训、人才推荐&lt;/li&gt;\n&lt;li&gt;环境监测实验室日常疑难点交流、建议&lt;/li&gt;\n&lt;li&gt;其他交流&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2 id=\&#34;汪颖裕\&#34;&gt;👨‍💻 汪颖裕&lt;/h2&gt;\n&lt;ul&gt;\n&lt;li&gt;\n&lt;p&gt;安徽环境监测第三空间社群（目前100+人数）主理人&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;环境监测实验室运营&amp;amp;服务的布道师和践行者&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;环境监测12年，具有独立的行业分析及判断&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;实践 [知识管理] 和 [结构化复盘] 在环境监测领域的应用&lt;/p&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h2 id=\&#34;擅写作-热爱跑步\&#34;&gt;⛹ 擅写作、热爱跑步&lt;/h2&gt;\n&lt;p&gt;奕起橙长   微信公众号主理人&lt;br&gt;\n2017年完成  宁海 Classic 50K  山地越野跑。&lt;/p&gt;\n&lt;h2 id=\&#34;联系方式\&#34;&gt;📬 联系方式&lt;/h2&gt;\n&lt;p&gt;微信:  wegrowth2024&lt;br&gt;\n网址：&lt;a href=\&#34;https://wegrowth.top\&#34; title=\&#34;wegrowth\&#34;&gt;奕起橙长wegrowth_环境监测&lt;/a&gt;&lt;/p&gt;\n&#34;,&#34;fileName&#34;:&#34;about&#34;,&#34;abstract&#34;:&#34;&#34;,&#34;title&#34;:&#34;关于本站&#34;,&#34;tags&#34;:[],&#34;date&#34;:&#34;2019-01-25 19:09:48&#34;,&#34;dateFormat&#34;:&#34;2019-01-25&#34;,&#34;feature&#34;:&#34;&#34;,&#34;link&#34;:&#34;https://wegrowth.github.io/about/&#34;,&#34;hideInList&#34;:true,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;1 min read&#34;,&#34;time&#34;:50000,&#34;words&#34;:247,&#34;minutes&#34;:1},&#34;description&#34;:&#34;\n欢迎来到我的小站，很高兴遇见你！🤝\n\n🏠 关于本站\n#让实验室变得更好是我们共同的愿景\n#奕起橙长\n\n实验室建立、运营及发展规划的解决方案\n环境监测技术探讨、交流\n环境监测法规、政策等解读分享\n安徽地区环境监测人员培训、人才推荐\n环境...&#34;,&#34;toc&#34;:&#34;&lt;ul class=\&#34;markdownIt-TOC\&#34;&gt;\n&lt;li&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99\&#34;&gt;🏠 关于本站&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E6%B1%AA%E9%A2%96%E8%A3%95\&#34;&gt;👨‍💻 汪颖裕&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E6%93%85%E5%86%99%E4%BD%9C-%E7%83%AD%E7%88%B1%E8%B7%91%E6%AD%A5\&#34;&gt;⛹ 擅写作、热爱跑步&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E8%81%94%E7%B3%BB%E6%96%B9%E5%BC%8F\&#34;&gt;📬 联系方式&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&#34;},{&#34;content&#34;:&#34;&lt;p&gt;👏  欢迎使用 &lt;strong&gt;Gridea&lt;/strong&gt; ！&lt;br&gt;\n✍️  &lt;strong&gt;Gridea&lt;/strong&gt; 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...&lt;/p&gt;\n&lt;!-- more --&gt;\n&lt;p&gt;&lt;a href=\&#34;https://github.com/getgridea/gridea\&#34;&gt;Github&lt;/a&gt;&lt;br&gt;\n&lt;a href=\&#34;https://gridea.dev/\&#34;&gt;Gridea 主页&lt;/a&gt;&lt;br&gt;\n&lt;a href=\&#34;http://fehey.com/\&#34;&gt;示例网站&lt;/a&gt;&lt;/p&gt;\n&lt;h2 id=\&#34;特性\&#34;&gt;特性👇&lt;/h2&gt;\n&lt;p&gt;📝  你可以使用最酷的 &lt;strong&gt;Markdown&lt;/strong&gt; 语法，进行快速创作&lt;/p&gt;\n&lt;p&gt;🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片&lt;/p&gt;\n&lt;p&gt;🏷️  你可以对文章进行标签分组&lt;/p&gt;\n&lt;p&gt;📋  你可以自定义菜单，甚至可以创建外部链接菜单&lt;/p&gt;\n&lt;p&gt;💻  你可以在 &lt;strong&gt;Windows&lt;/strong&gt;，&lt;strong&gt;MacOS&lt;/strong&gt; 或 &lt;strong&gt;Linux&lt;/strong&gt; 设备上使用此客户端&lt;/p&gt;\n&lt;p&gt;🌎  你可以使用 &lt;strong&gt;𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌&lt;/strong&gt; 或 &lt;strong&gt;Coding Pages&lt;/strong&gt; 向世界展示，未来将支持更多平台&lt;/p&gt;\n&lt;p&gt;💬  你可以进行简单的配置，接入 &lt;a href=\&#34;https://github.com/gitalk/gitalk\&#34;&gt;Gitalk&lt;/a&gt; 或 &lt;a href=\&#34;https://github.com/SukkaW/DisqusJS\&#34;&gt;DisqusJS&lt;/a&gt; 评论系统&lt;/p&gt;\n&lt;p&gt;🇬🇧  你可以使用&lt;strong&gt;中文简体&lt;/strong&gt;或&lt;strong&gt;英语&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力&lt;/p&gt;\n&lt;p&gt;🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步&lt;/p&gt;\n&lt;p&gt;🌱 当然 &lt;strong&gt;Gridea&lt;/strong&gt; 还很年轻，有很多不足，但请相信，它会不停向前 🏃&lt;/p&gt;\n&lt;p&gt;未来，它一定会成为你离不开的伙伴&lt;/p&gt;\n&lt;p&gt;尽情发挥你的才华吧！&lt;/p&gt;\n&lt;p&gt;😘 Enjoy~&lt;/p&gt;\n&#34;,&#34;fileName&#34;:&#34;hello-gridea&#34;,&#34;abstract&#34;:&#34;&lt;p&gt;👏  欢迎使用 &lt;strong&gt;Gridea&lt;/strong&gt; ！&lt;br&gt;\n✍️  &lt;strong&gt;Gridea&lt;/strong&gt; 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...&lt;/p&gt;\n&#34;,&#34;title&#34;:&#34;Hello Gridea&#34;,&#34;tags&#34;:[{&#34;name&#34;:&#34;Gridea&#34;,&#34;slug&#34;:&#34;v9WmVw6HZ&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://wegrowth.github.io/v9WmVw6HZ/&#34;}],&#34;date&#34;:&#34;2018-12-12 00:00:00&#34;,&#34;dateFormat&#34;:&#34;2018-12-12&#34;,&#34;feature&#34;:&#34;https://wegrowth.github.io/post-images/hello-gridea.png&#34;,&#34;link&#34;:&#34;https://wegrowth.github.io/hello-gridea/&#34;,&#34;hideInList&#34;:true,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;2 min read&#34;,&#34;time&#34;:62000,&#34;words&#34;:298,&#34;minutes&#34;:2},&#34;description&#34;:&#34;👏  欢迎使用 Gridea ！\n✍️  Gridea 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...\n\nGithub\nGridea 主页\n示例网站\n特性👇\n📝  你可以使用最酷的 Markdo...&#34;,&#34;toc&#34;:&#34;&lt;ul class=\&#34;markdownIt-TOC\&#34;&gt;\n&lt;li&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E7%89%B9%E6%80%A7\&#34;&gt;特性👇&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&#34;}]";
+  // var json = escape.substr(1, escape.length - 2);
+  // var datas = json.split(',');
+  // for (let i=0; i < datas.length; i++) {
+  //   let item = datas[i];
+  //   let attrs = item.split('34;:&#34')
+  //   debugger
+  //   console.log(datas[i])
+  // }
+  let escapeMap = new Map();
+  escapeMap.set('&#34;', '"');
+  escapeMap.set('&gt;', '>');
+  escapeMap.set('&#39;', "'");
+  escapeMap.set('&lt;', '<');
+  escapeMap.set('&quot;', '"');
+  escapeMap.set('&amp;', '&');
+</script> -->
+
+<canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;"></canvas>
+<script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script>
+<script type="text/javascript" src="/media/js/mouse/fireworks.js"></script>
+
+
+
+</html>
